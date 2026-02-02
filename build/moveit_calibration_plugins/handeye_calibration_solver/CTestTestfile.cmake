@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/ljw/ws_fr5/src/moveit2_handeye_calib/moveit2_calibration/moveit_calibration_plugins/handeye_calibration_solver
+# Build directory: /home/ljw/ws_fr5/build/moveit_calibration_plugins/handeye_calibration_solver
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(test_handeye_solver "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/ljw/ws_fr5/build/moveit_calibration_plugins/test_results/moveit_calibration_plugins/test_handeye_solver.gtest.xml" "--package-name" "moveit_calibration_plugins" "--output-file" "/home/ljw/ws_fr5/build/moveit_calibration_plugins/ament_cmake_gtest/test_handeye_solver.txt" "--command" "/home/ljw/ws_fr5/build/moveit_calibration_plugins/handeye_calibration_solver/test_handeye_solver" "--gtest_output=xml:/home/ljw/ws_fr5/build/moveit_calibration_plugins/test_results/moveit_calibration_plugins/test_handeye_solver.gtest.xml")
+set_tests_properties(test_handeye_solver PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/ljw/ws_fr5/build/moveit_calibration_plugins/handeye_calibration_solver/test_handeye_solver" TIMEOUT "60" WORKING_DIRECTORY "/home/ljw/ws_fr5/build/moveit_calibration_plugins/handeye_calibration_solver" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/ljw/ws_fr5/src/moveit2_handeye_calib/moveit2_calibration/moveit_calibration_plugins/handeye_calibration_solver/CMakeLists.txt;63;ament_add_gtest;/home/ljw/ws_fr5/src/moveit2_handeye_calib/moveit2_calibration/moveit_calibration_plugins/handeye_calibration_solver/CMakeLists.txt;0;")
+subdirs("../gtest")

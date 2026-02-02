@@ -1,0 +1,204 @@
+[0.008s] Invoking command in '/home/ljw/ws_fr5/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ws_fr5/build/fairino_msgs -- -j16 -l16
+[0.039s] [  2%] Built target fairino_msgs__cpp
+[0.053s] [ 12%] Built target fairino_msgs__rosidl_generator_c
+[0.055s] [ 12%] Built target ament_cmake_python_copy_fairino_msgs
+[0.055s] [ 23%] Built target fairino_msgs__rosidl_typesupport_c
+[0.055s] [ 40%] Built target fairino_msgs__rosidl_typesupport_fastrtps_cpp
+[0.055s] [ 44%] Built target fairino_msgs__rosidl_typesupport_cpp
+[0.055s] [ 55%] Built target fairino_msgs__rosidl_typesupport_introspection_c
+[0.055s] [ 65%] Built target fairino_msgs__rosidl_typesupport_introspection_cpp
+[0.057s] [ 76%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c
+[0.071s] [ 76%] Built target fairino_msgs
+[0.082s] [ 78%] Built target fairino_msgs__py
+[0.097s] [ 87%] Built target fairino_msgs__rosidl_generator_py
+[0.110s] [100%] Built target fairino_msgs__rosidl_typesupport_c__pyext
+[0.110s] [100%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.111s] [100%] Built target fairino_msgs__rosidl_typesupport_introspection_c__pyext
+[0.187s] running egg_info
+[0.188s] writing fairino_msgs.egg-info/PKG-INFO
+[0.188s] writing dependency_links to fairino_msgs.egg-info/dependency_links.txt
+[0.188s] writing top-level names to fairino_msgs.egg-info/top_level.txt
+[0.189s] reading manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[0.190s] writing manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[0.206s] [100%] Built target ament_cmake_python_build_fairino_msgs_egg
+[0.214s] Invoked command in '/home/ljw/ws_fr5/build/fairino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ws_fr5/build/fairino_msgs -- -j16 -l16
+[0.215s] Invoking command in '/home/ljw/ws_fr5/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ws_fr5/build/fairino_msgs
+[0.220s] -- Install configuration: ""
+[0.220s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/ament_index/resource_index/rosidl_interfaces/fairino_msgs
+[0.220s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[0.220s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.c
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.c
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.c
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.h
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/environment/library_path.sh
+[0.221s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/environment/library_path.dsv
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_c.so
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_c.h
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_c.h
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_c.h
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_c.so
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[0.222s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.c
+[0.223s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_c.h
+[0.223s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[0.223s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[0.223s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_c.h
+[0.223s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_c.h
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.c
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_c.so
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_c.so
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.hpp
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.hpp
+[0.224s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__builder.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__traits.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__builder.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__builder.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__traits.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__traits.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.hpp
+[0.225s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/dds_fastrtps
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/dds_fastrtps
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_cpp.hpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_cpp.hpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.cpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_cpp.hpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.cpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.cpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_cpp.hpp
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_cpp.so
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_cpp.so
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.sh
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.dsv
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info
+[0.226s] -- Installing: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.226s] -- Installing: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.226s] -- Installing: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.226s] -- Installing: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs
+[0.226s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/libfairino_msgs__rosidl_generator_py.so
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/_robot_nonrt_state_s.c
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/__init__.py
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/_robot_nonrt_state.py
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_c.c
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/__init__.py
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_cmd_interface_s.c
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/__init__.py
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_script_content_s.c
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_script_content.py
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_cmd_interface.py
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.227s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.246s] Listing '/home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs'...
+[0.246s] Listing '/home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg'...
+[0.246s] Listing '/home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv'...
+[0.248s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_py.so
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.idl
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.idl
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.idl
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.srv
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface_Request.msg
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface_Response.msg
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.srv
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent_Request.msg
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent_Response.msg
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.msg
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/ament_index/resource_index/package_run_dependencies/fairino_msgs
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/ament_index/resource_index/parent_prefix_path/fairino_msgs
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.sh
+[0.249s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.dsv
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/environment/path.sh
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/environment/path.dsv
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/local_setup.bash
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/local_setup.sh
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/local_setup.zsh
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/local_setup.dsv
+[0.250s] -- Installing: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/package.dsv
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/ament_index/resource_index/packages/fairino_msgs
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cppExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake-extras.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.250s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.251s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.251s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.251s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.251s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig.cmake
+[0.251s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig-version.cmake
+[0.251s] -- Up-to-date: /home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/package.xml
+[0.252s] Invoked command in '/home/ljw/ws_fr5/build/fairino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ws_fr5/build/fairino_msgs

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fairino3_v6_robot">
+
+  <!-- 参数定义 -->
+  <xacro:property name="PI" value="3.14159265359"/>
+  
+  <!-- 材质定义 -->
+  <xacro:property name="robot_color" value="0.89804 0.91765 0.92941 1"/>
+  
+  <!-- 关节限制参数 -->
+  <xacro:property name="j1_lower" value="-3.0543"/>
+  <xacro:property name="j1_upper" value="3.0543"/>
+  <xacro:property name="j1_effort" value="150"/>
+  <xacro:property name="j1_velocity" value="3.15"/>
+  
+  <xacro:property name="j2_lower" value="-4.6251"/>
+  <xacro:property name="j2_upper" value="1.4835"/>
+  <xacro:property name="j2_effort" value="150"/>
+  <xacro:property name="j2_velocity" value="3.15"/>
+  
+  <xacro:property name="j3_lower" value="-2.8274"/>
+  <xacro:property name="j3_upper" value="2.8274"/>
+  <xacro:property name="j3_effort" value="150"/>
+  <xacro:property name="j3_velocity" value="3.15"/>
+  
+  <xacro:property name="j4_lower" value="-4.6251"/>
+  <xacro:property name="j4_upper" value="1.4835"/>
+  <xacro:property name="j4_effort" value="28"/>
+  <xacro:property name="j4_velocity" value="3.2"/>
+  
+  <xacro:property name="j5_lower" value="-3.0543"/>
+  <xacro:property name="j5_upper" value="3.0543"/>
+  <xacro:property name="j5_effort" value="28"/>
+  <xacro:property name="j5_velocity" value="3.2"/>
+  
+  <xacro:property name="j6_lower" value="-3.0543"/>
+  <xacro:property name="j6_upper" value="3.0543"/>
+  <xacro:property name="j6_effort" value="28"/>
+  <xacro:property name="j6_velocity" value="3.2"/>
+
+  <!-- 宏定义：通用link -->
+  <xacro:macro name="robot_link" params="link_name mesh_file mass ixx ixy ixz iyy iyz izz origin_xyz origin_rpy">
+    <link name="${link_name}">
+      <inertial>
+        <origin xyz="${origin_xyz}" rpy="${origin_rpy}"/>
+        <mass value="${mass}"/>
+        <inertia ixx="${ixx}" ixy="${ixy}" ixz="${ixz}" 
+                 iyy="${iyy}" iyz="${iyz}" izz="${izz}"/>
+      </inertial>
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://fairino_description/meshes/fairino5_v6/${mesh_file}"/>
+        </geometry>
+        <material name="">
+          <color rgba="${robot_color}"/>
+        </material>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://fairino_description/meshes/fairino5_v6/${mesh_file}"/>
+        </geometry>
+      </collision>
+    </link>
+  </xacro:macro>
+
+  <!-- 宏定义：通用revolute joint -->
+  <xacro:macro name="robot_joint" params="joint_name parent_link child_link origin_xyz origin_rpy axis_xyz lower upper effort velocity">
+    <joint name="${joint_name}" type="revolute">
+      <origin xyz="${origin_xyz}" rpy="${origin_rpy}"/>
+      <parent link="${parent_link}"/>
+      <child link="${child_link}"/>
+      <axis xyz="${axis_xyz}"/>
+      <limit lower="${lower}" upper="${upper}" effort="${effort}" velocity="${velocity}"/>
+      <calibration rising="0" falling="0"/>
+      <dynamics damping="0" friction="0"/>
+      <safety_controller soft_lower_limit="${lower}" soft_upper_limit="${upper}" 
+                        k_position="15" k_velocity="10"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- Base Link -->
+  <xacro:robot_link 
+    link_name="base_link"
+    mesh_file="base_link.STL"
+    mass="1.6185"
+    ixx="0.0030836" ixy="1.5354E-05" ixz="-1.9315E-05"
+    iyy="0.0030825" iyz="-1.7918E-05" izz="0.0045209"
+    origin_xyz="-0.00031896 -0.00029673 0.042463"
+    origin_rpy="0 0 0"/>
+
+  <!-- Shoulder Link -->
+  <xacro:robot_link 
+    link_name="shoulder_link"
+    mesh_file="shoulder_link.STL"
+    mass="4.3771"
+    ixx="0.010731" ixy="-8.0587E-09" ixz="-3.6773E-08"
+    iyy="0.010408" iyz="0.00012853" izz="0.0081793"
+    origin_xyz="5.0029E-07 -0.0040922 0.14629"
+    origin_rpy="0 0 0"/>
+
+  <!-- Joint 1 -->
+  <xacro:robot_joint 
+    joint_name="j1"
+    parent_link="base_link"
+    child_link="shoulder_link"
+    origin_xyz="0 0 0"
+    origin_rpy="0 0 0"
+    axis_xyz="0 0 1"
+    lower="${j1_lower}" upper="${j1_upper}"
+    effort="${j1_effort}" velocity="${j1_velocity}"/>
+
+  <!-- Upperarm Link -->
+  <xacro:robot_link 
+    link_name="upperarm_link"
+    mesh_file="upperarm_link.STL"
+    mass="14.458"
+    ixx="0.028392" ixy="-1.337E-07" ixz="-3.9895E-09"
+    iyy="0.4559" iyz="4.214E-08" izz="0.44974"
+    origin_xyz="-0.2125 -5.7643E-09 0.1346"
+    origin_rpy="0 0 0"/>
+
+  <!-- Joint 2 -->
+  <xacro:robot_joint 
+    joint_name="j2"
+    parent_link="shoulder_link"
+    child_link="upperarm_link"
+    origin_xyz="0 0 0.152"
+    origin_rpy="1.5708 0 0"
+    axis_xyz="0 0 1"
+    lower="${j2_lower}" upper="${j2_upper}"
+    effort="${j2_effort}" velocity="${j2_velocity}"/>
+
+  <!-- Forearm Link -->
+  <xacro:robot_link 
+    link_name="forearm_link"
+    mesh_file="forearm_link.STL"
+    mass="7.6737"
+    ixx="0.0085096" ixy="2.1613E-06" ixz="-0.0068678"
+    iyy="0.16971" iyz="3.7086E-08" izz="0.16854"
+    origin_xyz="-0.18793 -8.4503E-07 0.0066357"
+    origin_rpy="0 0 0"/>
+
+  <!-- Joint 3 -->
+  <xacro:robot_joint 
+    joint_name="j3"
+    parent_link="upperarm_link"
+    child_link="forearm_link"
+    origin_xyz="-0.425 0 0"
+    origin_rpy="0 0 0"
+    axis_xyz="0 0 1"
+    lower="${j3_lower}" upper="${j3_upper}"
+    effort="${j3_effort}" velocity="${j3_velocity}"/>
+
+  <!-- Wrist1 Link -->
+  <xacro:robot_link 
+    link_name="wrist1_link"
+    mesh_file="wrist1_link.STL"
+    mass="1.6266"
+    ixx="0.00216" ixy="4.888E-09" ixz="3.1528E-08"
+    iyy="0.0015455" iyz="3.7678E-05" izz="0.0019902"
+    origin_xyz="4.98E-07 -0.003754 0.097155"
+    origin_rpy="0 0 0"/>
+
+  <!-- Joint 4 -->
+  <xacro:robot_joint 
+    joint_name="j4"
+    parent_link="forearm_link"
+    child_link="wrist1_link"
+    origin_xyz="-0.39501 0 0"
+    origin_rpy="0 0 0"
+    axis_xyz="0 0 1"
+    lower="${j4_lower}" upper="${j4_upper}"
+    effort="${j4_effort}" velocity="${j4_velocity}"/>
+
+  <!-- Wrist2 Link -->
+  <xacro:robot_link 
+    link_name="wrist2_link"
+    mesh_file="wrist2_link.STL"
+    mass="1.5812"
+    ixx="0.0020612" ixy="8.7064E-09" ixz="-3.4742E-08"
+    iyy="0.0014477" iyz="-2.8534E-05" izz="0.0019573"
+    origin_xyz="-4.5588E-07 0.0038617 0.098257"
+    origin_rpy="0 0 0"/>
+
+  <!-- Joint 5 -->
+  <xacro:robot_joint 
+    joint_name="j5"
+    parent_link="wrist1_link"
+    child_link="wrist2_link"
+    origin_xyz="0 0 0.1021"
+    origin_rpy="1.5708 0 0"
+    axis_xyz="0 0 1"
+    lower="${j5_lower}" upper="${j5_upper}"
+    effort="${j5_effort}" velocity="${j5_velocity}"/>
+
+  <!-- Wrist3 Link -->
+  <xacro:robot_link 
+    link_name="wrist3_link"
+    mesh_file="wrist3_link.STL"
+    mass="0.52542"
+    ixx="0.00027721" ixy="-1.8677E-09" ixz="-1.188E-07"
+    iyy="0.00027839" iyz="2.2607E-07" izz="0.00041605"
+    origin_xyz="7.7496E-05 1.7751E-05 0.076122"
+    origin_rpy="0 0 0"/>
+
+  <!-- Joint 6 -->
+  <xacro:robot_joint 
+    joint_name="j6"
+    parent_link="wrist2_link"
+    child_link="wrist3_link"
+    origin_xyz="0 0 0.102"
+    origin_rpy="-1.5708 0 0"
+    axis_xyz="0 0 1"
+    lower="${j6_lower}" upper="${j6_upper}"
+    effort="${j6_effort}" velocity="${j6_velocity}"/>
+
+  <!-- Gripper Attachment -->
+  <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85.urdf"/>
+
+  <joint name="attach_gripper" type="fixed">
+    <parent link="wrist3_link"/>
+    <child link="robotiq_arg2f_base_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  </joint>
+
+</robot>

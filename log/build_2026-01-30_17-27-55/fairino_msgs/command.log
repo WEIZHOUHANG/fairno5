@@ -1,0 +1,4 @@
+Invoking command in '/home/ljw/ws_fr5/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ws_fr5/build/fairino_msgs -- -j16 -l16
+Invoked command in '/home/ljw/ws_fr5/build/fairino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ws_fr5/build/fairino_msgs -- -j16 -l16
+Invoking command in '/home/ljw/ws_fr5/build/fairino_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ws_fr5/build/fairino_msgs
+Invoked command in '/home/ljw/ws_fr5/build/fairino_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ws_fr5/build/fairino_msgs

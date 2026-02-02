@@ -1,0 +1,1037 @@
+[0.006s] Invoking command in '/home/ljw/ws_fr5/build/fairino_hardware': CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/fairino_msgs/lib:/home/ljw/ws_fr5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ljw/ws_fr5/src/fairino_hardware -DCMAKE_INSTALL_PREFIX=/home/ljw/ws_fr5/install/fairino_hardware
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.279s] -- Detecting CXX compile features
+[0.279s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.390s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.454s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.481s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.485s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.490s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.540s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.554s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.560s] -- Looking for pthread.h
+[0.617s] -- Looking for pthread.h - found
+[0.617s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.678s] -- Found Threads: TRUE  
+[0.711s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.805s] -- Found fairino_msgs: 0.0.0 (/home/ljw/ws_fr5/install/fairino_msgs/share/fairino_msgs/cmake)
+[0.816s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.817s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.873s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.873s] -- Configured cppcheck include dirs: /home/ljw/ws_fr5/src/fairino_hardware/include/;/home/ljw/ws_fr5/src/fairino_hardware/;/home/ljw/ws_fr5/src/fairino_hardware/examples/include;$<BUILD_INTERFACE:/home/ljw/ws_fr5/src/fairino_hardware/include>;$<BUILD_INTERFACE:/home/ljw/ws_fr5/src/fairino_hardware/>
+[0.873s] -- Configured cppcheck exclude dirs and/or files: 
+[0.874s] -- Added test 'lint_cmake' to check CMake code style
+[0.875s] -- Added test 'uncrustify' to check C / C++ code style
+[0.875s] -- Configured uncrustify additional arguments: 
+[0.875s] -- Added test 'xmllint' to check XML markup files
+[0.876s] -- Configuring done
+[0.888s] -- Generating done
+[0.892s] -- Build files have been written to: /home/ljw/ws_fr5/build/fairino_hardware
+[0.898s] Invoked command in '/home/ljw/ws_fr5/build/fairino_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/fairino_msgs/lib:/home/ljw/ws_fr5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ljw/ws_fr5/src/fairino_hardware -DCMAKE_INSTALL_PREFIX=/home/ljw/ws_fr5/install/fairino_hardware
+[0.899s] Invoking command in '/home/ljw/ws_fr5/build/fairino_hardware': CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/fairino_msgs/lib:/home/ljw/ws_fr5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ljw/ws_fr5/build/fairino_hardware -- -j16 -l16
+[0.947s] [ 12%] [32mBuilding CXX object CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface.cpp.o[0m
+[0.947s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/command_server.cpp.o[0m
+[0.947s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/command_server_node.cpp.o[0m
+[0.958s] [ 50%] [32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/main.cpp.o[0m
+[0.965s] [ 62%] [32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/srv_test_client.cpp.o[0m
+[1.110s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:263:71:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+[1.111s]   263 |         const std::shared_ptr<remote_cmd_server_srv_msg::Request> req,\
+[1.111s]       |                                                                        
+[1.111s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:604:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[1.111s]   604 |     [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger(LOGGER_NAME),"settoolcoord:%d,%f,%f,%f,%f,%f,%f,%d,%d",\
+[1.111s]       |     [01;35m[K^[m[K
+[1.112s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2163:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[1.112s]  2163 |     [01;35m[K/[m[K/ RCLCPP_INFO(rclcpp::get_logger(LOGGER_NAME),"焊接状态参数:%i,%i",\
+[1.112s]       |     [01;35m[K^[m[K
+[1.112s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2166:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[1.112s]  2166 |     [01;35m[K/[m[K/ return std::string(std::to_string(res) + "," + std::to_string(state.breakOffState) + \
+[1.112s]       |     [01;35m[K^[m[K
+[1.112s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2336:51:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+[1.112s]  2336 |                 std::to_string(pos.rpy.ry) + "," +\
+[1.112s]       |                                                    
+[1.118s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:175:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[1.118s]   175 |     [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "System successfully read: %f,%f,%f,%f,%f,%f",_jnt_position_state[0],\
+[1.118s]       |     [01;35m[K^[m[K
+[1.118s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:194:9:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[1.118s]   194 |         [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "ServoJ下发位置:%f,%f,%f,%f,%f,%f",\
+[1.118s]       |         [01;35m[K^[m[K
+[2.568s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/examples/src/srv_test_client.cpp:[m[K In constructor ‘[01m[Ksrv_test_node::srv_test_node(std::string)[m[K’:
+[2.569s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/examples/src/srv_test_client.cpp:5:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.569s]     5 |     static int [01;35m[Kcount[m[K = 0;
+[2.569s]       |                [01;35m[K^~~~~[m[K
+[2.605s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[2.605s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:105:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.605s]   105 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+[2.605s]       |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.606s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.606s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:151:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.606s]   151 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+[2.606s]       |                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.606s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.606s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:163:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.606s]   163 | hardware_interface::return_type FairinoHardwareInterface::read([01;35m[Kconst rclcpp::Time& time[m[K,const rclcpp::Duration& period)
+[2.606s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.606s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:163:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.606s]   163 | hardware_interface::return_type FairinoHardwareInterface::read(const rclcpp::Time& time,[01;35m[Kconst rclcpp::Duration& period[m[K)
+[2.606s]       |                                                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.607s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.607s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:182:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.607s]   182 | hardware_interface::return_type FairinoHardwareInterface::write([01;35m[Kconst rclcpp::Time& time[m[K,const rclcpp::Duration& period)
+[2.607s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.607s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/fairino_hardware_interface.cpp:182:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.607s]   182 | hardware_interface::return_type FairinoHardwareInterface::write(const rclcpp::Time& time,[01;35m[Kconst rclcpp::Duration& period[m[K)
+[2.607s]       |                                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.069s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:14:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.069s]    14 |     [01;35m[K"ROS2指令服务器创建成功,准备连接机械臂"[m[K,
+[3.069s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.069s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:15:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.069s]    15 |     [01;35m[K"fairino_hardware版本号:"[m[K,
+[3.069s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.069s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:16:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.069s]    16 |     [01;35m[K"适配机械臂软件版本号:"[m[K,
+[3.069s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:17:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.070s]    17 |     [01;35m[K"构建时间:"[m[K,
+[3.070s]       |     [01;35m[K^~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:18:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.070s]    18 |     [01;35m[K"连接机械臂失败，准备重连..."[m[K,
+[3.070s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:19:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.070s]    19 |     [01;35m[K"连接机械臂失败，程序即将退出！"[m[K,
+[3.070s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:20:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.070s]    20 |     [01;35m[K"连接机械臂成功！"[m[K,
+[3.070s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:21:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.070s]    21 |     [01;35m[K"收到ROS指令,名称&参数:"[m[K,
+[3.070s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.070s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:22:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.071s]    22 |     [01;35m[K"指令错误: 找不到该指令对应的函数"[m[K,
+[3.071s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.071s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:23:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.071s]    23 |     [01;35m[K"出现无效参数，请检查参数数据类型"[m[K,
+[3.071s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.071s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:24:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.071s]    24 |     [01;35m[K"参数出现超范围数据"[m[K,
+[3.071s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.071s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:25:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.071s]    25 |     [01;35m[K"取参数过程发生异常，请检查参数个数是否正确"[m[K,
+[3.071s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.071s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:26:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.071s]    26 |     [01;35m[K"指令错误:函数参数输入不合法,参数列表由字母,数字和逗号组成,不能有空格出现"[m[K,
+[3.071s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.071s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:27:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.071s]    27 |     [01;35m[K"指令错误:函数输入形式错误,函数输入必须是 [函数名]() 这种输入形式,请重新输入"[m[K,
+[3.072s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.072s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:28:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.072s]    28 |     [01;35m[K"指令错误:关节位置参数为6个,参数输入个数请确认"[m[K,
+[3.072s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.072s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:29:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.072s]    29 |     [01;35m[K"指令错误:关节/笛卡尔容器序号超限"[m[K,
+[3.072s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.072s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:30:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.072s]    30 |     [01;35m[K"指令错误：关节点位输入参数规则为第一个为存储序号,后续为关节位置信息,以逗号隔开,不能出现空格"[m[K,
+[3.072s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.072s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:31:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.072s]    31 |     [01;35m[K"指令错误:笛卡尔位置参数为6个,参数输入个数请确认"[m[K,
+[3.072s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.072s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:32:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.072s]    32 |     [01;35m[K"指令错误：笛卡尔点位输入参数规则为第一个为存储序号,后续为笛卡尔位置信息,以逗号隔开,不能出现空格"[m[K,
+[3.072s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.072s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:33:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.073s]    33 |     [01;35m[K"指令错误: 无效的GET指令参数"[m[K,
+[3.073s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.073s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:34:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.073s]    34 |     [01;35m[K"指令错误: GET指令参数非法,参数形式为[JNT|CART],[序号]"[m[K,
+[3.073s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.073s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:35:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.073s]    35 |     [01;35m[K"指令错误:指令调用正向运动学发生错误"[m[K,
+[3.073s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.073s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:36:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.073s]    36 |     [01;35m[K"指令错误:指令调用逆向运动学发生错误"[m[K,
+[3.073s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.073s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:37:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.073s]    37 |     [01;35m[K"指令错误:点位参数输入非法,没有找到点位信息"[m[K,
+[3.073s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.073s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:38:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.073s]    38 |     [01;35m[K"开始创建状态反馈TCP socket"[m[K,
+[3.073s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.073s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:39:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.073s]    39 |     [01;35m[K"错误: 创建socket失败!"[m[K,
+[3.073s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.073s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:40:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.073s]    40 |     [01;35m[K"创建状态反馈socket成功,开始连接控制器..."[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:41:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    41 |     [01;35m[K"错误:无法连接控制器反馈数据端口,程序即将退出!"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:42:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    42 |     [01;35m[K"控制器状态端口连接成功"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:43:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    43 |     [01;35m[K"开启tcp心跳检测失败"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:44:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    44 |     [01;35m[K"守护线程:创建套接字失败, 3s后再次尝试"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:45:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    45 |     [01;35m[K"守护线程:发起重新连接失败, 3s后再次尝试"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:46:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    46 |     [01;35m[K"守护线程:重新连接成功"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:47:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    47 |     [01;35m[K"守护线程:重连线程退出"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:48:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    48 |     [01;35m[K"网络断开，请检查网络"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:49:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    49 |     [01;35m[K"反馈状态数据帧长度小于预期,请对齐fairino_hardware功能包与机械臂软件版本。"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:50:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    50 |     [01;35m[K"反馈状态数据帧长度大于预期,请对齐fairino_hardware功能包与机械臂软件版本。"[m[K,
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.074s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:51:5:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[3.074s]    51 |     [01;35m[K"帧数据拼接失败，帧尾数据校验失败，重新寻找帧头"[m[K
+[3.074s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.126s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::defJntPosition(std::string)[m[K’:
+[3.126s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:414:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.126s]   414 |         if([01;35m[Kidx > _cmd_jnt_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错,因为序列容器中间无法留空
+[3.126s]       |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.126s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:417:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.126s]   417 |         }else if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K){//如果是小于等于当前的容量,那么就是点位信息覆盖
+[3.126s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.126s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:422:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.126s]   422 |         }else if([01;35m[Kidx == _cmd_jnt_pos_list.size()+1[m[K){//添加元素
+[3.126s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.127s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::defCartPosition(std::string)[m[K’:
+[3.127s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:466:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.127s]   466 |         if([01;35m[Kidx > _cmd_cart_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错,因为序列容器中间无法留空
+[3.128s]       |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.128s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:469:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.128s]   469 |         }else if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K){//如果是小于等于当前的容量,那么就是点位信息覆盖
+[3.128s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.128s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:477:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.128s]   477 |         }else if([01;35m[Kidx == _cmd_cart_pos_list.size()+1[m[K){//添加元素
+[3.128s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.129s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::getVariable(std::string)[m[K’:
+[3.129s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:507:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.129s]   507 |             if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K && idx > 0){
+[3.129s]       |                [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.130s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:521:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.130s]   521 |                 if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K && idx > 0){
+[3.130s]       |                    [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.135s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SetCollisionStrategy(std::string)[m[K’:
+[3.135s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:811:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstrategy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.135s]   811 |     int [01;35m[Kstrategy[m[K = std::stoi(list.front().c_str());list.pop_front();
+[3.135s]       |         [01;35m[K^~~~~~~~[m[K
+[3.139s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ExtAxisGetCoord(std::string)[m[K’:
+[3.139s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1200:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.139s]  1200 | std::string robot_command_thread::ExtAxisGetCoord([01;35m[Kstd::string para[m[K){
+[3.140s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.141s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveJ(std::string)[m[K’:
+[3.141s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1356:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.141s]  1356 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[3.141s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.142s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1369:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.142s]  1369 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[3.142s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.145s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveL(std::string)[m[K’:
+[3.145s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1449:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.145s]  1449 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[3.145s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.145s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1460:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.145s]  1460 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[3.145s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.148s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveC(std::string)[m[K’:
+[3.148s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1545:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.148s]  1545 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K || index2 > _cmd_jnt_pos_list.size()){
+[3.148s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.148s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1545:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.148s]  1545 |         if(index > _cmd_jnt_pos_list.size() || [01;35m[Kindex2 > _cmd_jnt_pos_list.size()[m[K){
+[3.148s]       |                                                [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.148s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1561:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.148s]  1561 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K || index2 > _cmd_cart_pos_list.size()){
+[3.148s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.148s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1561:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.149s]  1561 |         if(index > _cmd_cart_pos_list.size() || [01;35m[Kindex2 > _cmd_cart_pos_list.size()[m[K){
+[3.149s]       |                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.150s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1520:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksearch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.150s]  1520 |     uint8_t [01;35m[Ksearch[m[K = this->get_parameter("MoveL_search").as_int();
+[3.150s]       |             [01;35m[K^~~~~~[m[K
+[3.150s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::Circle(std::string)[m[K’:
+[3.150s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1623:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.150s]  1623 | std::string robot_command_thread::Circle([01;35m[Kstd::string para[m[K){
+[3.150s]       |                                          [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.151s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SplinePTP(std::string)[m[K’:
+[3.151s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1690:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.151s]  1690 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[3.151s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.153s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::NewSplinePoint(std::string)[m[K’:
+[3.153s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1776:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.153s]  1776 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[3.153s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.154s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::PointsOffsetDisable(std::string)[m[K’:
+[3.154s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1857:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.154s]  1857 | td::string robot_command_thread::PointsOffsetDisable([01;35m[Kstd::string para[m[K){
+[3.154s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.154s] 
+[3.155s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptStart(std::string)[m[K’:
+[3.155s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2042:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.155s]  2042 | std::string robot_command_thread::ScriptStart([01;35m[Kstd::string para[m[K){
+[3.156s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.156s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptStop(std::string)[m[K’:
+[3.156s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2051:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.156s]  2051 | std::string robot_command_thread::ScriptStop([01;35m[Kstd::string para[m[K){
+[3.156s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.156s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptPause(std::string)[m[K’:
+[3.156s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2061:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.156s]  2061 | std::string robot_command_thread::ScriptPause([01;35m[Kstd::string para[m[K){
+[3.156s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.156s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptResume(std::string)[m[K’:
+[3.156s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2071:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.156s]  2071 | std::string robot_command_thread::ScriptResume([01;35m[Kstd::string para[m[K){
+[3.156s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.156s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetVersion(std::string)[m[K’:
+[3.156s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2081:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.156s]  2081 | std::string robot_command_thread::GetVersion([01;35m[Kstd::string para[m[K){
+[3.157s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.157s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetMsgVersion(std::string)[m[K’:
+[3.157s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2092:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.157s]  2092 | std::string robot_command_thread::GetMsgVersion([01;35m[Kstd::string para[m[K){
+[3.157s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.157s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotVersion(std::string)[m[K’:
+[3.157s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2102:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.157s]  2102 | std::string robot_command_thread::GetRobotVersion([01;35m[Kstd::string para[m[K){
+[3.157s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.157s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetControllerVersion(std::string)[m[K’:
+[3.157s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2113:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.157s]  2113 | d::string robot_command_thread::GetControllerVersion([01;35m[Kstd::string para[m[K){
+[3.157s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.157s] 
+[3.157s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetDHCompensation(std::string)[m[K’:
+[3.158s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2142:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.158s]  2142 | std::string robot_command_thread::GetDHCompensation([01;35m[Kstd::string para[m[K){
+[3.158s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.158s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetWeldingBreakOffState(std::string)[m[K’:
+[3.158s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2168:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.158s]  2168 | [01;35m[K}[m[K
+[3.158s]       | [01;35m[K^[m[K
+[3.158s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2159:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.158s]  2159 | string robot_command_thread::GetWeldingBreakOffState([01;35m[Kstd::string para[m[K){
+[3.158s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.158s] 
+[3.158s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetErrorCode(std::string)[m[K’:
+[3.158s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2175:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.158s]  2175 | std::string robot_command_thread::GetErrorCode([01;35m[Kstd::string para[m[K){
+[3.158s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.158s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::TractorHoming(std::string)[m[K’:
+[3.159s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2220:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.159s]  2220 | std::string robot_command_thread::TractorHoming([01;35m[Kstd::string para[m[K){
+[3.159s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.159s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::TractorStop(std::string)[m[K’:
+[3.159s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2263:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.159s]  2263 | std::string robot_command_thread::TractorStop([01;35m[Kstd::string para[m[K){
+[3.159s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.159s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveTrajectoryJ(std::string)[m[K’:
+[3.159s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2312:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.159s]  2312 | std::string robot_command_thread::MoveTrajectoryJ([01;35m[Kstd::string para[m[K){
+[3.159s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.159s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetTrajectoryPointNum(std::string)[m[K’:
+[3.159s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2348:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.159s]  2348 | ::string robot_command_thread::GetTrajectoryPointNum([01;35m[Kstd::string para[m[K){
+[3.160s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.160s] 
+[3.161s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetLuaList(std::string)[m[K’:
+[3.161s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2418:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.161s]  2418 | std::string robot_command_thread::GetLuaList([01;35m[Kstd::string para[m[K){
+[3.161s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.163s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingGetCheckArcInterruptionParam(std::string)[m[K’:
+[3.163s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2498:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.163s]  2498 | _command_thread::WeldingGetCheckArcInterruptionParam([01;35m[Kstd::string para[m[K){
+[3.163s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.163s] 
+[3.163s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingGetReWeldAfterBreakOffParam(std::string)[m[K’:
+[3.163s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2530:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.163s]  2530 | t_command_thread::WeldingGetReWeldAfterBreakOffParam([01;35m[Kstd::string para[m[K){
+[3.163s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.163s] 
+[3.163s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingStartReWeldAfterBreakOff(std::string)[m[K’:
+[3.163s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2544:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.163s]  2544 | obot_command_thread::WeldingStartReWeldAfterBreakOff([01;35m[Kstd::string para[m[K){
+[3.164s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.164s] 
+[3.164s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingAbortWeldAfterBreakOff(std::string)[m[K’:
+[3.164s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2553:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.164s]  2553 |  robot_command_thread::WeldingAbortWeldAfterBreakOff([01;35m[Kstd::string para[m[K){
+[3.164s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.164s] 
+[3.164s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetSDKVersion(std::string)[m[K’:
+[3.164s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2562:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.164s]  2562 | std::string robot_command_thread::GetSDKVersion([01;35m[Kstd::string para[m[K){
+[3.164s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.164s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetControllerIP(std::string)[m[K’:
+[3.164s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2573:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.164s]  2573 | std::string robot_command_thread::GetControllerIP([01;35m[Kstd::string para[m[K){
+[3.164s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.165s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::IsInDragTeach(std::string)[m[K’:
+[3.165s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2584:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.165s]  2584 | std::string robot_command_thread::IsInDragTeach([01;35m[Kstd::string para[m[K){
+[3.165s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.165s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ServoMoveStart(std::string)[m[K’:
+[3.165s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2649:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.165s]  2649 | std::string robot_command_thread::ServoMoveStart([01;35m[Kstd::string para[m[K){
+[3.165s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.165s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ServoMoveEnd(std::string)[m[K’:
+[3.165s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2658:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.165s]  2658 | std::string robot_command_thread::ServoMoveEnd([01;35m[Kstd::string para[m[K){
+[3.165s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.166s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::PauseMotion(std::string)[m[K’:
+[3.166s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2736:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.166s]  2736 | std::string robot_command_thread::PauseMotion([01;35m[Kstd::string para[m[K){
+[3.166s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.166s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ResumeMotion(std::string)[m[K’:
+[3.166s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2745:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.166s]  2745 | std::string robot_command_thread::ResumeMotion([01;35m[Kstd::string para[m[K){
+[3.166s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.167s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetAxlePointRecordBtnState(std::string)[m[K’:
+[3.168s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2892:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.168s]  2892 | ing robot_command_thread::GetAxlePointRecordBtnState([01;35m[Kstd::string para[m[K){
+[3.168s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.168s] 
+[3.168s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetToolDO(std::string)[m[K’:
+[3.168s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2904:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.168s]  2904 | std::string robot_command_thread::GetToolDO([01;35m[Kstd::string para[m[K){
+[3.168s]       |                                             [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.168s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetDO(std::string)[m[K’:
+[3.168s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:2917:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.168s]  2917 | std::string robot_command_thread::GetDO([01;35m[Kstd::string para[m[K){
+[3.168s]       |                                         [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.169s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ComputeTool(std::string)[m[K’:
+[3.169s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3008:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.169s]  3008 | std::string robot_command_thread::ComputeTool([01;35m[Kstd::string para[m[K){
+[3.169s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.169s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ComputeTcp4(std::string)[m[K’:
+[3.169s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3037:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.170s]  3037 | std::string robot_command_thread::ComputeTcp4([01;35m[Kstd::string para[m[K){
+[3.170s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.170s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ComputeExTCF(std::string)[m[K’:
+[3.170s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3066:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.170s]  3066 | std::string robot_command_thread::ComputeExTCF([01;35m[Kstd::string para[m[K){
+[3.170s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.171s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotInstallAngle(std::string)[m[K’:
+[3.171s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3155:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.171s]  3155 | d::string robot_command_thread::GetRobotInstallAngle([01;35m[Kstd::string para[m[K){
+[3.171s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.171s] 
+[3.178s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetSystemClock(std::string)[m[K’:
+[3.179s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3577:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.179s]  3577 | std::string robot_command_thread::GetSystemClock([01;35m[Kstd::string para[m[K){
+[3.179s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.179s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotCurJointsConfig(std::string)[m[K’:
+[3.179s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3588:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.179s]  3588 | string robot_command_thread::GetRobotCurJointsConfig([01;35m[Kstd::string para[m[K){
+[3.179s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.179s] 
+[3.179s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetDefaultTransVel(std::string)[m[K’:
+[3.179s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3599:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.179s]  3599 | std::string robot_command_thread::GetDefaultTransVel([01;35m[Kstd::string para[m[K){
+[3.179s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.179s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotMotionDone(std::string)[m[K’:
+[3.179s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3610:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.179s]  3610 | std::string robot_command_thread::GetRobotMotionDone([01;35m[Kstd::string para[m[K){
+[3.179s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.179s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotErrorCode(std::string)[m[K’:
+[3.180s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3622:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.180s]  3622 | std::string robot_command_thread::GetRobotErrorCode([01;35m[Kstd::string para[m[K){
+[3.180s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.180s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetMotionQueueLength(std::string)[m[K’:
+[3.180s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3662:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.180s]  3662 | d::string robot_command_thread::GetMotionQueueLength([01;35m[Kstd::string para[m[K){
+[3.180s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.180s] 
+[3.180s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SetTPDParam(std::string)[m[K’:
+[3.180s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3688:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.180s]  3688 |     float [01;35m[Kdata[m[K[20];
+[3.181s]       |           [01;35m[K^~~~[m[K
+[3.181s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SetTPDStart(std::string)[m[K’:
+[3.181s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3713:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.181s]  3713 |     float [01;35m[Kdata[m[K[20];
+[3.181s]       |           [01;35m[K^~~~[m[K
+[3.181s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SetWebTPDStop(std::string)[m[K’:
+[3.181s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3722:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.181s]  3722 | std::string robot_command_thread::SetWebTPDStop([01;35m[Kstd::string para[m[K){
+[3.181s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.183s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetCurrentLine(std::string)[m[K’:
+[3.183s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3958:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.183s]  3958 | std::string robot_command_thread::GetCurrentLine([01;35m[Kstd::string para[m[K){
+[3.183s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.183s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ProgramRun(std::string)[m[K’:
+[3.183s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3968:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.183s]  3968 | std::string robot_command_thread::ProgramRun([01;35m[Kstd::string para[m[K){
+[3.183s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.183s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ProgramPause(std::string)[m[K’:
+[3.183s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3977:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.183s]  3977 | std::string robot_command_thread::ProgramPause([01;35m[Kstd::string para[m[K){
+[3.183s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.183s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ProgramResume(std::string)[m[K’:
+[3.184s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3986:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.184s]  3986 | std::string robot_command_thread::ProgramResume([01;35m[Kstd::string para[m[K){
+[3.184s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.184s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ProgramStop(std::string)[m[K’:
+[3.184s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:3995:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.184s]  3995 | std::string robot_command_thread::ProgramStop([01;35m[Kstd::string para[m[K){
+[3.184s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.184s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetProgramState(std::string)[m[K’:
+[3.184s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4005:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.184s]  4005 | std::string robot_command_thread::GetProgramState([01;35m[Kstd::string para[m[K){
+[3.184s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.184s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperConfig(std::string)[m[K’:
+[3.184s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4041:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.184s]  4041 | std::string robot_command_thread::GetGripperConfig([01;35m[Kstd::string para[m[K){
+[3.185s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.185s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperMotionDone(std::string)[m[K’:
+[3.185s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4059:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.185s]  4059 | d::string robot_command_thread::GetGripperMotionDone([01;35m[Kstd::string para[m[K){
+[3.185s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.185s] 
+[3.185s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperActivateStatus(std::string)[m[K’:
+[3.185s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4074:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.185s]  4074 | tring robot_command_thread::GetGripperActivateStatus([01;35m[Kstd::string para[m[K){
+[3.185s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.185s] 
+[3.185s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperCurPosition(std::string)[m[K’:
+[3.185s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4089:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.185s]  4089 | ::string robot_command_thread::GetGripperCurPosition([01;35m[Kstd::string para[m[K){
+[3.185s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.185s] 
+[3.186s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperCurSpeed(std::string)[m[K’:
+[3.186s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4104:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.186s]  4104 | std::string robot_command_thread::GetGripperCurSpeed([01;35m[Kstd::string para[m[K){
+[3.186s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.186s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperCurCurrent(std::string)[m[K’:
+[3.186s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4119:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.186s]  4119 | d::string robot_command_thread::GetGripperCurCurrent([01;35m[Kstd::string para[m[K){
+[3.186s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.186s] 
+[3.186s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperVoltage(std::string)[m[K’:
+[3.186s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4134:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.186s]  4134 | std::string robot_command_thread::GetGripperVoltage([01;35m[Kstd::string para[m[K){
+[3.186s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.186s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperTemp(std::string)[m[K’:
+[3.186s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4149:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.186s]  4149 | std::string robot_command_thread::GetGripperTemp([01;35m[Kstd::string para[m[K){
+[3.186s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.187s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperRotNum(std::string)[m[K’:
+[3.187s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4164:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.187s]  4164 | std::string robot_command_thread::GetGripperRotNum([01;35m[Kstd::string para[m[K){
+[3.187s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.187s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperRotSpeed(std::string)[m[K’:
+[3.187s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4179:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.187s]  4179 | std::string robot_command_thread::GetGripperRotSpeed([01;35m[Kstd::string para[m[K){
+[3.187s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.187s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetGripperRotTorque(std::string)[m[K’:
+[3.187s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4194:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.187s]  4194 | td::string robot_command_thread::GetGripperRotTorque([01;35m[Kstd::string para[m[K){
+[3.187s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.187s] 
+[3.187s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::FT_GetConfig(std::string)[m[K’:
+[3.187s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4284:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.187s]  4284 | std::string robot_command_thread::FT_GetConfig([01;35m[Kstd::string para[m[K){
+[3.188s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.188s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::FT_PdIdenCompute(std::string)[m[K’:
+[3.188s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4364:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.188s]  4364 | std::string robot_command_thread::FT_PdIdenCompute([01;35m[Kstd::string para[m[K){
+[3.188s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.188s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::FT_PdCogIdenCompute(std::string)[m[K’:
+[3.188s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4393:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.188s]  4393 | td::string robot_command_thread::FT_PdCogIdenCompute([01;35m[Kstd::string para[m[K){
+[3.188s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.188s] 
+[3.192s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::FT_CalCenterStart(std::string)[m[K’:
+[3.192s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4719:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.192s]  4719 | std::string robot_command_thread::FT_CalCenterStart([01;35m[Kstd::string para[m[K){
+[3.192s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.192s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::FT_CalCenterEnd(std::string)[m[K’:
+[3.192s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4729:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.192s]  4729 | std::string robot_command_thread::FT_CalCenterEnd([01;35m[Kstd::string para[m[K){
+[3.192s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.192s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::FT_ComplianceStop(std::string)[m[K’:
+[3.192s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4760:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.192s]  4760 | std::string robot_command_thread::FT_ComplianceStop([01;35m[Kstd::string para[m[K){
+[3.193s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.193s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::LoadIdentifyDynFilterInit(std::string)[m[K’:
+[3.193s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4769:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.193s]  4769 | ring robot_command_thread::LoadIdentifyDynFilterInit([01;35m[Kstd::string para[m[K){
+[3.193s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.193s] 
+[3.193s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::LoadIdentifyDynVarInit(std::string)[m[K’:
+[3.193s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4778:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.193s]  4778 | :string robot_command_thread::LoadIdentifyDynVarInit([01;35m[Kstd::string para[m[K){
+[3.193s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.193s] 
+[3.193s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ConveyorPointIORecord(std::string)[m[K’:
+[3.193s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4857:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.194s]  4857 | ::string robot_command_thread::ConveyorPointIORecord([01;35m[Kstd::string para[m[K){
+[3.194s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.194s] 
+[3.194s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ConveyorPointARecord(std::string)[m[K’:
+[3.194s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4866:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.194s]  4866 | d::string robot_command_thread::ConveyorPointARecord([01;35m[Kstd::string para[m[K){
+[3.194s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.194s] 
+[3.194s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ConveyorRefPointRecord(std::string)[m[K’:
+[3.194s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4875:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.194s]  4875 | :string robot_command_thread::ConveyorRefPointRecord([01;35m[Kstd::string para[m[K){
+[3.194s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.194s] 
+[3.194s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ConveyorPointBRecord(std::string)[m[K’:
+[3.194s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4884:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.194s]  4884 | d::string robot_command_thread::ConveyorPointBRecord([01;35m[Kstd::string para[m[K){
+[3.194s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.195s] 
+[3.195s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ConveyorTrackEnd(std::string)[m[K’:
+[3.195s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:4938:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.195s]  4938 | std::string robot_command_thread::ConveyorTrackEnd([01;35m[Kstd::string para[m[K){
+[3.195s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.195s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetSSHKeygen(std::string)[m[K’:
+[3.195s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5022:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.195s]  5022 | std::string robot_command_thread::GetSSHKeygen([01;35m[Kstd::string para[m[K){
+[3.195s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.196s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotEmergencyStopState(std::string)[m[K’:
+[3.196s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5079:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.197s]  5079 | ing robot_command_thread::GetRobotEmergencyStopState([01;35m[Kstd::string para[m[K){
+[3.197s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.197s] 
+[3.197s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetSDKComState(std::string)[m[K’:
+[3.197s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5091:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.197s]  5091 | std::string robot_command_thread::GetSDKComState([01;35m[Kstd::string para[m[K){
+[3.197s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.197s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetSafetyStopState(std::string)[m[K’:
+[3.197s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5104:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.197s]  5104 | std::string robot_command_thread::GetSafetyStopState([01;35m[Kstd::string para[m[K){
+[3.197s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.198s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetHardwareVersion(std::string)[m[K’:
+[3.198s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5125:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.198s]  5125 | std::string robot_command_thread::GetHardwareVersion([01;35m[Kstd::string para[m[K){
+[3.198s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.199s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetFirmwareVersion(std::string)[m[K’:
+[3.199s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5155:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.199s]  5155 | std::string robot_command_thread::GetFirmwareVersion([01;35m[Kstd::string para[m[K){
+[3.199s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.200s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingGetCurrentRelation(std::string)[m[K’:
+[3.201s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5332:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.201s]  5332 | ring robot_command_thread::WeldingGetCurrentRelation([01;35m[Kstd::string para[m[K){
+[3.201s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.201s] 
+[3.201s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingGetVoltageRelation(std::string)[m[K’:
+[3.201s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5354:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.201s]  5354 | ring robot_command_thread::WeldingGetVoltageRelation([01;35m[Kstd::string para[m[K){
+[3.201s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.201s] 
+[3.204s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetExDevProtocol(std::string)[m[K’:
+[3.204s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5724:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.204s]  5724 | std::string robot_command_thread::GetExDevProtocol([01;35m[Kstd::string para[m[K){
+[3.204s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.204s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveAOStop(std::string)[m[K’:
+[3.204s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5786:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.204s]  5786 | std::string robot_command_thread::MoveAOStop([01;35m[Kstd::string para[m[K){
+[3.204s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.205s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveToolAOStop(std::string)[m[K’:
+[3.205s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5816:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.205s]  5816 | std::string robot_command_thread::MoveToolAOStop([01;35m[Kstd::string para[m[K){
+[3.205s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.205s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ExtDevGetUDPComParam(std::string)[m[K’:
+[3.205s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5868:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.206s]  5868 | d::string robot_command_thread::ExtDevGetUDPComParam([01;35m[Kstd::string para[m[K){
+[3.206s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.206s] 
+[3.206s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ExtDevLoadUDPDriver(std::string)[m[K’:
+[3.206s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5892:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.206s]  5892 | td::string robot_command_thread::ExtDevLoadUDPDriver([01;35m[Kstd::string para[m[K){
+[3.206s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.206s] 
+[3.206s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ExtDevUnloadUDPDriver(std::string)[m[K’:
+[3.206s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:5901:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.206s]  5901 | ::string robot_command_thread::ExtDevUnloadUDPDriver([01;35m[Kstd::string para[m[K){
+[3.206s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.206s] 
+[3.207s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ExtDevUDPClientComReset(std::string)[m[K’:
+[3.207s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6029:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.207s]  6029 | string robot_command_thread::ExtDevUDPClientComReset([01;35m[Kstd::string para[m[K){
+[3.207s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.207s] 
+[3.207s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ExtDevUDPClientComClose(std::string)[m[K’:
+[3.207s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6038:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.207s]  6038 | string robot_command_thread::ExtDevUDPClientComClose([01;35m[Kstd::string para[m[K){
+[3.207s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.207s] 
+[3.208s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ExtAxisComputeECoordSys(std::string)[m[K’:
+[3.208s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6150:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.208s]  6150 | string robot_command_thread::ExtAxisComputeECoordSys([01;35m[Kstd::string para[m[K){
+[3.208s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.208s] 
+[3.209s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::PositionorComputeECoordSys(std::string)[m[K’:
+[3.209s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6218:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.209s]  6218 | ing robot_command_thread::PositionorComputeECoordSys([01;35m[Kstd::string para[m[K){
+[3.209s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.209s] 
+[3.209s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/examples/src/srv_test_client.cpp:[m[K At global scope:
+[3.209s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/examples/src/srv_test_client.cpp:5:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.213s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetForceAndTorqueDragState(std::string)[m[K’:
+[3.213s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6598:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.213s]  6598 | ing robot_command_thread::GetForceAndTorqueDragState([01;35m[Kstd::string para[m[K){
+[3.213s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.213s] 
+[3.214s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetForceSensorPayload(std::string)[m[K’:
+[3.214s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6646:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.214s]  6646 | ::string robot_command_thread::GetForceSensorPayload([01;35m[Kstd::string para[m[K){
+[3.214s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.214s] 
+[3.214s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetForceSensorPayloadCog(std::string)[m[K’:
+[3.214s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6658:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.214s]  6658 | tring robot_command_thread::GetForceSensorPayloadCog([01;35m[Kstd::string para[m[K){
+[3.214s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.214s] 
+[3.214s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ForceSensorAutoComputeLoad(std::string)[m[K’:
+[3.214s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6674:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.215s]  6674 | ing robot_command_thread::ForceSensorAutoComputeLoad([01;35m[Kstd::string para[m[K){
+[3.215s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.215s] 
+[3.215s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ForceSensorComputeLoad(std::string)[m[K’:
+[3.215s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6705:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.215s]  6705 | :string robot_command_thread::ForceSensorComputeLoad([01;35m[Kstd::string para[m[K){
+[3.215s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.215s] 
+[3.216s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::AxleSensorConfigGet(std::string)[m[K’:
+[3.217s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:6846:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.217s]  6846 | td::string robot_command_thread::AxleSensorConfigGet([01;35m[Kstd::string para[m[K){
+[3.217s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.217s] 
+[3.219s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ServoJTStart(std::string)[m[K’:
+[3.219s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7194:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.219s]  7194 | std::string robot_command_thread::ServoJTStart([01;35m[Kstd::string para[m[K){
+[3.219s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.219s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ServoJTEnd(std::string)[m[K’:
+[3.219s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7226:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.219s]  7226 | std::string robot_command_thread::ServoJTEnd([01;35m[Kstd::string para[m[K){
+[3.219s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.219s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotRealtimeStateSamplePeriod(std::string)[m[K’:
+[3.219s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7251:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.219s]  7251 | ot_command_thread::GetRobotRealtimeStateSamplePeriod([01;35m[Kstd::string para[m[K){
+[3.219s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.219s] 
+[3.220s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetJointDriverTemperature(std::string)[m[K’:
+[3.220s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7262:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.220s]  7262 | ring robot_command_thread::GetJointDriverTemperature([01;35m[Kstd::string para[m[K){
+[3.220s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.220s] 
+[3.220s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetJointDriverTorque(std::string)[m[K’:
+[3.220s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7276:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.220s]  7276 | d::string robot_command_thread::GetJointDriverTorque([01;35m[Kstd::string para[m[K){
+[3.220s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.220s] 
+[3.220s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ArcWeldTraceReplayStart(std::string)[m[K’:
+[3.220s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7290:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.220s]  7290 | string robot_command_thread::ArcWeldTraceReplayStart([01;35m[Kstd::string para[m[K){
+[3.220s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.220s] 
+[3.220s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ArcWeldTraceReplayEnd(std::string)[m[K’:
+[3.221s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7300:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.221s]  7300 | ::string robot_command_thread::ArcWeldTraceReplayEnd([01;35m[Kstd::string para[m[K){
+[3.221s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.221s] 
+[3.221s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::AngularSpeedEnd(std::string)[m[K’:
+[3.221s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7365:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.221s]  7365 | std::string robot_command_thread::AngularSpeedEnd([01;35m[Kstd::string para[m[K){
+[3.221s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.221s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetSoftwareUpgradeState(std::string)[m[K’:
+[3.221s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7391:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.221s]  7391 | string robot_command_thread::GetSoftwareUpgradeState([01;35m[Kstd::string para[m[K){
+[3.222s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.222s] 
+[3.222s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::AuxServoGetAcc(std::string)[m[K’:
+[3.222s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7438:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.222s]  7438 | std::string robot_command_thread::AuxServoGetAcc([01;35m[Kstd::string para[m[K){
+[3.222s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.222s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::AuxServoGetEmergencyStopAcc(std::string)[m[K’:
+[3.222s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7453:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.222s]  7453 | ng robot_command_thread::AuxServoGetEmergencyStopAcc([01;35m[Kstd::string para[m[K){
+[3.222s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.222s] 
+[3.222s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetAxleCommunicationParam(std::string)[m[K’:
+[3.223s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7467:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.223s]  7467 | ring robot_command_thread::GetAxleCommunicationParam([01;35m[Kstd::string para[m[K){
+[3.223s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.223s] 
+[3.223s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetAxleLuaEnableStatus(std::string)[m[K’:
+[3.223s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7549:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.223s]  7549 | :string robot_command_thread::GetAxleLuaEnableStatus([01;35m[Kstd::string para[m[K){
+[3.223s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.223s] 
+[3.224s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetAxleLuaEnableDeviceType(std::string)[m[K’:
+[3.224s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7582:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.224s]  7582 | ing robot_command_thread::GetAxleLuaEnableDeviceType([01;35m[Kstd::string para[m[K){
+[3.224s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.224s] 
+[3.225s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetAxleLuaEnableDevice(std::string)[m[K’:
+[3.225s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7599:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.225s]  7599 | :string robot_command_thread::GetAxleLuaEnableDevice([01;35m[Kstd::string para[m[K){
+[3.225s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.225s] 
+[3.225s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SetAxleLuaGripperFunc(std::string)[m[K’:
+[3.225s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7632:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kfunc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[3.225s]  7632 |     int [01;35m[Kfunc[m[K[len];
+[3.225s]       |         [01;35m[K^~~~[m[K
+[3.226s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetCtrlOpenLUAName(std::string)[m[K’:
+[3.226s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7689:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.226s]  7689 | std::string robot_command_thread::GetCtrlOpenLUAName([01;35m[Kstd::string para[m[K){
+[3.227s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.227s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SetSysServoBootMode(std::string)[m[K’:
+[3.227s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7782:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.227s]  7782 | td::string robot_command_thread::SetSysServoBootMode([01;35m[Kstd::string para[m[K){
+[3.227s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.227s] 
+[3.227s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SingularAvoidEnd(std::string)[m[K’:
+[3.228s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7858:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.228s]  7858 | std::string robot_command_thread::SingularAvoidEnd([01;35m[Kstd::string para[m[K){
+[3.228s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.228s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::PtpFIRPlanningEnd(std::string)[m[K’:
+[3.228s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7884:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.228s]  7884 | std::string robot_command_thread::PtpFIRPlanningEnd([01;35m[Kstd::string para[m[K){
+[3.228s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.228s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::LinArcFIRPlanningEnd(std::string)[m[K’:
+[3.228s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7914:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.228s]  7914 | d::string robot_command_thread::LinArcFIRPlanningEnd([01;35m[Kstd::string para[m[K){
+[3.228s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.228s] 
+[3.228s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::LaserTrackingLaserOff(std::string)[m[K’:
+[3.228s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7963:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.228s]  7963 | ::string robot_command_thread::LaserTrackingLaserOff([01;35m[Kstd::string para[m[K){
+[3.229s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.229s] 
+[3.229s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::LaserTrackingTrackOff(std::string)[m[K’:
+[3.229s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:7978:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.229s]  7978 | ::string robot_command_thread::LaserTrackingTrackOff([01;35m[Kstd::string para[m[K){
+[3.229s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.229s] 
+[3.230s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::LaserTrackingSearchStop(std::string)[m[K’:
+[3.230s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8088:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.230s]  8088 | string robot_command_thread::LaserTrackingSearchStop([01;35m[Kstd::string para[m[K){
+[3.230s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.230s] 
+[3.230s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::UnLoadPosSensorDriver(std::string)[m[K’:
+[3.230s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8147:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.231s]  8147 | ::string robot_command_thread::UnLoadPosSensorDriver([01;35m[Kstd::string para[m[K){
+[3.231s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.231s] 
+[3.231s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveLTR(std::string)[m[K’:
+[3.231s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8190:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.231s]  8190 | std::string robot_command_thread::MoveLTR([01;35m[Kstd::string para[m[K){
+[3.231s]       |                                           [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.233s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeaveChangeEnd(std::string)[m[K’:
+[3.233s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8349:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.233s]  8349 | std::string robot_command_thread::WeaveChangeEnd([01;35m[Kstd::string para[m[K){
+[3.233s]       |                                                  [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.234s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveTrajectoryLA(std::string)[m[K’:
+[3.234s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8390:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.234s]  8390 | std::string robot_command_thread::MoveTrajectoryLA([01;35m[Kstd::string para[m[K){
+[3.234s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.234s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::CustomCollisionDetectionEnd(std::string)[m[K’:
+[3.234s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8432:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.234s]  8432 | ng robot_command_thread::CustomCollisionDetectionEnd([01;35m[Kstd::string para[m[K){
+[3.234s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.234s] 
+[3.235s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetRobotSN(std::string)[m[K’:
+[3.235s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8517:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.235s]  8517 | std::string robot_command_thread::GetRobotSN([01;35m[Kstd::string para[m[K){
+[3.235s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.235s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ShutDownRobotOS(std::string)[m[K’:
+[3.235s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8528:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.235s]  8528 | std::string robot_command_thread::ShutDownRobotOS([01;35m[Kstd::string para[m[K){
+[3.235s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.235s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ConveyorComDetectTrigger(std::string)[m[K’:
+[3.235s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8552:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.235s]  8552 | tring robot_command_thread::ConveyorComDetectTrigger([01;35m[Kstd::string para[m[K){
+[3.236s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.236s] 
+[3.236s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingSetVoltageGradualChangeEnd(std::string)[m[K’:
+[3.236s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8656:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.236s]  8656 | ot_command_thread::WeldingSetVoltageGradualChangeEnd([01;35m[Kstd::string para[m[K){
+[3.236s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.236s] 
+[3.236s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::WeldingSetCurrentGradualChangeEnd(std::string)[m[K’:
+[3.236s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8688:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.236s]  8688 | ot_command_thread::WeldingSetCurrentGradualChangeEnd([01;35m[Kstd::string para[m[K){
+[3.236s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.236s] 
+[3.237s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetSmarttoolBtnState(std::string)[m[K’:
+[3.237s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8699:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.237s]  8699 | d::string robot_command_thread::GetSmarttoolBtnState([01;35m[Kstd::string para[m[K){
+[3.237s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.237s] 
+[3.237s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetWideBoxTempFanMonitorParam(std::string)[m[K’:
+[3.237s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8729:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.237s]  8729 |  robot_command_thread::GetWideBoxTempFanMonitorParam([01;35m[Kstd::string para[m[K){
+[3.237s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.237s] 
+[3.237s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::FocusEnd(std::string)[m[K’:
+[3.237s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8805:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.237s]  8805 | std::string robot_command_thread::FocusEnd([01;35m[Kstd::string para[m[K){
+[3.237s]       |                                            [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.243s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetFieldBusConfig(std::string)[m[K’:
+[3.243s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:8995:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.243s]  8995 | std::string robot_command_thread::GetFieldBusConfig([01;35m[Kstd::string para[m[K){
+[3.243s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.249s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetCurToolCoord(std::string)[m[K’:
+[3.249s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9428:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.249s]  9428 | std::string robot_command_thread::GetCurToolCoord([01;35m[Kstd::string para[m[K){
+[3.249s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.249s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetCurWObjCoord(std::string)[m[K’:
+[3.249s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9443:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.249s]  9443 | std::string robot_command_thread::GetCurWObjCoord([01;35m[Kstd::string para[m[K){
+[3.250s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.250s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetCurExToolCoord(std::string)[m[K’:
+[3.250s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9458:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.250s]  9458 | std::string robot_command_thread::GetCurExToolCoord([01;35m[Kstd::string para[m[K){
+[3.250s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.250s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetCurExAxisCoord(std::string)[m[K’:
+[3.250s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9473:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.250s]  9473 | std::string robot_command_thread::GetCurExAxisCoord([01;35m[Kstd::string para[m[K){
+[3.250s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.250s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetKernelUpgradeResult(std::string)[m[K’:
+[3.250s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9503:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.250s]  9503 | :string robot_command_thread::GetKernelUpgradeResult([01;35m[Kstd::string para[m[K){
+[3.250s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.250s] 
+[3.254s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::JointSensitivityCalibration(std::string)[m[K’:
+[3.254s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9625:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.254s]  9625 | ng robot_command_thread::JointSensitivityCalibration([01;35m[Kstd::string para[m[K){
+[3.254s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.254s] 
+[3.254s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::JointSensitivityCollect(std::string)[m[K’:
+[3.254s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9643:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.254s]  9643 | string robot_command_thread::JointSensitivityCollect([01;35m[Kstd::string para[m[K){
+[3.254s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.254s] 
+[3.254s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MotionQueueClear(std::string)[m[K’:
+[3.254s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9663:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.254s]  9663 | std::string robot_command_thread::MotionQueueClear([01;35m[Kstd::string para[m[K){
+[3.254s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.255s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetSlavePortErrCounter(std::string)[m[K’:
+[3.255s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9681:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.255s]  9681 | :string robot_command_thread::GetSlavePortErrCounter([01;35m[Kstd::string para[m[K){
+[3.255s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.255s] 
+[3.256s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetVelFeedForwardRatio(std::string)[m[K’:
+[3.256s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9761:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.256s]  9761 | :string robot_command_thread::GetVelFeedForwardRatio([01;35m[Kstd::string para[m[K){
+[3.256s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.256s] 
+[3.256s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::RobotMCULogCollect(std::string)[m[K’:
+[3.256s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9775:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.256s]  9775 | std::string robot_command_thread::RobotMCULogCollect([01;35m[Kstd::string para[m[K){
+[3.256s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.259s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::JointHysteresisError(std::string)[m[K’:
+[3.259s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:9987:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.259s]  9987 | d::string robot_command_thread::JointHysteresisError([01;35m[Kstd::string para[m[K){
+[3.259s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.259s] 
+[3.259s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::JointRepeatability(std::string)[m[K’:
+[3.259s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:10002:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.259s] 10002 | std::string robot_command_thread::JointRepeatability([01;35m[Kstd::string para[m[K){
+[3.259s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.262s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::TCPGetRecordFlangePos(std::string)[m[K’:
+[3.262s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:10191:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.262s] 10191 | ::string robot_command_thread::TCPGetRecordFlangePos([01;35m[Kstd::string para[m[K){
+[3.262s]       |                                                      [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.262s] 
+[4.321s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::getVariable(std::string)[m[K’:
+[4.321s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:539:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[4.321s]   539 | [01;35m[K}[m[K
+[4.321s]       | [01;35m[K^[m[K
+[4.721s] [ 75%] [32m[1mLinking CXX executable srv_test_client[0m
+[4.825s] [ 75%] Built target srv_test_client
+[5.340s] [ 87%] [32m[1mLinking CXX shared library libfairino_hardware.so[0m
+[5.454s] [ 87%] Built target fairino_hardware
+[15.953s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveJ(std::string)[m[K’:
+[15.953s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1408:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[15.953s]  1408 |         ovl,&extpos,blendT,offset_flag,&offsetpos)[01;35m[K)[m[K;
+[15.953s]       |                                                   [01;35m[K^[m[K
+[15.953s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1408:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[15.953s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1408:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.092s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveL(std::string)[m[K’:
+[16.092s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1498:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.092s]  1498 |         &extpos,search,offset_flag,&offsetpos)[01;35m[K)[m[K;
+[16.092s]       |                                               [01;35m[K^[m[K
+[16.092s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1498:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.092s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1498:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.224s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveC(std::string)[m[K’:
+[16.224s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1620:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.224s]  1620 |         offset_flag,&offsetpos,ovl,blendR)[01;35m[K)[m[K;
+[16.224s]       |                                           [01;35m[K^[m[K
+[16.224s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1620:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.224s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1620:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.367s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SplinePTP(std::string)[m[K’:
+[16.368s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1717:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.368s]  1717 |                                 tool,user,speed,acc,ovl)[01;35m[K)[m[K;
+[16.368s]       |                                                         [01;35m[K^[m[K
+[16.368s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1717:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.368s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1717:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.430s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::NewSplinePoint(std::string)[m[K’:
+[16.430s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1805:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Klastflag[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.430s]  1805 |             acc,ovl,blendR,lastflag)[01;35m[K)[m[K;
+[16.430s]       |                                     [01;35m[K^[m[K
+[16.431s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1805:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.431s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1805:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[16.431s] [01m[K/home/ljw/ws_fr5/src/fairino_hardware/src/command_server.cpp:1805:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[29.360s] [100%] [32m[1mLinking CXX executable ros2_cmd_server[0m
+[29.584s] [100%] Built target ros2_cmd_server
+[29.592s] Invoked command in '/home/ljw/ws_fr5/build/fairino_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/fairino_msgs/lib:/home/ljw/ws_fr5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ljw/ws_fr5/build/fairino_hardware -- -j16 -l16
+[29.593s] Invoking command in '/home/ljw/ws_fr5/build/fairino_hardware': CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/fairino_msgs/lib:/home/ljw/ws_fr5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ljw/ws_fr5/build/fairino_hardware
+[29.599s] -- Install configuration: "Release"
+[29.599s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/fairino_hardware.xml
+[29.599s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server
+[29.618s] -- Set runtime path of "/home/ljw/ws_fr5/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server" to ""
+[29.618s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/lib/fairino_hardware/srv_test_client
+[29.621s] -- Set runtime path of "/home/ljw/ws_fr5/install/fairino_hardware/lib/fairino_hardware/srv_test_client" to ""
+[29.621s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/lib/fairino_hardware/libfairino_hardware.so
+[29.623s] -- Set runtime path of "/home/ljw/ws_fr5/install/fairino_hardware/lib/fairino_hardware/libfairino_hardware.so" to ""
+[29.623s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/environment/library_path.sh
+[29.623s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/environment/library_path.dsv
+[29.623s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/ament_index/resource_index/package_run_dependencies/fairino_hardware
+[29.623s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/ament_index/resource_index/parent_prefix_path/fairino_hardware
+[29.623s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.sh
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.dsv
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/environment/path.sh
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/environment/path.dsv
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/local_setup.bash
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/local_setup.sh
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/local_setup.zsh
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/local_setup.dsv
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/package.dsv
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/ament_index/resource_index/packages/fairino_hardware
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/fairino_hardware
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport.cmake
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport-release.cmake
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_targets-extras.cmake
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.624s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig.cmake
+[29.625s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig-version.cmake
+[29.625s] -- Installing: /home/ljw/ws_fr5/install/fairino_hardware/share/fairino_hardware/package.xml
+[29.626s] Invoked command in '/home/ljw/ws_fr5/build/fairino_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/fairino_msgs/lib:/home/ljw/ws_fr5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ljw/ws_fr5/build/fairino_hardware

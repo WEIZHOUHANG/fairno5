@@ -1,0 +1,50 @@
+[0.008s] Invoking command in '/home/ljw/ws_fr5/build/moveit_calibration_gui': AMENT_PREFIX_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ljw/ws_fr5/build/moveit_calibration_gui -- -j16 -l16
+[0.047s] [  8%] [34m[1mAutomatic MOC and UIC for target moveit_handeye_calibration_rviz_plugin_core[0m
+[0.070s] [  8%] Built target moveit_handeye_calibration_rviz_plugin_core_autogen
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target moveit_handeye_calibration_rviz_plugin_core[0m
+[0.153s] [ 66%] Built target moveit_handeye_calibration_rviz_plugin_core
+[0.166s] [ 75%] [34m[1mAutomatic MOC and UIC for target moveit_handeye_calibration_rviz_plugin[0m
+[0.180s] [ 75%] Built target moveit_handeye_calibration_rviz_plugin_autogen
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target moveit_handeye_calibration_rviz_plugin[0m
+[0.217s] [100%] Built target moveit_handeye_calibration_rviz_plugin
+[0.225s] Invoked command in '/home/ljw/ws_fr5/build/moveit_calibration_gui' returned '0': AMENT_PREFIX_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ljw/ws_fr5/build/moveit_calibration_gui -- -j16 -l16
+[0.226s] Invoking command in '/home/ljw/ws_fr5/build/moveit_calibration_gui': AMENT_PREFIX_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ljw/ws_fr5/build/moveit_calibration_gui
+[0.231s] -- Install configuration: "Release"
+[0.231s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/handeye_calibration_rviz_plugin_description.xml
+[0.231s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/environment/library_path.sh
+[0.231s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/environment/library_path.dsv
+[0.231s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/ament_index/resource_index/package_run_dependencies/moveit_calibration_gui
+[0.231s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/ament_index/resource_index/parent_prefix_path/moveit_calibration_gui
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/environment/ament_prefix_path.sh
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/environment/ament_prefix_path.dsv
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/environment/path.sh
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/environment/path.dsv
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/local_setup.bash
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/local_setup.sh
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/local_setup.zsh
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/local_setup.dsv
+[0.232s] -- Installing: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/package.dsv
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/ament_index/resource_index/packages/moveit_calibration_gui
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/ament_index/resource_index/rviz_common__pluginlib__plugin/moveit_calibration_gui
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/cmake/export_moveit_calibration_guiExport.cmake
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/cmake/export_moveit_calibration_guiExport-release.cmake
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/cmake/ament_cmake_export_targets-extras.cmake
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/cmake/moveit_calibration_guiConfig.cmake
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/cmake/moveit_calibration_guiConfig-version.cmake
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/package.xml
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/include
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/include/moveit
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/include/moveit/handeye_calibration_rviz_plugin
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/include/moveit/handeye_calibration_rviz_plugin/handeye_calibration_display.h
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/include/moveit/handeye_calibration_rviz_plugin/handeye_control_widget.h
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/include/moveit/handeye_calibration_rviz_plugin/handeye_target_widget.h
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/include/moveit/handeye_calibration_rviz_plugin/handeye_context_widget.h
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/include/moveit/handeye_calibration_rviz_plugin/handeye_calibration_frame.h
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin_core.so.2.0.0
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin_core.so
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin.so.2.0.0
+[0.232s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin.so
+[0.233s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/environment/library_path.sh
+[0.233s] -- Up-to-date: /home/ljw/ws_fr5/install/moveit_calibration_gui/share/moveit_calibration_gui/environment/library_path.dsv
+[0.234s] Invoked command in '/home/ljw/ws_fr5/build/moveit_calibration_gui' returned '0': AMENT_PREFIX_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins:/home/ljw/ws_fr5/install/robotiq_2f_85_gripper_visualization:/home/ljw/ws_fr5/install/fairino_hardware:/home/ljw/ws_fr5/install/fairino_msgs:/home/ljw/ws_fr5/install/fairino5_v6_moveit2_config:/home/ljw/ws_fr5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw/ws_fr5/install/moveit_calibration_plugins/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ljw/ws_fr5/build/moveit_calibration_gui

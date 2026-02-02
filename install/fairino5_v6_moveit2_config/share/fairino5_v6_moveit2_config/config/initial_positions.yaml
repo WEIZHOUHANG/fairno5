@@ -1,0 +1,10 @@
+# Default initial positions for fairino5_v6_robot's ros2_control fake system
+
+initial_positions:
+  j1: 0.0
+  j2: -1.0
+  j3: 1.5
+  j4: -1.5
+  j5: -1.57
+  j6: 0.0
+  finger_joint: 0.0
