@@ -1,8 +1,8 @@
-# Install script for directory: /home/ljw/ws_fr5/src/fairino_hardware
+# Install script for directory: /home/ljw2/fairno5/src/fairino_hardware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ljw/ws_fr5/install/fairino_hardware")
+  set(CMAKE_INSTALL_PREFIX "/home/ljw2/fairno5/install/fairino_hardware")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,137 +43,37 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/ljw/ws_fr5/src/fairino_hardware/fairino_hardware.xml")
+  include("/home/ljw2/fairno5/build/fairino_hardware/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfairino_hardware.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfairino_hardware.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfairino_hardware.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware" TYPE EXECUTABLE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ros2_cmd_server")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ljw2/fairno5/build/fairino_hardware/libfairino_hardware.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfairino_hardware.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfairino_hardware.so")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server"
-         OLD_RPATH "/home/ljw/ws_fr5/src/fairino_hardware/libfairino/lib:/opt/ros/humble/lib:/home/ljw/ws_fr5/install/fairino_msgs/lib:"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfairino_hardware.so"
+         OLD_RPATH "/home/ljw2/fairno5/src/fairino_hardware/libfairino/lib:/opt/ros/humble/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfairino_hardware.so")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware" TYPE EXECUTABLE FILES "/home/ljw/ws_fr5/build/fairino_hardware/srv_test_client")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ljw/ws_fr5/install/fairino_msgs/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware" TYPE SHARED_LIBRARY FILES "/home/ljw/ws_fr5/build/fairino_hardware/libfairino_hardware.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so"
-         OLD_RPATH "/home/ljw/ws_fr5/src/fairino_hardware/libfairino/lib:/opt/ros/humble/lib:/home/ljw/ws_fr5/install/fairino_msgs/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_environment_hooks/library_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fairino_hardware")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fairino_hardware")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_index/share/ament_index/resource_index/packages/fairino_hardware")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/hardware_interface__pluginlib__plugin" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/fairino_hardware")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake/fairino_hardwareExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake/fairino_hardwareExport.cmake"
-         "/home/ljw/ws_fr5/build/fairino_hardware/CMakeFiles/Export/share/fairino_hardware/cmake/fairino_hardwareExport.cmake")
+         "/home/ljw2/fairno5/build/fairino_hardware/CMakeFiles/Export/share/fairino_hardware/cmake/fairino_hardwareExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake/fairino_hardwareExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -182,29 +82,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/CMakeFiles/Export/share/fairino_hardware/cmake/fairino_hardwareExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_hardware/CMakeFiles/Export/share/fairino_hardware/cmake/fairino_hardwareExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/CMakeFiles/Export/share/fairino_hardware/cmake/fairino_hardwareExport-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_hardware/CMakeFiles/Export/share/fairino_hardware/cmake/fairino_hardwareExport-release.cmake")
   endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES
-    "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_core/fairino_hardwareConfig.cmake"
-    "/home/ljw/ws_fr5/build/fairino_hardware/ament_cmake_core/fairino_hardwareConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/ljw/ws_fr5/src/fairino_hardware/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -215,5 +96,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ljw/ws_fr5/build/fairino_hardware/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ljw2/fairno5/build/fairino_hardware/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

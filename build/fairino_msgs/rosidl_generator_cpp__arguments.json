@@ -1,11 +1,11 @@
 {
   "package_name": "fairino_msgs",
-  "output_dir": "/home/ljw/ws_fr5/build/fairino_msgs/rosidl_generator_cpp/fairino_msgs",
+  "output_dir": "/home/ljw2/fairno5/build/fairino_msgs/rosidl_generator_cpp/fairino_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs:srv/RemoteCmdInterface.idl",
-    "/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs:srv/RemoteScriptContent.idl",
-    "/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs:msg/RobotNonrtState.idl"
+    "/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs:srv/RemoteCmdInterface.idl",
+    "/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs:srv/RemoteScriptContent.idl",
+    "/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs:msg/RobotNonrtState.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -23,8 +23,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs/srv/RemoteCmdInterface.idl",
-    "/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs/srv/RemoteScriptContent.idl",
-    "/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs/msg/RobotNonrtState.idl"
+    "/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs/srv/RemoteCmdInterface.idl",
+    "/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs/srv/RemoteScriptContent.idl",
+    "/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs/msg/RobotNonrtState.idl"
   ]
 }

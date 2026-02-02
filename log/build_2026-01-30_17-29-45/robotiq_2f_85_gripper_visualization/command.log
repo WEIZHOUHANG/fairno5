@@ -1,4 +1,0 @@
-Invoking command in '/home/ljw/ws_fr5/build/robotiq_2f_85_gripper_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ws_fr5/build/robotiq_2f_85_gripper_visualization -- -j16 -l16
-Invoked command in '/home/ljw/ws_fr5/build/robotiq_2f_85_gripper_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ljw/ws_fr5/build/robotiq_2f_85_gripper_visualization -- -j16 -l16
-Invoking command in '/home/ljw/ws_fr5/build/robotiq_2f_85_gripper_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ws_fr5/build/robotiq_2f_85_gripper_visualization
-Invoked command in '/home/ljw/ws_fr5/build/robotiq_2f_85_gripper_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ljw/ws_fr5/build/robotiq_2f_85_gripper_visualization

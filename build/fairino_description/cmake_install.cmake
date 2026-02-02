@@ -1,8 +1,8 @@
-# Install script for directory: /home/ljw/ws_fr5/src/fairino_description
+# Install script for directory: /home/ljw2/fairno5/src/fairino_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ljw/ws_fr5/install/fairino_description")
+  set(CMAKE_INSTALL_PREFIX "/home/ljw2/fairno5/install/fairino_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,19 +43,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE DIRECTORY FILES "/home/ljw/ws_fr5/src/fairino_description/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE DIRECTORY FILES "/home/ljw2/fairno5/src/fairino_description/meshes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE DIRECTORY FILES "/home/ljw/ws_fr5/src/fairino_description/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE DIRECTORY FILES "/home/ljw2/fairno5/src/fairino_description/urdf")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fairino_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fairino_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fairino_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fairino_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description/environment" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description/environment" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,42 +71,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description/environment" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description/environment" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_index/share/ament_index/resource_index/packages/fairino_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ljw2/fairno5/build/fairino_description/ament_cmake_index/share/ament_index/resource_index/packages/fairino_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description/cmake" TYPE FILE FILES
-    "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_core/fairino_descriptionConfig.cmake"
-    "/home/ljw/ws_fr5/build/fairino_description/ament_cmake_core/fairino_descriptionConfig-version.cmake"
+    "/home/ljw2/fairno5/build/fairino_description/ament_cmake_core/fairino_descriptionConfig.cmake"
+    "/home/ljw2/fairno5/build/fairino_description/ament_cmake_core/fairino_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw/ws_fr5/src/fairino_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_description" TYPE FILE FILES "/home/ljw2/fairno5/src/fairino_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +117,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ljw/ws_fr5/build/fairino_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ljw2/fairno5/build/fairino_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,723 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (fairino_description) JobQueued: {'identifier': 'fairino_description', 'dependencies': OrderedDict()}
+[0.000694] (fairino_msgs) JobQueued: {'identifier': 'fairino_msgs', 'dependencies': OrderedDict()}
+[0.001002] (robotiq_2f_85_gripper_visualization) JobQueued: {'identifier': 'robotiq_2f_85_gripper_visualization', 'dependencies': OrderedDict()}
+[0.001242] (fairino5_v6_moveit2_config) JobQueued: {'identifier': 'fairino5_v6_moveit2_config', 'dependencies': OrderedDict([('fairino_description', '/home/ljw2/fairno5/install/fairino_description')])}
+[0.001387] (fairino_hardware) JobQueued: {'identifier': 'fairino_hardware', 'dependencies': OrderedDict([('fairino_msgs', '/home/ljw2/fairno5/install/fairino_msgs')])}
+[0.001437] (fairino_description) JobStarted: {'identifier': 'fairino_description'}
+[0.004510] (fairino_msgs) JobStarted: {'identifier': 'fairino_msgs'}
+[0.006868] (robotiq_2f_85_gripper_visualization) JobStarted: {'identifier': 'robotiq_2f_85_gripper_visualization'}
+[0.009766] (fairino_description) JobProgress: {'identifier': 'fairino_description', 'progress': 'cmake'}
+[0.009885] (fairino_description) JobProgress: {'identifier': 'fairino_description', 'progress': 'build'}
+[0.010544] (fairino_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ljw2/fairno5/build/fairino_description', '--', '-j24', '-l24'], 'cwd': '/home/ljw2/fairno5/build/fairino_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_hardware/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_description'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.013219] (fairino_msgs) JobProgress: {'identifier': 'fairino_msgs', 'progress': 'cmake'}
+[0.013261] (fairino_msgs) JobProgress: {'identifier': 'fairino_msgs', 'progress': 'build'}
+[0.013285] (fairino_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ljw2/fairno5/build/fairino_msgs', '--', '-j24', '-l24'], 'cwd': '/home/ljw2/fairno5/build/fairino_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_hardware/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_msgs'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.015668] (robotiq_2f_85_gripper_visualization) JobProgress: {'identifier': 'robotiq_2f_85_gripper_visualization', 'progress': 'cmake'}
+[0.015915] (robotiq_2f_85_gripper_visualization) JobProgress: {'identifier': 'robotiq_2f_85_gripper_visualization', 'progress': 'build'}
+[0.016429] (robotiq_2f_85_gripper_visualization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ljw2/fairno5/build/robotiq_2f_85_gripper_visualization', '--', '-j24', '-l24'], 'cwd': '/home/ljw2/fairno5/build/robotiq_2f_85_gripper_visualization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_hardware/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/robotiq_2f_85_gripper_visualization'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.034105] (fairino_description) CommandEnded: {'returncode': 0}
+[0.034716] (fairino_description) JobProgress: {'identifier': 'fairino_description', 'progress': 'install'}
+[0.037078] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.038755] (fairino_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ljw2/fairno5/build/fairino_description'], 'cwd': '/home/ljw2/fairno5/build/fairino_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_hardware/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_description'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.040409] (robotiq_2f_85_gripper_visualization) CommandEnded: {'returncode': 0}
+[0.041297] (robotiq_2f_85_gripper_visualization) JobProgress: {'identifier': 'robotiq_2f_85_gripper_visualization', 'progress': 'install'}
+[0.041356] (robotiq_2f_85_gripper_visualization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ljw2/fairno5/build/robotiq_2f_85_gripper_visualization'], 'cwd': '/home/ljw2/fairno5/build/robotiq_2f_85_gripper_visualization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_hardware/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/robotiq_2f_85_gripper_visualization'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.043407] (fairino_msgs) StdoutLine: {'line': b'[  2%] Built target fairino_msgs__cpp\n'}
+[0.043679] (fairino_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.044065] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes\n'}
+[0.044151] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino5_v6\n'}
+[0.044202] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino5_v6/upperarm_link.STL\n'}
+[0.044266] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino5_v6/wrist1_link.STL\n'}
+[0.044330] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino5_v6/wrist2_link.STL\n'}
+[0.044400] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino5_v6/shoulder_link.STL\n'}
+[0.045034] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino5_v6/wrist3_link.STL\n'}
+[0.045120] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino5_v6/forearm_link.STL\n'}
+[0.045363] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino5_v6/base_link.STL\n'}
+[0.045503] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino10_v6\n'}
+[0.045748] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino10_v6/upperarm_link.STL\n'}
+[0.045932] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino10_v6/wrist1_link.STL\n'}
+[0.046031] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino10_v6/wrist2_link.STL\n'}
+[0.046136] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino10_v6/shoulder_link.STL\n'}
+[0.046204] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino10_v6/wrist3_link.STL\n'}
+[0.046299] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino10_v6/forearm_link.STL\n'}
+[0.046955] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino10_v6/base_link.STL\n'}
+[0.047306] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6\n'}
+[0.047620] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6/wrist1_link.STL\n'}
+[0.047778] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6/wrist2_link.STL\n'}
+[0.048022] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6/uppperarm_link.STL\n'}
+[0.048234] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6/shoulder_link.STL\n'}
+[0.048300] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6/wrist3_link.STL\n'}
+[0.048536] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6/forearm_link.STL\n'}
+[0.048621] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6/tool_link.STL\n'}
+[0.048682] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino30_v6/base_link.STL\n'}
+[0.048858] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_v6\n'}
+[0.049073] (fairino_msgs) StdoutLine: {'line': b'[ 12%] Built target fairino_msgs__rosidl_generator_c\n'}
+[0.049622] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_v6/upperarm_link.STL\n'}
+[0.050959] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_v6/wrist1_link.STL\n'}
+[0.051048] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_v6/wrist2_link.STL\n'}
+[0.051077] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_v6/shoulder_link.STL\n'}
+[0.051103] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_v6/wrist3_link.STL\n'}
+[0.051161] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_v6/forearm_link.STL\n'}
+[0.051205] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_v6/base_link.STL\n'}
+[0.051244] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino16_v6\n'}
+[0.051321] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino16_v6/upperarm_link.STL\n'}
+[0.051406] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino16_v6/wrist1_link.STL\n'}
+[0.051463] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino16_v6/wrist2_link.STL\n'}
+[0.051493] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino16_v6/shoulder_link.STL\n'}
+[0.051520] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino16_v6/wrist3_link.STL\n'}
+[0.051544] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino16_v6/forearm_link.STL\n'}
+[0.051630] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino16_v6/base_link.STL\n'}
+[0.051690] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino20_v6\n'}
+[0.051735] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino20_v6/upperarm_link.STL\n'}
+[0.051763] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino20_v6/wrist1_link.STL\n'}
+[0.051789] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino20_v6/wrist2_link.STL\n'}
+[0.052123] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino20_v6/shoulder_link.STL\n'}
+[0.053110] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino20_v6/wrist3_link.STL\n'}
+[0.054120] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino20_v6/forearm_link.STL\n'}
+[0.055377] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino20_v6/base_link.STL\n'}
+[0.055439] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6\n'}
+[0.055490] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.055539] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes\n'}
+[0.055568] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual\n'}
+[0.055595] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_inner_finger.dae\n'}
+[0.055621] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_pad.dae\n'}
+[0.055729] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_outer_finger.dae\n'}
+[0.055979] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_gripper_coupling.stl\n'}
+[0.056133] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_base_link.dae\n'}
+[0.056198] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_base_link.stl\n'}
+[0.056704] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_outer_knuckle.dae\n'}
+[0.056907] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/visual/robotiq_arg2f_85_inner_knuckle.dae\n'}
+[0.056963] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision\n'}
+[0.057012] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_inner_finger.dae\n'}
+[0.057045] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_outer_finger.dae\n'}
+[0.057072] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_base_link.stl\n'}
+[0.057178] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_base_link.stl\n'}
+[0.057217] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_outer_knuckle.dae\n'}
+[0.057245] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/meshes/collision/robotiq_arg2f_85_inner_knuckle.dae\n'}
+[0.057305] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/upperarm_link.STL\n'}
+[0.057337] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/wrist1_link.STL\n'}
+[0.057519] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/wrist2_link.STL\n'}
+[0.057676] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/shoulder_link.STL\n'}
+[0.057745] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/wrist3_link.STL\n'}
+[0.058036] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/forearm_link.STL\n'}
+[0.058094] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/meshes/fairino3_mt_v6/base_link.STL\n'}
+[0.058263] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/urdf\n'}
+[0.058342] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/urdf/fairino5_v6.urdf.xacro\n'}
+[0.058465] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/urdf/fairno5_v6.urdf.xacro\n'}
+[0.058526] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/ament_index/resource_index/package_run_dependencies/fairino_description\n'}
+[0.058557] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf\n'}
+[0.058640] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/robotiq_arg2f_85_macro.urdf\n'}
+[0.058732] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/robotiq_arg2f_85.xacro\n'}
+[0.058909] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/robotiq_arg2f_85_macro.xacro\n'}
+[0.059059] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/robotiq_arg2f_85.urdf\n'}
+[0.059162] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/inc\n'}
+[0.059230] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/urdf/inc/robotiq_arg2f_85_transmissions.xacro\n'}
+[0.059335] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/ament_index/resource_index/package_run_dependencies/robotiq_2f_85_gripper_visualization\n'}
+[0.060171] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/ament_index/resource_index/parent_prefix_path/robotiq_2f_85_gripper_visualization\n'}
+[0.060874] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/environment/ament_prefix_path.sh\n'}
+[0.060944] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/environment/ament_prefix_path.dsv\n'}
+[0.060973] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/environment/path.sh\n'}
+[0.061000] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/environment/path.dsv\n'}
+[0.061025] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/local_setup.bash\n'}
+[0.061055] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/local_setup.sh\n'}
+[0.061079] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/local_setup.zsh\n'}
+[0.061102] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/local_setup.dsv\n'}
+[0.061126] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/package.dsv\n'}
+[0.061150] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/ament_index/resource_index/packages/robotiq_2f_85_gripper_visualization\n'}
+[0.061174] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/cmake/robotiq_2f_85_gripper_visualizationConfig.cmake\n'}
+[0.061198] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/cmake/robotiq_2f_85_gripper_visualizationConfig-version.cmake\n'}
+[0.061222] (robotiq_2f_85_gripper_visualization) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/package.xml\n'}
+[0.061311] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/ament_index/resource_index/parent_prefix_path/fairino_description\n'}
+[0.061367] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/environment/ament_prefix_path.sh\n'}
+[0.061407] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/environment/ament_prefix_path.dsv\n'}
+[0.061435] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/environment/path.sh\n'}
+[0.061461] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/environment/path.dsv\n'}
+[0.061588] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/local_setup.bash\n'}
+[0.061762] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/local_setup.sh\n'}
+[0.061795] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/local_setup.zsh\n'}
+[0.061838] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/local_setup.dsv\n'}
+[0.062295] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/package.dsv\n'}
+[0.062326] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/ament_index/resource_index/packages/fairino_description\n'}
+[0.062374] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/cmake/fairino_descriptionConfig.cmake\n'}
+[0.062403] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/cmake/fairino_descriptionConfig-version.cmake\n'}
+[0.062435] (fairino_description) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_description/share/fairino_description/package.xml\n'}
+[0.062624] (fairino_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_fairino_msgs\n'}
+[0.062678] (robotiq_2f_85_gripper_visualization) CommandEnded: {'returncode': 0}
+[0.063130] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.063188] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.063540] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.063621] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.063651] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.064669] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.065627] (fairino_msgs) StdoutLine: {'line': b'[ 23%] Built target fairino_msgs__rosidl_typesupport_c\n'}
+[0.065822] (fairino_msgs) StdoutLine: {'line': b'[ 34%] Built target fairino_msgs__rosidl_typesupport_introspection_c\n'}
+[0.065862] (fairino_msgs) StdoutLine: {'line': b'[ 44%] Built target fairino_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.065911] (fairino_msgs) StdoutLine: {'line': b'[ 55%] Built target fairino_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.065940] (fairino_msgs) StdoutLine: {'line': b'[ 65%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.066214] (fairino_msgs) StdoutLine: {'line': b'[ 76%] Built target fairino_msgs__rosidl_typesupport_cpp\n'}
+[0.071749] (robotiq_2f_85_gripper_visualization) JobEnded: {'identifier': 'robotiq_2f_85_gripper_visualization', 'rc': 0}
+[0.072430] (fairino_description) CommandEnded: {'returncode': 0}
+[0.079147] (fairino_description) JobEnded: {'identifier': 'fairino_description', 'rc': 0}
+[0.080277] (fairino5_v6_moveit2_config) JobStarted: {'identifier': 'fairino5_v6_moveit2_config'}
+[0.080463] (fairino_msgs) StdoutLine: {'line': b'[ 76%] Built target fairino_msgs\n'}
+[0.093180] (fairino_msgs) StdoutLine: {'line': b'[ 78%] Built target fairino_msgs__py\n'}
+[0.099925] (-) TimerEvent: {}
+[0.100094] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.109149] (fairino_msgs) StdoutLine: {'line': b'[ 87%] Built target fairino_msgs__rosidl_generator_py\n'}
+[0.116438] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.116580] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.116614] (fairino_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.124701] (fairino_msgs) StdoutLine: {'line': b'[ 91%] Built target fairino_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.124842] (fairino_msgs) StdoutLine: {'line': b'[ 95%] Built target fairino_msgs__rosidl_typesupport_c__pyext\n'}
+[0.125433] (fairino_msgs) StdoutLine: {'line': b'[100%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.184739] (fairino_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.185177] (fairino_msgs) StdoutLine: {'line': b'writing fairino_msgs.egg-info/PKG-INFO\n'}
+[0.185519] (fairino_msgs) StdoutLine: {'line': b'writing dependency_links to fairino_msgs.egg-info/dependency_links.txt\n'}
+[0.185701] (fairino_msgs) StdoutLine: {'line': b'writing top-level names to fairino_msgs.egg-info/top_level.txt\n'}
+[0.186719] (fairino_msgs) StdoutLine: {'line': b"reading manifest file 'fairino_msgs.egg-info/SOURCES.txt'\n"}
+[0.186966] (fairino_msgs) StdoutLine: {'line': b"writing manifest file 'fairino_msgs.egg-info/SOURCES.txt'\n"}
+[0.200043] (-) TimerEvent: {}
+[0.202884] (fairino_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_fairino_msgs_egg\n'}
+[0.210466] (fairino_msgs) CommandEnded: {'returncode': 0}
+[0.211163] (fairino_msgs) JobProgress: {'identifier': 'fairino_msgs', 'progress': 'install'}
+[0.211340] (fairino_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ljw2/fairno5/build/fairino_msgs'], 'cwd': '/home/ljw2/fairno5/build/fairino_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_hardware/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_msgs'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.216939] (fairino_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.217126] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/ament_index/resource_index/rosidl_interfaces/fairino_msgs\n'}
+[0.217213] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs\n'}
+[0.217294] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv\n'}
+[0.217363] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.h\n'}
+[0.217398] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.h\n'}
+[0.217446] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail\n'}
+[0.217476] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.h\n'}
+[0.217508] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.h\n'}
+[0.217654] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.c\n'}
+[0.217698] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.h\n'}
+[0.217825] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.c\n'}
+[0.217861] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.h\n'}
+[0.217938] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.h\n'}
+[0.217974] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.h\n'}
+[0.218008] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg\n'}
+[0.218074] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.h\n'}
+[0.218153] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail\n'}
+[0.218233] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.h\n'}
+[0.218311] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.c\n'}
+[0.218391] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.h\n'}
+[0.218461] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.h\n'}
+[0.218522] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.218567] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/environment/library_path.sh\n'}
+[0.218596] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/environment/library_path.dsv\n'}
+[0.218651] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_c.so\n'}
+[0.218710] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs\n'}
+[0.218740] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv\n'}
+[0.218831] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail\n'}
+[0.218956] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_c.h\n'}
+[0.218983] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_c.h\n'}
+[0.219008] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg\n'}
+[0.219073] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.219131] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail\n'}
+[0.219161] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_c.h\n'}
+[0.219190] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.219245] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs\n'}
+[0.219290] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv\n'}
+[0.219316] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail\n'}
+[0.219343] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c\n'}
+[0.219371] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_c.h\n'}
+[0.219493] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.c\n'}
+[0.219538] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_c.h\n'}
+[0.219619] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg\n'}
+[0.219699] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.219780] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail\n'}
+[0.219854] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.c\n'}
+[0.219940] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_c.h\n'}
+[0.220022] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.220128] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_c.so\n'}
+[0.220156] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs\n'}
+[0.220223] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv\n'}
+[0.220303] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.hpp\n'}
+[0.220383] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.hpp\n'}
+[0.220462] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail\n'}
+[0.220542] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.hpp\n'}
+[0.220623] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__builder.hpp\n'}
+[0.220702] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.hpp\n'}
+[0.220782] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.hpp\n'}
+[0.220862] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.hpp\n'}
+[0.220941] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__builder.hpp\n'}
+[0.221020] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__traits.hpp\n'}
+[0.221088] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__traits.hpp\n'}
+[0.221168] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg\n'}
+[0.221312] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.221475] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail\n'}
+[0.221518] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.hpp\n'}
+[0.221546] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__builder.hpp\n'}
+[0.221570] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.hpp\n'}
+[0.221594] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__traits.hpp\n'}
+[0.221621] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.hpp\n'}
+[0.221646] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs\n'}
+[0.221668] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv\n'}
+[0.221691] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail\n'}
+[0.221713] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.221735] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.221757] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/dds_fastrtps\n'}
+[0.221779] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg\n'}
+[0.221801] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.221824] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail\n'}
+[0.221845] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.221867] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/dds_fastrtps\n'}
+[0.221890] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.221913] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs\n'}
+[0.221935] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv\n'}
+[0.221956] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail\n'}
+[0.221978] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.222000] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.cpp\n'}
+[0.222021] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.cpp\n'}
+[0.222044] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.222065] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg\n'}
+[0.222086] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail\n'}
+[0.222107] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.222128] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.cpp\n'}
+[0.222150] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.222172] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_cpp.so\n'}
+[0.222197] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.sh\n'}
+[0.222220] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.dsv\n'}
+[0.222242] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info\n'}
+[0.222265] (fairino_msgs) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.222288] (fairino_msgs) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.222310] (fairino_msgs) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.222335] (fairino_msgs) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.222358] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs\n'}
+[0.222381] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv\n'}
+[0.222405] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_script_content.py\n'}
+[0.222428] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_cmd_interface.py\n'}
+[0.222452] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/__init__.py\n'}
+[0.222474] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_cmd_interface_s.c\n'}
+[0.222497] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv/_remote_script_content_s.c\n'}
+[0.222521] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.222544] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg\n'}
+[0.222566] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/__init__.py\n'}
+[0.222590] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/_robot_nonrt_state_s.c\n'}
+[0.222613] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg/_robot_nonrt_state.py\n'}
+[0.222637] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/__init__.py\n'}
+[0.222663] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.222688] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.222715] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.222738] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.222761] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/libfairino_msgs__rosidl_generator_py.so\n'}
+[0.222784] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.239347] (fairino_msgs) StdoutLine: {'line': b"Listing '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs'...\n"}
+[0.239493] (fairino_msgs) StdoutLine: {'line': b"Listing '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/msg'...\n"}
+[0.239524] (fairino_msgs) StdoutLine: {'line': b"Listing '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/srv'...\n"}
+[0.242046] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.242164] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.242246] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.242368] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_py.so\n'}
+[0.242480] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.idl\n'}
+[0.242629] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.idl\n'}
+[0.242714] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.idl\n'}
+[0.242795] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.srv\n'}
+[0.242866] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface_Request.msg\n'}
+[0.242947] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface_Response.msg\n'}
+[0.243028] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.srv\n'}
+[0.243156] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent_Request.msg\n'}
+[0.243328] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent_Response.msg\n'}
+[0.243450] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.msg\n'}
+[0.243482] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/ament_index/resource_index/package_run_dependencies/fairino_msgs\n'}
+[0.243510] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/ament_index/resource_index/parent_prefix_path/fairino_msgs\n'}
+[0.243537] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.sh\n'}
+[0.243563] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.dsv\n'}
+[0.243624] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/environment/path.sh\n'}
+[0.243680] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/environment/path.dsv\n'}
+[0.243750] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/local_setup.bash\n'}
+[0.243782] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/local_setup.sh\n'}
+[0.243989] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/local_setup.zsh\n'}
+[0.244048] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/local_setup.dsv\n'}
+[0.244076] (fairino_msgs) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/package.dsv\n'}
+[0.244109] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/ament_index/resource_index/packages/fairino_msgs\n'}
+[0.244243] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport.cmake\n'}
+[0.244594] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.244678] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.244757] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.244836] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.244916] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.244995] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.245073] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.245164] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.245256] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.245338] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.245745] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.245916] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.245947] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.246004] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.246063] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.246093] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.246120] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.246202] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.246233] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.246259] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.246297] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.246413] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.246494] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.246572] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig.cmake\n'}
+[0.246650] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig-version.cmake\n'}
+[0.246728] (fairino_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/package.xml\n'}
+[0.247454] (fairino5_v6_moveit2_config) JobProgress: {'identifier': 'fairino5_v6_moveit2_config', 'progress': 'cmake'}
+[0.247606] (fairino5_v6_moveit2_config) JobProgress: {'identifier': 'fairino5_v6_moveit2_config', 'progress': 'build'}
+[0.248059] (fairino5_v6_moveit2_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ljw2/fairno5/build/fairino5_v6_moveit2_config', '--', '-j24', '-l24'], 'cwd': '/home/ljw2/fairno5/build/fairino5_v6_moveit2_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_hardware/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino5_v6_moveit2_config'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/fairino_description:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.249846] (fairino_msgs) CommandEnded: {'returncode': 0}
+[0.261270] (fairino_msgs) JobEnded: {'identifier': 'fairino_msgs', 'rc': 0}
+[0.262286] (fairino_hardware) JobStarted: {'identifier': 'fairino_hardware'}
+[0.273946] (fairino5_v6_moveit2_config) CommandEnded: {'returncode': 0}
+[0.274573] (fairino5_v6_moveit2_config) JobProgress: {'identifier': 'fairino5_v6_moveit2_config', 'progress': 'install'}
+[0.275122] (fairino5_v6_moveit2_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ljw2/fairno5/build/fairino5_v6_moveit2_config'], 'cwd': '/home/ljw2/fairno5/build/fairino5_v6_moveit2_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_hardware/lib:/home/ljw2/fairno5/install/fairino_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino5_v6_moveit2_config'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/fairino_description:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.279860] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.279957] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/ament_index/resource_index/package_run_dependencies/fairino5_v6_moveit2_config\n'}
+[0.280153] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/ament_index/resource_index/parent_prefix_path/fairino5_v6_moveit2_config\n'}
+[0.280204] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/environment/ament_prefix_path.sh\n'}
+[0.280233] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/environment/ament_prefix_path.dsv\n'}
+[0.280259] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/environment/path.sh\n'}
+[0.280285] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/environment/path.dsv\n'}
+[0.280309] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/local_setup.bash\n'}
+[0.280348] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/local_setup.sh\n'}
+[0.280496] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/local_setup.zsh\n'}
+[0.280576] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/local_setup.dsv\n'}
+[0.280646] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/package.dsv\n'}
+[0.280692] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/ament_index/resource_index/packages/fairino5_v6_moveit2_config\n'}
+[0.280773] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/cmake/fairino5_v6_moveit2_configConfig.cmake\n'}
+[0.281045] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/cmake/fairino5_v6_moveit2_configConfig-version.cmake\n'}
+[0.281082] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/package.xml\n'}
+[0.281110] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch\n'}
+[0.281135] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/moveit_rviz.launch.py\n'}
+[0.281209] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[0.281325] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/rsp.launch.py\n'}
+[0.281622] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/move_group.launch.py\n'}
+[0.281711] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/spawn_controllers.launch.py\n'}
+[0.281791] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/gazebo_demo.launch.py\n'}
+[0.281871] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/demo.launch.py\n'}
+[0.281952] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/setup_assistant.launch.py\n'}
+[0.282031] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/launch/warehouse_db.launch.py\n'}
+[0.282109] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config\n'}
+[0.282245] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/fairino5_v6_robot.urdf.xacro\n'}
+[0.282317] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/moveit.rviz\n'}
+[0.282405] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/fairino5_v6_robot.srdf\n'}
+[0.282485] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/initial_positions.yaml\n'}
+[0.282564] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/joint_limits.yaml\n'}
+[0.282643] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/pilz_cartesian_limits.yaml\n'}
+[0.282725] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/kinematics.yaml\n'}
+[0.282805] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/ros2_controllers.yaml\n'}
+[0.282875] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/moveit_controllers.yaml\n'}
+[0.283020] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/config/fairino5_v6_robot.ros2_control.xacro\n'}
+[0.283102] (fairino5_v6_moveit2_config) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino5_v6_moveit2_config/share/fairino5_v6_moveit2_config/.setup_assistant\n'}
+[0.283628] (fairino5_v6_moveit2_config) CommandEnded: {'returncode': 0}
+[0.290704] (fairino5_v6_moveit2_config) JobEnded: {'identifier': 'fairino5_v6_moveit2_config', 'rc': 0}
+[0.300161] (-) TimerEvent: {}
+[0.400423] (-) TimerEvent: {}
+[0.500801] (-) TimerEvent: {}
+[0.582522] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'cmake'}
+[0.583160] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'build'}
+[0.584131] (fairino_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ljw2/fairno5/build/fairino_hardware', '--', '-j24', '-l24'], 'cwd': '/home/ljw2/fairno5/build/fairino_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_hardware'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.600934] (-) TimerEvent: {}
+[0.602974] (fairino_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.683555] (fairino_hardware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.701124] (-) TimerEvent: {}
+[0.801433] (-) TimerEvent: {}
+[0.901851] (-) TimerEvent: {}
+[1.002427] (-) TimerEvent: {}
+[1.102715] (-) TimerEvent: {}
+[1.203068] (-) TimerEvent: {}
+[1.204104] (fairino_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.205306] (fairino_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.208633] (fairino_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.213616] (fairino_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.219822] (fairino_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.237605] (fairino_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.238510] (fairino_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.303180] (-) TimerEvent: {}
+[1.403474] (-) TimerEvent: {}
+[1.503958] (-) TimerEvent: {}
+[1.604313] (-) TimerEvent: {}
+[1.704653] (-) TimerEvent: {}
+[1.805039] (-) TimerEvent: {}
+[1.905408] (-) TimerEvent: {}
+[2.005822] (-) TimerEvent: {}
+[2.106128] (-) TimerEvent: {}
+[2.206466] (-) TimerEvent: {}
+[2.306858] (-) TimerEvent: {}
+[2.407308] (-) TimerEvent: {}
+[2.507609] (-) TimerEvent: {}
+[2.607947] (-) TimerEvent: {}
+[2.708302] (-) TimerEvent: {}
+[2.808599] (-) TimerEvent: {}
+[2.908894] (-) TimerEvent: {}
+[3.009364] (-) TimerEvent: {}
+[3.109689] (-) TimerEvent: {}
+[3.210087] (-) TimerEvent: {}
+[3.310453] (-) TimerEvent: {}
+[3.410780] (-) TimerEvent: {}
+[3.511109] (-) TimerEvent: {}
+[3.611504] (-) TimerEvent: {}
+[3.711765] (-) TimerEvent: {}
+[3.812025] (-) TimerEvent: {}
+[3.912333] (-) TimerEvent: {}
+[4.012640] (-) TimerEvent: {}
+[4.112987] (-) TimerEvent: {}
+[4.213297] (-) TimerEvent: {}
+[4.313575] (-) TimerEvent: {}
+[4.414099] (-) TimerEvent: {}
+[4.514546] (-) TimerEvent: {}
+[4.614836] (-) TimerEvent: {}
+[4.715182] (-) TimerEvent: {}
+[4.815477] (-) TimerEvent: {}
+[4.915785] (-) TimerEvent: {}
+[5.016070] (-) TimerEvent: {}
+[5.116400] (-) TimerEvent: {}
+[5.216696] (-) TimerEvent: {}
+[5.317018] (-) TimerEvent: {}
+[5.417502] (-) TimerEvent: {}
+[5.517979] (-) TimerEvent: {}
+[5.618345] (-) TimerEvent: {}
+[5.718613] (-) TimerEvent: {}
+[5.818931] (-) TimerEvent: {}
+[5.919250] (-) TimerEvent: {}
+[6.019714] (-) TimerEvent: {}
+[6.120156] (-) TimerEvent: {}
+[6.220463] (-) TimerEvent: {}
+[6.320742] (-) TimerEvent: {}
+[6.421611] (-) TimerEvent: {}
+[6.521988] (-) TimerEvent: {}
+[6.622282] (-) TimerEvent: {}
+[6.722549] (-) TimerEvent: {}
+[6.822831] (-) TimerEvent: {}
+[6.923132] (-) TimerEvent: {}
+[7.023440] (-) TimerEvent: {}
+[7.123711] (-) TimerEvent: {}
+[7.223976] (-) TimerEvent: {}
+[7.324356] (-) TimerEvent: {}
+[7.424623] (-) TimerEvent: {}
+[7.524896] (-) TimerEvent: {}
+[7.625203] (-) TimerEvent: {}
+[7.725508] (-) TimerEvent: {}
+[7.825855] (-) TimerEvent: {}
+[7.926116] (-) TimerEvent: {}
+[8.026391] (-) TimerEvent: {}
+[8.126810] (-) TimerEvent: {}
+[8.227168] (-) TimerEvent: {}
+[8.327463] (-) TimerEvent: {}
+[8.427785] (-) TimerEvent: {}
+[8.528099] (-) TimerEvent: {}
+[8.628401] (-) TimerEvent: {}
+[8.728693] (-) TimerEvent: {}
+[8.828991] (-) TimerEvent: {}
+[8.929482] (-) TimerEvent: {}
+[9.029828] (-) TimerEvent: {}
+[9.130145] (-) TimerEvent: {}
+[9.230576] (-) TimerEvent: {}
+[9.330947] (-) TimerEvent: {}
+[9.431244] (-) TimerEvent: {}
+[9.531751] (-) TimerEvent: {}
+[9.632233] (-) TimerEvent: {}
+[9.732588] (-) TimerEvent: {}
+[9.832923] (-) TimerEvent: {}
+[9.933318] (-) TimerEvent: {}
+[10.033627] (-) TimerEvent: {}
+[10.133933] (-) TimerEvent: {}
+[10.234371] (-) TimerEvent: {}
+[10.334882] (-) TimerEvent: {}
+[10.435193] (-) TimerEvent: {}
+[10.535526] (-) TimerEvent: {}
+[10.635854] (-) TimerEvent: {}
+[10.736307] (-) TimerEvent: {}
+[10.836709] (-) TimerEvent: {}
+[10.937166] (-) TimerEvent: {}
+[11.037808] (-) TimerEvent: {}
+[11.138151] (-) TimerEvent: {}
+[11.238564] (-) TimerEvent: {}
+[11.338947] (-) TimerEvent: {}
+[11.439292] (-) TimerEvent: {}
+[11.539614] (-) TimerEvent: {}
+[11.639939] (-) TimerEvent: {}
+[11.740248] (-) TimerEvent: {}
+[11.840653] (-) TimerEvent: {}
+[11.940970] (-) TimerEvent: {}
+[12.041248] (-) TimerEvent: {}
+[12.141555] (-) TimerEvent: {}
+[12.241849] (-) TimerEvent: {}
+[12.342189] (-) TimerEvent: {}
+[12.442471] (-) TimerEvent: {}
+[12.542755] (-) TimerEvent: {}
+[12.643053] (-) TimerEvent: {}
+[12.743417] (-) TimerEvent: {}
+[12.843745] (-) TimerEvent: {}
+[12.944087] (-) TimerEvent: {}
+[13.044454] (-) TimerEvent: {}
+[13.144974] (-) TimerEvent: {}
+[13.245394] (-) TimerEvent: {}
+[13.345751] (-) TimerEvent: {}
+[13.446070] (-) TimerEvent: {}
+[13.546360] (-) TimerEvent: {}
+[13.646727] (-) TimerEvent: {}
+[13.747018] (-) TimerEvent: {}
+[13.847352] (-) TimerEvent: {}
+[13.947746] (-) TimerEvent: {}
+[14.048077] (-) TimerEvent: {}
+[14.148395] (-) TimerEvent: {}
+[14.248744] (-) TimerEvent: {}
+[14.349035] (-) TimerEvent: {}
+[14.449324] (-) TimerEvent: {}
+[14.549651] (-) TimerEvent: {}
+[14.649936] (-) TimerEvent: {}
+[14.750263] (-) TimerEvent: {}
+[14.850640] (-) TimerEvent: {}
+[14.951100] (-) TimerEvent: {}
+[15.051393] (-) TimerEvent: {}
+[15.151716] (-) TimerEvent: {}
+[15.252039] (-) TimerEvent: {}
+[15.352333] (-) TimerEvent: {}
+[15.452724] (-) TimerEvent: {}
+[15.553007] (-) TimerEvent: {}
+[15.653300] (-) TimerEvent: {}
+[15.753614] (-) TimerEvent: {}
+[15.853912] (-) TimerEvent: {}
+[15.954186] (-) TimerEvent: {}
+[16.054527] (-) TimerEvent: {}
+[16.154979] (-) TimerEvent: {}
+[16.255296] (-) TimerEvent: {}
+[16.355582] (-) TimerEvent: {}
+[16.455892] (-) TimerEvent: {}
+[16.469379] (fairino_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.497491] (fairino_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[16.556055] (-) TimerEvent: {}
+[16.656564] (-) TimerEvent: {}
+[16.756888] (-) TimerEvent: {}
+[16.857275] (-) TimerEvent: {}
+[16.957790] (-) TimerEvent: {}
+[17.058359] (-) TimerEvent: {}
+[17.158777] (-) TimerEvent: {}
+[17.259110] (-) TimerEvent: {}
+[17.359659] (-) TimerEvent: {}
+[17.460468] (-) TimerEvent: {}
+[17.560973] (-) TimerEvent: {}
+[17.661541] (-) TimerEvent: {}
+[17.761975] (-) TimerEvent: {}
+[17.862421] (-) TimerEvent: {}
+[17.962856] (-) TimerEvent: {}
+[18.063225] (-) TimerEvent: {}
+[18.163620] (-) TimerEvent: {}
+[18.264147] (-) TimerEvent: {}
+[18.364569] (-) TimerEvent: {}
+[18.465059] (-) TimerEvent: {}
+[18.565437] (-) TimerEvent: {}
+[18.665830] (-) TimerEvent: {}
+[18.766140] (-) TimerEvent: {}
+[18.866508] (-) TimerEvent: {}
+[18.966924] (-) TimerEvent: {}
+[19.067162] (-) TimerEvent: {}
+[19.167434] (-) TimerEvent: {}
+[19.267742] (-) TimerEvent: {}
+[19.368035] (-) TimerEvent: {}
+[19.468320] (-) TimerEvent: {}
+[19.568589] (-) TimerEvent: {}
+[19.668820] (-) TimerEvent: {}
+[19.769233] (-) TimerEvent: {}
+[19.869545] (-) TimerEvent: {}
+[19.969830] (-) TimerEvent: {}
+[20.070196] (-) TimerEvent: {}
+[20.170548] (-) TimerEvent: {}
+[20.270823] (-) TimerEvent: {}
+[20.371094] (-) TimerEvent: {}
+[20.471363] (-) TimerEvent: {}
+[20.571637] (-) TimerEvent: {}
+[20.671918] (-) TimerEvent: {}
+[20.688492] (fairino_hardware) StdoutLine: {'line': b'-- Found fairino_msgs: 0.0.0 (/home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake)\n'}
+[20.693143] (fairino_hardware) StderrLine: {'line': b'\x1b[0mcurrent source dir is: \x1b[0m\n'}
+[20.697407] (fairino_hardware) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.697832] (fairino_hardware) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[20.772026] (-) TimerEvent: {}
+[20.872336] (-) TimerEvent: {}
+[20.972624] (-) TimerEvent: {}
+[21.072924] (-) TimerEvent: {}
+[21.173247] (-) TimerEvent: {}
+[21.273557] (-) TimerEvent: {}
+[21.373903] (-) TimerEvent: {}
+[21.474205] (-) TimerEvent: {}
+[21.574605] (-) TimerEvent: {}
+[21.674882] (-) TimerEvent: {}
+[21.775211] (-) TimerEvent: {}
+[21.875496] (-) TimerEvent: {}
+[21.975796] (-) TimerEvent: {}
+[22.076062] (-) TimerEvent: {}
+[22.176329] (-) TimerEvent: {}
+[22.276596] (-) TimerEvent: {}
+[22.376899] (-) TimerEvent: {}
+[22.477225] (-) TimerEvent: {}
+[22.577608] (-) TimerEvent: {}
+[22.678020] (-) TimerEvent: {}
+[22.778317] (-) TimerEvent: {}
+[22.878607] (-) TimerEvent: {}
+[22.978925] (-) TimerEvent: {}
+[23.079295] (-) TimerEvent: {}
+[23.179611] (-) TimerEvent: {}
+[23.280083] (-) TimerEvent: {}
+[23.380416] (-) TimerEvent: {}
+[23.480763] (-) TimerEvent: {}
+[23.581132] (-) TimerEvent: {}
+[23.681458] (-) TimerEvent: {}
+[23.781819] (-) TimerEvent: {}
+[23.882260] (-) TimerEvent: {}
+[23.982578] (-) TimerEvent: {}
+[24.083023] (-) TimerEvent: {}
+[24.183356] (-) TimerEvent: {}
+[24.283716] (-) TimerEvent: {}
+[24.384084] (-) TimerEvent: {}
+[24.484428] (-) TimerEvent: {}
+[24.584730] (-) TimerEvent: {}
+[24.622513] (fairino_hardware) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[24.622723] (fairino_hardware) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ljw2/fairno5/src/fairino_hardware/include/;/home/ljw2/fairno5/src/fairino_hardware/;/home/ljw2/fairno5/src/fairino_hardware/examples/include;$<BUILD_INTERFACE:/home/ljw2/fairno5/src/fairino_hardware/include>;$<BUILD_INTERFACE:/home/ljw2/fairno5/src/fairino_hardware/>\n'}
+[24.622763] (fairino_hardware) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[24.623088] (fairino_hardware) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[24.623897] (fairino_hardware) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[24.623985] (fairino_hardware) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[24.624127] (fairino_hardware) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[24.625010] (fairino_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.636197] (fairino_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[24.640797] (fairino_hardware) StdoutLine: {'line': b'-- Build files have been written to: /home/ljw2/fairno5/build/fairino_hardware\n'}
+[24.658436] (fairino_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fairino_hardware\x1b[0m\n'}
+[24.658745] (fairino_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target srv_test_client\x1b[0m\n'}
+[24.658793] (fairino_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_cmd_server\x1b[0m\n'}
+[24.670277] (fairino_hardware) StdoutLine: {'line': b'[ 50%] Built target fairino_hardware\n'}
+[24.670476] (fairino_hardware) StdoutLine: {'line': b'[ 62%] Built target srv_test_client\n'}
+[24.670595] (fairino_hardware) StdoutLine: {'line': b'[100%] Built target ros2_cmd_server\n'}
+[24.677405] (fairino_hardware) CommandEnded: {'returncode': 0}
+[24.678641] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'install'}
+[24.678671] (fairino_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ljw2/fairno5/build/fairino_hardware'], 'cwd': '/home/ljw2/fairno5/build/fairino_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_hardware'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[24.682974] (fairino_hardware) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[24.683058] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/fairino_hardware.xml\n'}
+[24.684238] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server\n'}
+[24.684873] (-) TimerEvent: {}
+[24.691290] (fairino_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/ljw2/fairno5/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server" to "$ORIGIN"\n'}
+[24.691378] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/lib/fairino_hardware/srv_test_client\n'}
+[24.691474] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/lib/fairino_hardware/libfairino_hardware.so\n'}
+[24.691725] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/library_path.sh\n'}
+[24.691930] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/library_path.dsv\n'}
+[24.692218] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/package_run_dependencies/fairino_hardware\n'}
+[24.692274] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/parent_prefix_path/fairino_hardware\n'}
+[24.692307] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.sh\n'}
+[24.692421] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.dsv\n'}
+[24.692466] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/path.sh\n'}
+[24.692494] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/path.dsv\n'}
+[24.692522] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.bash\n'}
+[24.692547] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.sh\n'}
+[24.692573] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.zsh\n'}
+[24.692604] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.dsv\n'}
+[24.692631] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/package.dsv\n'}
+[24.692653] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/packages/fairino_hardware\n'}
+[24.692676] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/fairino_hardware\n'}
+[24.692699] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport.cmake\n'}
+[24.692722] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport-release.cmake\n'}
+[24.692745] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.692768] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.692791] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig.cmake\n'}
+[24.692813] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig-version.cmake\n'}
+[24.692835] (fairino_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/package.xml\n'}
+[24.694516] (fairino_hardware) CommandEnded: {'returncode': 0}
+[24.701107] (fairino_hardware) JobEnded: {'identifier': 'fairino_hardware', 'rc': 0}
+[24.701810] (-) EventReactorShutdown: {}

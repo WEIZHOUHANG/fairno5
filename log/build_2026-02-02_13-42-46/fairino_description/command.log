@@ -1,0 +1,4 @@
+Invoking command in '/home/ljw2/fairno5/build/fairino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ljw2/fairno5/build/fairino_description -- -j24 -l24
+Invoked command in '/home/ljw2/fairno5/build/fairino_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ljw2/fairno5/build/fairino_description -- -j24 -l24
+Invoking command in '/home/ljw2/fairno5/build/fairino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ljw2/fairno5/build/fairino_description
+Invoked command in '/home/ljw2/fairno5/build/fairino_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ljw2/fairno5/build/fairino_description

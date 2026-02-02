@@ -63,7 +63,10 @@ CMakeFiles/fairino_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesuppo
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   rosidl_generator_c/fairino_msgs/msg/rosidl_generator_c__visibility_control.h \
-  rosidl_generator_c/fairino_msgs/msg/detail/robot_nonrt_state__struct.h
+  rosidl_generator_c/fairino_msgs/msg/detail/robot_nonrt_state__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
 CMakeFiles/fairino_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c.o: rosidl_typesupport_introspection_c/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c \
   /usr/include/stdc-predef.h \

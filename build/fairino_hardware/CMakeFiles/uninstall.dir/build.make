@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljw/ws_fr5/src/fairino_hardware
+CMAKE_SOURCE_DIR = /home/ljw2/fairno5/src/fairino_hardware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljw/ws_fr5/build/fairino_hardware
+CMAKE_BINARY_DIR = /home/ljw2/fairno5/build/fairino_hardware
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ljw/ws_fr5/build/fairino_hardware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljw/ws_fr5/src/fairino_hardware /home/ljw/ws_fr5/src/fairino_hardware /home/ljw/ws_fr5/build/fairino_hardware /home/ljw/ws_fr5/build/fairino_hardware /home/ljw/ws_fr5/build/fairino_hardware/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ljw2/fairno5/build/fairino_hardware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ljw2/fairno5/src/fairino_hardware /home/ljw2/fairno5/src/fairino_hardware /home/ljw2/fairno5/build/fairino_hardware /home/ljw2/fairno5/build/fairino_hardware /home/ljw2/fairno5/build/fairino_hardware/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

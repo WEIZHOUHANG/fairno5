@@ -11,23 +11,28 @@
 #include "rcutils/allocator.h"
 
 
+// Include directives for member types
+// Member `prg_name`
+#include "rosidl_runtime_c/string_functions.h"
+
 bool
 fairino_msgs__msg__RobotNonrtState__init(fairino_msgs__msg__RobotNonrtState * msg)
 {
   if (!msg) {
     return false;
   }
-  // prg_state
-  // rbt_state
-  // rbt_main_code
-  // rbt_sub_code
-  // robot_mode
   // j1_cur_pos
   // j2_cur_pos
   // j3_cur_pos
   // j4_cur_pos
   // j5_cur_pos
   // j6_cur_pos
+  // j1_cur_tor
+  // j2_cur_tor
+  // j3_cur_tor
+  // j4_cur_tor
+  // j5_cur_tor
+  // j6_cur_tor
   // cart_x_cur_pos
   // cart_y_cur_pos
   // cart_z_cur_pos
@@ -40,57 +45,10 @@ fairino_msgs__msg__RobotNonrtState__init(fairino_msgs__msg__RobotNonrtState * ms
   // flange_a_cur_pos
   // flange_b_cur_pos
   // flange_c_cur_pos
-  // j1_actual_qd
-  // j2_actual_qd
-  // j3_actual_qd
-  // j4_actual_qd
-  // j5_actual_qd
-  // j6_actual_qd
-  // j1_actual_qdd
-  // j2_actual_qdd
-  // j3_actual_qdd
-  // j4_actual_qdd
-  // j5_actual_qdd
-  // j6_actual_qdd
-  // cart_lin_cmd_speed
-  // cart_rot_cmd_speed
-  // cart_x_cmd_speed
-  // cart_y_cmd_speed
-  // cart_z_cmd_speed
-  // cart_a_cmd_speed
-  // cart_b_cmd_speed
-  // cart_c_cmd_speed
-  // cart_lin_cur_speed
-  // cart_rot_cur_speed
-  // cart_x_cur_speed
-  // cart_y_cur_speed
-  // cart_z_cur_speed
-  // cart_a_cur_speed
-  // cart_b_cur_speed
-  // cart_c_cur_speed
-  // j1_cur_tor
-  // j2_cur_tor
-  // j3_cur_tor
-  // j4_cur_tor
-  // j5_cur_tor
-  // j6_cur_tor
-  // tool_num
-  // work_num
-  // dgt_output_h
-  // dgt_output_l
-  // tl_dgt_output_l
-  // dgt_input_h
-  // dgt_input_l
-  // tl_dgt_input_l
-  // cl_analog_input_1
-  // cl_analog_input_2
-  // tl_anglog_input
-  // ft_fx_raw_data
-  // ft_fy_raw_data
-  // ft_fz_raw_data
-  // ft_tx_raw_data
-  // ft_ty_raw_data
-  // ft_tz_raw_data
+  // exaxispos1
+  // exaxispos2
+  // exaxispos3
+  // exaxispos4
   // ft_fx_data
   // ft_fy_data
   // ft_fz_data
@@ -98,105 +56,31 @@ fairino_msgs__msg__RobotNonrtState__init(fairino_msgs__msg__RobotNonrtState * ms
   // ft_ty_data
   // ft_tz_data
   // ft_actstatus
+  // robot_mode
+  // tool_num
+  // work_num
+  // prg_state
+  // abnormal_stop
+  // prg_name
+  if (!rosidl_runtime_c__String__init(&msg->prg_name)) {
+    fairino_msgs__msg__RobotNonrtState__fini(msg);
+    return false;
+  }
+  // prg_total_line
+  // prg_cur_line
+  // dgt_output_h
+  // dgt_output_l
+  // dgt_input_h
+  // dgt_input_l
+  // tl_dgt_output_l
+  // tl_dgt_input_l
   // emg
-  // motion_done
+  // safetyboxsig
+  // robot_motion_done
   // grip_motion_done
-  // mc_queue_len
-  // collision_err
-  // trajectory_pnum
-  // safety_stop1_state
-  // safety_stop2_state
-  // gripper_fault_id
-  // grippererro
-  // gripper_active
-  // gripper_position
-  // gripper_speed
-  // gripper_current
-  // gripper_temp
-  // gripper_voltage
-  // aux_servo_id
-  // aux_servo_err
-  // aux_servo_state
-  // aux_servo_pos
-  // aux_servo_vel
-  // aux_servo_torque
-  // ext_di_state_1
-  // ext_di_state_2
-  // ext_di_state_3
-  // ext_di_state_4
-  // ext_di_state_5
-  // ext_di_state_6
-  // ext_di_state_7
-  // ext_di_state_8
-  // ext_do_state_1
-  // ext_do_state_2
-  // ext_do_state_3
-  // ext_do_state_4
-  // ext_do_state_5
-  // ext_do_state_6
-  // ext_do_state_7
-  // ext_do_state_8
-  // ext_ai_state_1
-  // ext_ai_state_2
-  // ext_ai_state_3
-  // ext_ai_state_4
-  // ext_ao_state_1
-  // ext_ao_state_2
-  // ext_ao_state_3
-  // ext_ao_state_4
-  // rbt_enable_state
-  // end_lua_err_code
-  // cl_analog_output_1
-  // cl_analog_output_2
-  // tl_analog_output
-  // gripper_rot_num
-  // gripper_rot_speed
-  // gripper_rot_torque
-  // weldbreakoffstate
-  // weldarcstate
-  // j1_tgt_tor
-  // j2_tgt_tor
-  // j3_tgt_tor
-  // j4_tgt_tor
-  // j5_tgt_tor
-  // j6_tgt_tor
-  // jwide_voltage_ctrl_box_temp
-  // wide_voltage_ctrl_box_fan_current
-  // tool_coord_x
-  // tool_coord_y
-  // tool_coord_z
-  // tool_coord_a
-  // tool_coord_b
-  // tool_coord_c
-  // wobj_coord_x
-  // wobj_coord_y
-  // wobj_coord_z
-  // wobj_coord_a
-  // wobj_coord_b
-  // wobj_coord_c
-  // ex_tool_coord_x
-  // ex_tool_coord_y
-  // ex_tool_coord_z
-  // ex_tool_coord_a
-  // ex_tool_coord_b
-  // ex_tool_coord_c
-  // ex_axis_coord_x
-  // ex_axis_coord_y
-  // ex_axis_coord_z
-  // ex_axis_coord_a
-  // ex_axis_coord_b
-  // ex_axis_coord_c
-  // load
-  // load_cog_x
-  // load_cog_y
-  // load_cog_z
-  // j1_last_servoj_target
-  // j2_last_servoj_target
-  // j3_last_servoj_target
-  // j4_last_servoj_target
-  // j5_last_servoj_target
-  // j6_last_servoj_target
-  // servoj_cmd_num
+  // error_code
+  // check_sum
+  // timestamp
   return true;
 }
 
@@ -206,17 +90,18 @@ fairino_msgs__msg__RobotNonrtState__fini(fairino_msgs__msg__RobotNonrtState * ms
   if (!msg) {
     return;
   }
-  // prg_state
-  // rbt_state
-  // rbt_main_code
-  // rbt_sub_code
-  // robot_mode
   // j1_cur_pos
   // j2_cur_pos
   // j3_cur_pos
   // j4_cur_pos
   // j5_cur_pos
   // j6_cur_pos
+  // j1_cur_tor
+  // j2_cur_tor
+  // j3_cur_tor
+  // j4_cur_tor
+  // j5_cur_tor
+  // j6_cur_tor
   // cart_x_cur_pos
   // cart_y_cur_pos
   // cart_z_cur_pos
@@ -229,57 +114,10 @@ fairino_msgs__msg__RobotNonrtState__fini(fairino_msgs__msg__RobotNonrtState * ms
   // flange_a_cur_pos
   // flange_b_cur_pos
   // flange_c_cur_pos
-  // j1_actual_qd
-  // j2_actual_qd
-  // j3_actual_qd
-  // j4_actual_qd
-  // j5_actual_qd
-  // j6_actual_qd
-  // j1_actual_qdd
-  // j2_actual_qdd
-  // j3_actual_qdd
-  // j4_actual_qdd
-  // j5_actual_qdd
-  // j6_actual_qdd
-  // cart_lin_cmd_speed
-  // cart_rot_cmd_speed
-  // cart_x_cmd_speed
-  // cart_y_cmd_speed
-  // cart_z_cmd_speed
-  // cart_a_cmd_speed
-  // cart_b_cmd_speed
-  // cart_c_cmd_speed
-  // cart_lin_cur_speed
-  // cart_rot_cur_speed
-  // cart_x_cur_speed
-  // cart_y_cur_speed
-  // cart_z_cur_speed
-  // cart_a_cur_speed
-  // cart_b_cur_speed
-  // cart_c_cur_speed
-  // j1_cur_tor
-  // j2_cur_tor
-  // j3_cur_tor
-  // j4_cur_tor
-  // j5_cur_tor
-  // j6_cur_tor
-  // tool_num
-  // work_num
-  // dgt_output_h
-  // dgt_output_l
-  // tl_dgt_output_l
-  // dgt_input_h
-  // dgt_input_l
-  // tl_dgt_input_l
-  // cl_analog_input_1
-  // cl_analog_input_2
-  // tl_anglog_input
-  // ft_fx_raw_data
-  // ft_fy_raw_data
-  // ft_fz_raw_data
-  // ft_tx_raw_data
-  // ft_ty_raw_data
-  // ft_tz_raw_data
+  // exaxispos1
+  // exaxispos2
+  // exaxispos3
+  // exaxispos4
   // ft_fx_data
   // ft_fy_data
   // ft_fz_data
@@ -287,131 +125,34 @@ fairino_msgs__msg__RobotNonrtState__fini(fairino_msgs__msg__RobotNonrtState * ms
   // ft_ty_data
   // ft_tz_data
   // ft_actstatus
+  // robot_mode
+  // tool_num
+  // work_num
+  // prg_state
+  // abnormal_stop
+  // prg_name
+  rosidl_runtime_c__String__fini(&msg->prg_name);
+  // prg_total_line
+  // prg_cur_line
+  // dgt_output_h
+  // dgt_output_l
+  // dgt_input_h
+  // dgt_input_l
+  // tl_dgt_output_l
+  // tl_dgt_input_l
   // emg
-  // motion_done
+  // safetyboxsig
+  // robot_motion_done
   // grip_motion_done
-  // mc_queue_len
-  // collision_err
-  // trajectory_pnum
-  // safety_stop1_state
-  // safety_stop2_state
-  // gripper_fault_id
-  // grippererro
-  // gripper_active
-  // gripper_position
-  // gripper_speed
-  // gripper_current
-  // gripper_temp
-  // gripper_voltage
-  // aux_servo_id
-  // aux_servo_err
-  // aux_servo_state
-  // aux_servo_pos
-  // aux_servo_vel
-  // aux_servo_torque
-  // ext_di_state_1
-  // ext_di_state_2
-  // ext_di_state_3
-  // ext_di_state_4
-  // ext_di_state_5
-  // ext_di_state_6
-  // ext_di_state_7
-  // ext_di_state_8
-  // ext_do_state_1
-  // ext_do_state_2
-  // ext_do_state_3
-  // ext_do_state_4
-  // ext_do_state_5
-  // ext_do_state_6
-  // ext_do_state_7
-  // ext_do_state_8
-  // ext_ai_state_1
-  // ext_ai_state_2
-  // ext_ai_state_3
-  // ext_ai_state_4
-  // ext_ao_state_1
-  // ext_ao_state_2
-  // ext_ao_state_3
-  // ext_ao_state_4
-  // rbt_enable_state
-  // end_lua_err_code
-  // cl_analog_output_1
-  // cl_analog_output_2
-  // tl_analog_output
-  // gripper_rot_num
-  // gripper_rot_speed
-  // gripper_rot_torque
-  // weldbreakoffstate
-  // weldarcstate
-  // j1_tgt_tor
-  // j2_tgt_tor
-  // j3_tgt_tor
-  // j4_tgt_tor
-  // j5_tgt_tor
-  // j6_tgt_tor
-  // jwide_voltage_ctrl_box_temp
-  // wide_voltage_ctrl_box_fan_current
-  // tool_coord_x
-  // tool_coord_y
-  // tool_coord_z
-  // tool_coord_a
-  // tool_coord_b
-  // tool_coord_c
-  // wobj_coord_x
-  // wobj_coord_y
-  // wobj_coord_z
-  // wobj_coord_a
-  // wobj_coord_b
-  // wobj_coord_c
-  // ex_tool_coord_x
-  // ex_tool_coord_y
-  // ex_tool_coord_z
-  // ex_tool_coord_a
-  // ex_tool_coord_b
-  // ex_tool_coord_c
-  // ex_axis_coord_x
-  // ex_axis_coord_y
-  // ex_axis_coord_z
-  // ex_axis_coord_a
-  // ex_axis_coord_b
-  // ex_axis_coord_c
-  // load
-  // load_cog_x
-  // load_cog_y
-  // load_cog_z
-  // j1_last_servoj_target
-  // j2_last_servoj_target
-  // j3_last_servoj_target
-  // j4_last_servoj_target
-  // j5_last_servoj_target
-  // j6_last_servoj_target
-  // servoj_cmd_num
+  // error_code
+  // check_sum
+  // timestamp
 }
 
 bool
 fairino_msgs__msg__RobotNonrtState__are_equal(const fairino_msgs__msg__RobotNonrtState * lhs, const fairino_msgs__msg__RobotNonrtState * rhs)
 {
   if (!lhs || !rhs) {
-    return false;
-  }
-  // prg_state
-  if (lhs->prg_state != rhs->prg_state) {
-    return false;
-  }
-  // rbt_state
-  if (lhs->rbt_state != rhs->rbt_state) {
-    return false;
-  }
-  // rbt_main_code
-  if (lhs->rbt_main_code != rhs->rbt_main_code) {
-    return false;
-  }
-  // rbt_sub_code
-  if (lhs->rbt_sub_code != rhs->rbt_sub_code) {
-    return false;
-  }
-  // robot_mode
-  if (lhs->robot_mode != rhs->robot_mode) {
     return false;
   }
   // j1_cur_pos
@@ -436,6 +177,30 @@ fairino_msgs__msg__RobotNonrtState__are_equal(const fairino_msgs__msg__RobotNonr
   }
   // j6_cur_pos
   if (lhs->j6_cur_pos != rhs->j6_cur_pos) {
+    return false;
+  }
+  // j1_cur_tor
+  if (lhs->j1_cur_tor != rhs->j1_cur_tor) {
+    return false;
+  }
+  // j2_cur_tor
+  if (lhs->j2_cur_tor != rhs->j2_cur_tor) {
+    return false;
+  }
+  // j3_cur_tor
+  if (lhs->j3_cur_tor != rhs->j3_cur_tor) {
+    return false;
+  }
+  // j4_cur_tor
+  if (lhs->j4_cur_tor != rhs->j4_cur_tor) {
+    return false;
+  }
+  // j5_cur_tor
+  if (lhs->j5_cur_tor != rhs->j5_cur_tor) {
+    return false;
+  }
+  // j6_cur_tor
+  if (lhs->j6_cur_tor != rhs->j6_cur_tor) {
     return false;
   }
   // cart_x_cur_pos
@@ -486,208 +251,20 @@ fairino_msgs__msg__RobotNonrtState__are_equal(const fairino_msgs__msg__RobotNonr
   if (lhs->flange_c_cur_pos != rhs->flange_c_cur_pos) {
     return false;
   }
-  // j1_actual_qd
-  if (lhs->j1_actual_qd != rhs->j1_actual_qd) {
+  // exaxispos1
+  if (lhs->exaxispos1 != rhs->exaxispos1) {
     return false;
   }
-  // j2_actual_qd
-  if (lhs->j2_actual_qd != rhs->j2_actual_qd) {
+  // exaxispos2
+  if (lhs->exaxispos2 != rhs->exaxispos2) {
     return false;
   }
-  // j3_actual_qd
-  if (lhs->j3_actual_qd != rhs->j3_actual_qd) {
+  // exaxispos3
+  if (lhs->exaxispos3 != rhs->exaxispos3) {
     return false;
   }
-  // j4_actual_qd
-  if (lhs->j4_actual_qd != rhs->j4_actual_qd) {
-    return false;
-  }
-  // j5_actual_qd
-  if (lhs->j5_actual_qd != rhs->j5_actual_qd) {
-    return false;
-  }
-  // j6_actual_qd
-  if (lhs->j6_actual_qd != rhs->j6_actual_qd) {
-    return false;
-  }
-  // j1_actual_qdd
-  if (lhs->j1_actual_qdd != rhs->j1_actual_qdd) {
-    return false;
-  }
-  // j2_actual_qdd
-  if (lhs->j2_actual_qdd != rhs->j2_actual_qdd) {
-    return false;
-  }
-  // j3_actual_qdd
-  if (lhs->j3_actual_qdd != rhs->j3_actual_qdd) {
-    return false;
-  }
-  // j4_actual_qdd
-  if (lhs->j4_actual_qdd != rhs->j4_actual_qdd) {
-    return false;
-  }
-  // j5_actual_qdd
-  if (lhs->j5_actual_qdd != rhs->j5_actual_qdd) {
-    return false;
-  }
-  // j6_actual_qdd
-  if (lhs->j6_actual_qdd != rhs->j6_actual_qdd) {
-    return false;
-  }
-  // cart_lin_cmd_speed
-  if (lhs->cart_lin_cmd_speed != rhs->cart_lin_cmd_speed) {
-    return false;
-  }
-  // cart_rot_cmd_speed
-  if (lhs->cart_rot_cmd_speed != rhs->cart_rot_cmd_speed) {
-    return false;
-  }
-  // cart_x_cmd_speed
-  if (lhs->cart_x_cmd_speed != rhs->cart_x_cmd_speed) {
-    return false;
-  }
-  // cart_y_cmd_speed
-  if (lhs->cart_y_cmd_speed != rhs->cart_y_cmd_speed) {
-    return false;
-  }
-  // cart_z_cmd_speed
-  if (lhs->cart_z_cmd_speed != rhs->cart_z_cmd_speed) {
-    return false;
-  }
-  // cart_a_cmd_speed
-  if (lhs->cart_a_cmd_speed != rhs->cart_a_cmd_speed) {
-    return false;
-  }
-  // cart_b_cmd_speed
-  if (lhs->cart_b_cmd_speed != rhs->cart_b_cmd_speed) {
-    return false;
-  }
-  // cart_c_cmd_speed
-  if (lhs->cart_c_cmd_speed != rhs->cart_c_cmd_speed) {
-    return false;
-  }
-  // cart_lin_cur_speed
-  if (lhs->cart_lin_cur_speed != rhs->cart_lin_cur_speed) {
-    return false;
-  }
-  // cart_rot_cur_speed
-  if (lhs->cart_rot_cur_speed != rhs->cart_rot_cur_speed) {
-    return false;
-  }
-  // cart_x_cur_speed
-  if (lhs->cart_x_cur_speed != rhs->cart_x_cur_speed) {
-    return false;
-  }
-  // cart_y_cur_speed
-  if (lhs->cart_y_cur_speed != rhs->cart_y_cur_speed) {
-    return false;
-  }
-  // cart_z_cur_speed
-  if (lhs->cart_z_cur_speed != rhs->cart_z_cur_speed) {
-    return false;
-  }
-  // cart_a_cur_speed
-  if (lhs->cart_a_cur_speed != rhs->cart_a_cur_speed) {
-    return false;
-  }
-  // cart_b_cur_speed
-  if (lhs->cart_b_cur_speed != rhs->cart_b_cur_speed) {
-    return false;
-  }
-  // cart_c_cur_speed
-  if (lhs->cart_c_cur_speed != rhs->cart_c_cur_speed) {
-    return false;
-  }
-  // j1_cur_tor
-  if (lhs->j1_cur_tor != rhs->j1_cur_tor) {
-    return false;
-  }
-  // j2_cur_tor
-  if (lhs->j2_cur_tor != rhs->j2_cur_tor) {
-    return false;
-  }
-  // j3_cur_tor
-  if (lhs->j3_cur_tor != rhs->j3_cur_tor) {
-    return false;
-  }
-  // j4_cur_tor
-  if (lhs->j4_cur_tor != rhs->j4_cur_tor) {
-    return false;
-  }
-  // j5_cur_tor
-  if (lhs->j5_cur_tor != rhs->j5_cur_tor) {
-    return false;
-  }
-  // j6_cur_tor
-  if (lhs->j6_cur_tor != rhs->j6_cur_tor) {
-    return false;
-  }
-  // tool_num
-  if (lhs->tool_num != rhs->tool_num) {
-    return false;
-  }
-  // work_num
-  if (lhs->work_num != rhs->work_num) {
-    return false;
-  }
-  // dgt_output_h
-  if (lhs->dgt_output_h != rhs->dgt_output_h) {
-    return false;
-  }
-  // dgt_output_l
-  if (lhs->dgt_output_l != rhs->dgt_output_l) {
-    return false;
-  }
-  // tl_dgt_output_l
-  if (lhs->tl_dgt_output_l != rhs->tl_dgt_output_l) {
-    return false;
-  }
-  // dgt_input_h
-  if (lhs->dgt_input_h != rhs->dgt_input_h) {
-    return false;
-  }
-  // dgt_input_l
-  if (lhs->dgt_input_l != rhs->dgt_input_l) {
-    return false;
-  }
-  // tl_dgt_input_l
-  if (lhs->tl_dgt_input_l != rhs->tl_dgt_input_l) {
-    return false;
-  }
-  // cl_analog_input_1
-  if (lhs->cl_analog_input_1 != rhs->cl_analog_input_1) {
-    return false;
-  }
-  // cl_analog_input_2
-  if (lhs->cl_analog_input_2 != rhs->cl_analog_input_2) {
-    return false;
-  }
-  // tl_anglog_input
-  if (lhs->tl_anglog_input != rhs->tl_anglog_input) {
-    return false;
-  }
-  // ft_fx_raw_data
-  if (lhs->ft_fx_raw_data != rhs->ft_fx_raw_data) {
-    return false;
-  }
-  // ft_fy_raw_data
-  if (lhs->ft_fy_raw_data != rhs->ft_fy_raw_data) {
-    return false;
-  }
-  // ft_fz_raw_data
-  if (lhs->ft_fz_raw_data != rhs->ft_fz_raw_data) {
-    return false;
-  }
-  // ft_tx_raw_data
-  if (lhs->ft_tx_raw_data != rhs->ft_tx_raw_data) {
-    return false;
-  }
-  // ft_ty_raw_data
-  if (lhs->ft_ty_raw_data != rhs->ft_ty_raw_data) {
-    return false;
-  }
-  // ft_tz_raw_data
-  if (lhs->ft_tz_raw_data != rhs->ft_tz_raw_data) {
+  // exaxispos4
+  if (lhs->exaxispos4 != rhs->exaxispos4) {
     return false;
   }
   // ft_fx_data
@@ -718,400 +295,92 @@ fairino_msgs__msg__RobotNonrtState__are_equal(const fairino_msgs__msg__RobotNonr
   if (lhs->ft_actstatus != rhs->ft_actstatus) {
     return false;
   }
+  // robot_mode
+  if (lhs->robot_mode != rhs->robot_mode) {
+    return false;
+  }
+  // tool_num
+  if (lhs->tool_num != rhs->tool_num) {
+    return false;
+  }
+  // work_num
+  if (lhs->work_num != rhs->work_num) {
+    return false;
+  }
+  // prg_state
+  if (lhs->prg_state != rhs->prg_state) {
+    return false;
+  }
+  // abnormal_stop
+  if (lhs->abnormal_stop != rhs->abnormal_stop) {
+    return false;
+  }
+  // prg_name
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->prg_name), &(rhs->prg_name)))
+  {
+    return false;
+  }
+  // prg_total_line
+  if (lhs->prg_total_line != rhs->prg_total_line) {
+    return false;
+  }
+  // prg_cur_line
+  if (lhs->prg_cur_line != rhs->prg_cur_line) {
+    return false;
+  }
+  // dgt_output_h
+  if (lhs->dgt_output_h != rhs->dgt_output_h) {
+    return false;
+  }
+  // dgt_output_l
+  if (lhs->dgt_output_l != rhs->dgt_output_l) {
+    return false;
+  }
+  // dgt_input_h
+  if (lhs->dgt_input_h != rhs->dgt_input_h) {
+    return false;
+  }
+  // dgt_input_l
+  if (lhs->dgt_input_l != rhs->dgt_input_l) {
+    return false;
+  }
+  // tl_dgt_output_l
+  if (lhs->tl_dgt_output_l != rhs->tl_dgt_output_l) {
+    return false;
+  }
+  // tl_dgt_input_l
+  if (lhs->tl_dgt_input_l != rhs->tl_dgt_input_l) {
+    return false;
+  }
   // emg
   if (lhs->emg != rhs->emg) {
     return false;
   }
-  // motion_done
-  if (lhs->motion_done != rhs->motion_done) {
+  // safetyboxsig
+  for (size_t i = 0; i < 6; ++i) {
+    if (lhs->safetyboxsig[i] != rhs->safetyboxsig[i]) {
+      return false;
+    }
+  }
+  // robot_motion_done
+  if (lhs->robot_motion_done != rhs->robot_motion_done) {
     return false;
   }
   // grip_motion_done
   if (lhs->grip_motion_done != rhs->grip_motion_done) {
     return false;
   }
-  // mc_queue_len
-  if (lhs->mc_queue_len != rhs->mc_queue_len) {
+  // error_code
+  if (lhs->error_code != rhs->error_code) {
     return false;
   }
-  // collision_err
-  if (lhs->collision_err != rhs->collision_err) {
+  // check_sum
+  if (lhs->check_sum != rhs->check_sum) {
     return false;
   }
-  // trajectory_pnum
-  if (lhs->trajectory_pnum != rhs->trajectory_pnum) {
-    return false;
-  }
-  // safety_stop1_state
-  if (lhs->safety_stop1_state != rhs->safety_stop1_state) {
-    return false;
-  }
-  // safety_stop2_state
-  if (lhs->safety_stop2_state != rhs->safety_stop2_state) {
-    return false;
-  }
-  // gripper_fault_id
-  if (lhs->gripper_fault_id != rhs->gripper_fault_id) {
-    return false;
-  }
-  // grippererro
-  if (lhs->grippererro != rhs->grippererro) {
-    return false;
-  }
-  // gripper_active
-  if (lhs->gripper_active != rhs->gripper_active) {
-    return false;
-  }
-  // gripper_position
-  if (lhs->gripper_position != rhs->gripper_position) {
-    return false;
-  }
-  // gripper_speed
-  if (lhs->gripper_speed != rhs->gripper_speed) {
-    return false;
-  }
-  // gripper_current
-  if (lhs->gripper_current != rhs->gripper_current) {
-    return false;
-  }
-  // gripper_temp
-  if (lhs->gripper_temp != rhs->gripper_temp) {
-    return false;
-  }
-  // gripper_voltage
-  if (lhs->gripper_voltage != rhs->gripper_voltage) {
-    return false;
-  }
-  // aux_servo_id
-  if (lhs->aux_servo_id != rhs->aux_servo_id) {
-    return false;
-  }
-  // aux_servo_err
-  if (lhs->aux_servo_err != rhs->aux_servo_err) {
-    return false;
-  }
-  // aux_servo_state
-  if (lhs->aux_servo_state != rhs->aux_servo_state) {
-    return false;
-  }
-  // aux_servo_pos
-  if (lhs->aux_servo_pos != rhs->aux_servo_pos) {
-    return false;
-  }
-  // aux_servo_vel
-  if (lhs->aux_servo_vel != rhs->aux_servo_vel) {
-    return false;
-  }
-  // aux_servo_torque
-  if (lhs->aux_servo_torque != rhs->aux_servo_torque) {
-    return false;
-  }
-  // ext_di_state_1
-  if (lhs->ext_di_state_1 != rhs->ext_di_state_1) {
-    return false;
-  }
-  // ext_di_state_2
-  if (lhs->ext_di_state_2 != rhs->ext_di_state_2) {
-    return false;
-  }
-  // ext_di_state_3
-  if (lhs->ext_di_state_3 != rhs->ext_di_state_3) {
-    return false;
-  }
-  // ext_di_state_4
-  if (lhs->ext_di_state_4 != rhs->ext_di_state_4) {
-    return false;
-  }
-  // ext_di_state_5
-  if (lhs->ext_di_state_5 != rhs->ext_di_state_5) {
-    return false;
-  }
-  // ext_di_state_6
-  if (lhs->ext_di_state_6 != rhs->ext_di_state_6) {
-    return false;
-  }
-  // ext_di_state_7
-  if (lhs->ext_di_state_7 != rhs->ext_di_state_7) {
-    return false;
-  }
-  // ext_di_state_8
-  if (lhs->ext_di_state_8 != rhs->ext_di_state_8) {
-    return false;
-  }
-  // ext_do_state_1
-  if (lhs->ext_do_state_1 != rhs->ext_do_state_1) {
-    return false;
-  }
-  // ext_do_state_2
-  if (lhs->ext_do_state_2 != rhs->ext_do_state_2) {
-    return false;
-  }
-  // ext_do_state_3
-  if (lhs->ext_do_state_3 != rhs->ext_do_state_3) {
-    return false;
-  }
-  // ext_do_state_4
-  if (lhs->ext_do_state_4 != rhs->ext_do_state_4) {
-    return false;
-  }
-  // ext_do_state_5
-  if (lhs->ext_do_state_5 != rhs->ext_do_state_5) {
-    return false;
-  }
-  // ext_do_state_6
-  if (lhs->ext_do_state_6 != rhs->ext_do_state_6) {
-    return false;
-  }
-  // ext_do_state_7
-  if (lhs->ext_do_state_7 != rhs->ext_do_state_7) {
-    return false;
-  }
-  // ext_do_state_8
-  if (lhs->ext_do_state_8 != rhs->ext_do_state_8) {
-    return false;
-  }
-  // ext_ai_state_1
-  if (lhs->ext_ai_state_1 != rhs->ext_ai_state_1) {
-    return false;
-  }
-  // ext_ai_state_2
-  if (lhs->ext_ai_state_2 != rhs->ext_ai_state_2) {
-    return false;
-  }
-  // ext_ai_state_3
-  if (lhs->ext_ai_state_3 != rhs->ext_ai_state_3) {
-    return false;
-  }
-  // ext_ai_state_4
-  if (lhs->ext_ai_state_4 != rhs->ext_ai_state_4) {
-    return false;
-  }
-  // ext_ao_state_1
-  if (lhs->ext_ao_state_1 != rhs->ext_ao_state_1) {
-    return false;
-  }
-  // ext_ao_state_2
-  if (lhs->ext_ao_state_2 != rhs->ext_ao_state_2) {
-    return false;
-  }
-  // ext_ao_state_3
-  if (lhs->ext_ao_state_3 != rhs->ext_ao_state_3) {
-    return false;
-  }
-  // ext_ao_state_4
-  if (lhs->ext_ao_state_4 != rhs->ext_ao_state_4) {
-    return false;
-  }
-  // rbt_enable_state
-  if (lhs->rbt_enable_state != rhs->rbt_enable_state) {
-    return false;
-  }
-  // end_lua_err_code
-  if (lhs->end_lua_err_code != rhs->end_lua_err_code) {
-    return false;
-  }
-  // cl_analog_output_1
-  if (lhs->cl_analog_output_1 != rhs->cl_analog_output_1) {
-    return false;
-  }
-  // cl_analog_output_2
-  if (lhs->cl_analog_output_2 != rhs->cl_analog_output_2) {
-    return false;
-  }
-  // tl_analog_output
-  if (lhs->tl_analog_output != rhs->tl_analog_output) {
-    return false;
-  }
-  // gripper_rot_num
-  if (lhs->gripper_rot_num != rhs->gripper_rot_num) {
-    return false;
-  }
-  // gripper_rot_speed
-  if (lhs->gripper_rot_speed != rhs->gripper_rot_speed) {
-    return false;
-  }
-  // gripper_rot_torque
-  if (lhs->gripper_rot_torque != rhs->gripper_rot_torque) {
-    return false;
-  }
-  // weldbreakoffstate
-  if (lhs->weldbreakoffstate != rhs->weldbreakoffstate) {
-    return false;
-  }
-  // weldarcstate
-  if (lhs->weldarcstate != rhs->weldarcstate) {
-    return false;
-  }
-  // j1_tgt_tor
-  if (lhs->j1_tgt_tor != rhs->j1_tgt_tor) {
-    return false;
-  }
-  // j2_tgt_tor
-  if (lhs->j2_tgt_tor != rhs->j2_tgt_tor) {
-    return false;
-  }
-  // j3_tgt_tor
-  if (lhs->j3_tgt_tor != rhs->j3_tgt_tor) {
-    return false;
-  }
-  // j4_tgt_tor
-  if (lhs->j4_tgt_tor != rhs->j4_tgt_tor) {
-    return false;
-  }
-  // j5_tgt_tor
-  if (lhs->j5_tgt_tor != rhs->j5_tgt_tor) {
-    return false;
-  }
-  // j6_tgt_tor
-  if (lhs->j6_tgt_tor != rhs->j6_tgt_tor) {
-    return false;
-  }
-  // jwide_voltage_ctrl_box_temp
-  if (lhs->jwide_voltage_ctrl_box_temp != rhs->jwide_voltage_ctrl_box_temp) {
-    return false;
-  }
-  // wide_voltage_ctrl_box_fan_current
-  if (lhs->wide_voltage_ctrl_box_fan_current != rhs->wide_voltage_ctrl_box_fan_current) {
-    return false;
-  }
-  // tool_coord_x
-  if (lhs->tool_coord_x != rhs->tool_coord_x) {
-    return false;
-  }
-  // tool_coord_y
-  if (lhs->tool_coord_y != rhs->tool_coord_y) {
-    return false;
-  }
-  // tool_coord_z
-  if (lhs->tool_coord_z != rhs->tool_coord_z) {
-    return false;
-  }
-  // tool_coord_a
-  if (lhs->tool_coord_a != rhs->tool_coord_a) {
-    return false;
-  }
-  // tool_coord_b
-  if (lhs->tool_coord_b != rhs->tool_coord_b) {
-    return false;
-  }
-  // tool_coord_c
-  if (lhs->tool_coord_c != rhs->tool_coord_c) {
-    return false;
-  }
-  // wobj_coord_x
-  if (lhs->wobj_coord_x != rhs->wobj_coord_x) {
-    return false;
-  }
-  // wobj_coord_y
-  if (lhs->wobj_coord_y != rhs->wobj_coord_y) {
-    return false;
-  }
-  // wobj_coord_z
-  if (lhs->wobj_coord_z != rhs->wobj_coord_z) {
-    return false;
-  }
-  // wobj_coord_a
-  if (lhs->wobj_coord_a != rhs->wobj_coord_a) {
-    return false;
-  }
-  // wobj_coord_b
-  if (lhs->wobj_coord_b != rhs->wobj_coord_b) {
-    return false;
-  }
-  // wobj_coord_c
-  if (lhs->wobj_coord_c != rhs->wobj_coord_c) {
-    return false;
-  }
-  // ex_tool_coord_x
-  if (lhs->ex_tool_coord_x != rhs->ex_tool_coord_x) {
-    return false;
-  }
-  // ex_tool_coord_y
-  if (lhs->ex_tool_coord_y != rhs->ex_tool_coord_y) {
-    return false;
-  }
-  // ex_tool_coord_z
-  if (lhs->ex_tool_coord_z != rhs->ex_tool_coord_z) {
-    return false;
-  }
-  // ex_tool_coord_a
-  if (lhs->ex_tool_coord_a != rhs->ex_tool_coord_a) {
-    return false;
-  }
-  // ex_tool_coord_b
-  if (lhs->ex_tool_coord_b != rhs->ex_tool_coord_b) {
-    return false;
-  }
-  // ex_tool_coord_c
-  if (lhs->ex_tool_coord_c != rhs->ex_tool_coord_c) {
-    return false;
-  }
-  // ex_axis_coord_x
-  if (lhs->ex_axis_coord_x != rhs->ex_axis_coord_x) {
-    return false;
-  }
-  // ex_axis_coord_y
-  if (lhs->ex_axis_coord_y != rhs->ex_axis_coord_y) {
-    return false;
-  }
-  // ex_axis_coord_z
-  if (lhs->ex_axis_coord_z != rhs->ex_axis_coord_z) {
-    return false;
-  }
-  // ex_axis_coord_a
-  if (lhs->ex_axis_coord_a != rhs->ex_axis_coord_a) {
-    return false;
-  }
-  // ex_axis_coord_b
-  if (lhs->ex_axis_coord_b != rhs->ex_axis_coord_b) {
-    return false;
-  }
-  // ex_axis_coord_c
-  if (lhs->ex_axis_coord_c != rhs->ex_axis_coord_c) {
-    return false;
-  }
-  // load
-  if (lhs->load != rhs->load) {
-    return false;
-  }
-  // load_cog_x
-  if (lhs->load_cog_x != rhs->load_cog_x) {
-    return false;
-  }
-  // load_cog_y
-  if (lhs->load_cog_y != rhs->load_cog_y) {
-    return false;
-  }
-  // load_cog_z
-  if (lhs->load_cog_z != rhs->load_cog_z) {
-    return false;
-  }
-  // j1_last_servoj_target
-  if (lhs->j1_last_servoj_target != rhs->j1_last_servoj_target) {
-    return false;
-  }
-  // j2_last_servoj_target
-  if (lhs->j2_last_servoj_target != rhs->j2_last_servoj_target) {
-    return false;
-  }
-  // j3_last_servoj_target
-  if (lhs->j3_last_servoj_target != rhs->j3_last_servoj_target) {
-    return false;
-  }
-  // j4_last_servoj_target
-  if (lhs->j4_last_servoj_target != rhs->j4_last_servoj_target) {
-    return false;
-  }
-  // j5_last_servoj_target
-  if (lhs->j5_last_servoj_target != rhs->j5_last_servoj_target) {
-    return false;
-  }
-  // j6_last_servoj_target
-  if (lhs->j6_last_servoj_target != rhs->j6_last_servoj_target) {
-    return false;
-  }
-  // servoj_cmd_num
-  if (lhs->servoj_cmd_num != rhs->servoj_cmd_num) {
+  // timestamp
+  if (lhs->timestamp != rhs->timestamp) {
     return false;
   }
   return true;
@@ -1125,16 +394,6 @@ fairino_msgs__msg__RobotNonrtState__copy(
   if (!input || !output) {
     return false;
   }
-  // prg_state
-  output->prg_state = input->prg_state;
-  // rbt_state
-  output->rbt_state = input->rbt_state;
-  // rbt_main_code
-  output->rbt_main_code = input->rbt_main_code;
-  // rbt_sub_code
-  output->rbt_sub_code = input->rbt_sub_code;
-  // robot_mode
-  output->robot_mode = input->robot_mode;
   // j1_cur_pos
   output->j1_cur_pos = input->j1_cur_pos;
   // j2_cur_pos
@@ -1147,6 +406,18 @@ fairino_msgs__msg__RobotNonrtState__copy(
   output->j5_cur_pos = input->j5_cur_pos;
   // j6_cur_pos
   output->j6_cur_pos = input->j6_cur_pos;
+  // j1_cur_tor
+  output->j1_cur_tor = input->j1_cur_tor;
+  // j2_cur_tor
+  output->j2_cur_tor = input->j2_cur_tor;
+  // j3_cur_tor
+  output->j3_cur_tor = input->j3_cur_tor;
+  // j4_cur_tor
+  output->j4_cur_tor = input->j4_cur_tor;
+  // j5_cur_tor
+  output->j5_cur_tor = input->j5_cur_tor;
+  // j6_cur_tor
+  output->j6_cur_tor = input->j6_cur_tor;
   // cart_x_cur_pos
   output->cart_x_cur_pos = input->cart_x_cur_pos;
   // cart_y_cur_pos
@@ -1171,108 +442,14 @@ fairino_msgs__msg__RobotNonrtState__copy(
   output->flange_b_cur_pos = input->flange_b_cur_pos;
   // flange_c_cur_pos
   output->flange_c_cur_pos = input->flange_c_cur_pos;
-  // j1_actual_qd
-  output->j1_actual_qd = input->j1_actual_qd;
-  // j2_actual_qd
-  output->j2_actual_qd = input->j2_actual_qd;
-  // j3_actual_qd
-  output->j3_actual_qd = input->j3_actual_qd;
-  // j4_actual_qd
-  output->j4_actual_qd = input->j4_actual_qd;
-  // j5_actual_qd
-  output->j5_actual_qd = input->j5_actual_qd;
-  // j6_actual_qd
-  output->j6_actual_qd = input->j6_actual_qd;
-  // j1_actual_qdd
-  output->j1_actual_qdd = input->j1_actual_qdd;
-  // j2_actual_qdd
-  output->j2_actual_qdd = input->j2_actual_qdd;
-  // j3_actual_qdd
-  output->j3_actual_qdd = input->j3_actual_qdd;
-  // j4_actual_qdd
-  output->j4_actual_qdd = input->j4_actual_qdd;
-  // j5_actual_qdd
-  output->j5_actual_qdd = input->j5_actual_qdd;
-  // j6_actual_qdd
-  output->j6_actual_qdd = input->j6_actual_qdd;
-  // cart_lin_cmd_speed
-  output->cart_lin_cmd_speed = input->cart_lin_cmd_speed;
-  // cart_rot_cmd_speed
-  output->cart_rot_cmd_speed = input->cart_rot_cmd_speed;
-  // cart_x_cmd_speed
-  output->cart_x_cmd_speed = input->cart_x_cmd_speed;
-  // cart_y_cmd_speed
-  output->cart_y_cmd_speed = input->cart_y_cmd_speed;
-  // cart_z_cmd_speed
-  output->cart_z_cmd_speed = input->cart_z_cmd_speed;
-  // cart_a_cmd_speed
-  output->cart_a_cmd_speed = input->cart_a_cmd_speed;
-  // cart_b_cmd_speed
-  output->cart_b_cmd_speed = input->cart_b_cmd_speed;
-  // cart_c_cmd_speed
-  output->cart_c_cmd_speed = input->cart_c_cmd_speed;
-  // cart_lin_cur_speed
-  output->cart_lin_cur_speed = input->cart_lin_cur_speed;
-  // cart_rot_cur_speed
-  output->cart_rot_cur_speed = input->cart_rot_cur_speed;
-  // cart_x_cur_speed
-  output->cart_x_cur_speed = input->cart_x_cur_speed;
-  // cart_y_cur_speed
-  output->cart_y_cur_speed = input->cart_y_cur_speed;
-  // cart_z_cur_speed
-  output->cart_z_cur_speed = input->cart_z_cur_speed;
-  // cart_a_cur_speed
-  output->cart_a_cur_speed = input->cart_a_cur_speed;
-  // cart_b_cur_speed
-  output->cart_b_cur_speed = input->cart_b_cur_speed;
-  // cart_c_cur_speed
-  output->cart_c_cur_speed = input->cart_c_cur_speed;
-  // j1_cur_tor
-  output->j1_cur_tor = input->j1_cur_tor;
-  // j2_cur_tor
-  output->j2_cur_tor = input->j2_cur_tor;
-  // j3_cur_tor
-  output->j3_cur_tor = input->j3_cur_tor;
-  // j4_cur_tor
-  output->j4_cur_tor = input->j4_cur_tor;
-  // j5_cur_tor
-  output->j5_cur_tor = input->j5_cur_tor;
-  // j6_cur_tor
-  output->j6_cur_tor = input->j6_cur_tor;
-  // tool_num
-  output->tool_num = input->tool_num;
-  // work_num
-  output->work_num = input->work_num;
-  // dgt_output_h
-  output->dgt_output_h = input->dgt_output_h;
-  // dgt_output_l
-  output->dgt_output_l = input->dgt_output_l;
-  // tl_dgt_output_l
-  output->tl_dgt_output_l = input->tl_dgt_output_l;
-  // dgt_input_h
-  output->dgt_input_h = input->dgt_input_h;
-  // dgt_input_l
-  output->dgt_input_l = input->dgt_input_l;
-  // tl_dgt_input_l
-  output->tl_dgt_input_l = input->tl_dgt_input_l;
-  // cl_analog_input_1
-  output->cl_analog_input_1 = input->cl_analog_input_1;
-  // cl_analog_input_2
-  output->cl_analog_input_2 = input->cl_analog_input_2;
-  // tl_anglog_input
-  output->tl_anglog_input = input->tl_anglog_input;
-  // ft_fx_raw_data
-  output->ft_fx_raw_data = input->ft_fx_raw_data;
-  // ft_fy_raw_data
-  output->ft_fy_raw_data = input->ft_fy_raw_data;
-  // ft_fz_raw_data
-  output->ft_fz_raw_data = input->ft_fz_raw_data;
-  // ft_tx_raw_data
-  output->ft_tx_raw_data = input->ft_tx_raw_data;
-  // ft_ty_raw_data
-  output->ft_ty_raw_data = input->ft_ty_raw_data;
-  // ft_tz_raw_data
-  output->ft_tz_raw_data = input->ft_tz_raw_data;
+  // exaxispos1
+  output->exaxispos1 = input->exaxispos1;
+  // exaxispos2
+  output->exaxispos2 = input->exaxispos2;
+  // exaxispos3
+  output->exaxispos3 = input->exaxispos3;
+  // exaxispos4
+  output->exaxispos4 = input->exaxispos4;
   // ft_fx_data
   output->ft_fx_data = input->ft_fx_data;
   // ft_fy_data
@@ -1287,204 +464,54 @@ fairino_msgs__msg__RobotNonrtState__copy(
   output->ft_tz_data = input->ft_tz_data;
   // ft_actstatus
   output->ft_actstatus = input->ft_actstatus;
+  // robot_mode
+  output->robot_mode = input->robot_mode;
+  // tool_num
+  output->tool_num = input->tool_num;
+  // work_num
+  output->work_num = input->work_num;
+  // prg_state
+  output->prg_state = input->prg_state;
+  // abnormal_stop
+  output->abnormal_stop = input->abnormal_stop;
+  // prg_name
+  if (!rosidl_runtime_c__String__copy(
+      &(input->prg_name), &(output->prg_name)))
+  {
+    return false;
+  }
+  // prg_total_line
+  output->prg_total_line = input->prg_total_line;
+  // prg_cur_line
+  output->prg_cur_line = input->prg_cur_line;
+  // dgt_output_h
+  output->dgt_output_h = input->dgt_output_h;
+  // dgt_output_l
+  output->dgt_output_l = input->dgt_output_l;
+  // dgt_input_h
+  output->dgt_input_h = input->dgt_input_h;
+  // dgt_input_l
+  output->dgt_input_l = input->dgt_input_l;
+  // tl_dgt_output_l
+  output->tl_dgt_output_l = input->tl_dgt_output_l;
+  // tl_dgt_input_l
+  output->tl_dgt_input_l = input->tl_dgt_input_l;
   // emg
   output->emg = input->emg;
-  // motion_done
-  output->motion_done = input->motion_done;
+  // safetyboxsig
+  for (size_t i = 0; i < 6; ++i) {
+    output->safetyboxsig[i] = input->safetyboxsig[i];
+  }
+  // robot_motion_done
+  output->robot_motion_done = input->robot_motion_done;
   // grip_motion_done
   output->grip_motion_done = input->grip_motion_done;
-  // mc_queue_len
-  output->mc_queue_len = input->mc_queue_len;
-  // collision_err
-  output->collision_err = input->collision_err;
-  // trajectory_pnum
-  output->trajectory_pnum = input->trajectory_pnum;
-  // safety_stop1_state
-  output->safety_stop1_state = input->safety_stop1_state;
-  // safety_stop2_state
-  output->safety_stop2_state = input->safety_stop2_state;
-  // gripper_fault_id
-  output->gripper_fault_id = input->gripper_fault_id;
-  // grippererro
-  output->grippererro = input->grippererro;
-  // gripper_active
-  output->gripper_active = input->gripper_active;
-  // gripper_position
-  output->gripper_position = input->gripper_position;
-  // gripper_speed
-  output->gripper_speed = input->gripper_speed;
-  // gripper_current
-  output->gripper_current = input->gripper_current;
-  // gripper_temp
-  output->gripper_temp = input->gripper_temp;
-  // gripper_voltage
-  output->gripper_voltage = input->gripper_voltage;
-  // aux_servo_id
-  output->aux_servo_id = input->aux_servo_id;
-  // aux_servo_err
-  output->aux_servo_err = input->aux_servo_err;
-  // aux_servo_state
-  output->aux_servo_state = input->aux_servo_state;
-  // aux_servo_pos
-  output->aux_servo_pos = input->aux_servo_pos;
-  // aux_servo_vel
-  output->aux_servo_vel = input->aux_servo_vel;
-  // aux_servo_torque
-  output->aux_servo_torque = input->aux_servo_torque;
-  // ext_di_state_1
-  output->ext_di_state_1 = input->ext_di_state_1;
-  // ext_di_state_2
-  output->ext_di_state_2 = input->ext_di_state_2;
-  // ext_di_state_3
-  output->ext_di_state_3 = input->ext_di_state_3;
-  // ext_di_state_4
-  output->ext_di_state_4 = input->ext_di_state_4;
-  // ext_di_state_5
-  output->ext_di_state_5 = input->ext_di_state_5;
-  // ext_di_state_6
-  output->ext_di_state_6 = input->ext_di_state_6;
-  // ext_di_state_7
-  output->ext_di_state_7 = input->ext_di_state_7;
-  // ext_di_state_8
-  output->ext_di_state_8 = input->ext_di_state_8;
-  // ext_do_state_1
-  output->ext_do_state_1 = input->ext_do_state_1;
-  // ext_do_state_2
-  output->ext_do_state_2 = input->ext_do_state_2;
-  // ext_do_state_3
-  output->ext_do_state_3 = input->ext_do_state_3;
-  // ext_do_state_4
-  output->ext_do_state_4 = input->ext_do_state_4;
-  // ext_do_state_5
-  output->ext_do_state_5 = input->ext_do_state_5;
-  // ext_do_state_6
-  output->ext_do_state_6 = input->ext_do_state_6;
-  // ext_do_state_7
-  output->ext_do_state_7 = input->ext_do_state_7;
-  // ext_do_state_8
-  output->ext_do_state_8 = input->ext_do_state_8;
-  // ext_ai_state_1
-  output->ext_ai_state_1 = input->ext_ai_state_1;
-  // ext_ai_state_2
-  output->ext_ai_state_2 = input->ext_ai_state_2;
-  // ext_ai_state_3
-  output->ext_ai_state_3 = input->ext_ai_state_3;
-  // ext_ai_state_4
-  output->ext_ai_state_4 = input->ext_ai_state_4;
-  // ext_ao_state_1
-  output->ext_ao_state_1 = input->ext_ao_state_1;
-  // ext_ao_state_2
-  output->ext_ao_state_2 = input->ext_ao_state_2;
-  // ext_ao_state_3
-  output->ext_ao_state_3 = input->ext_ao_state_3;
-  // ext_ao_state_4
-  output->ext_ao_state_4 = input->ext_ao_state_4;
-  // rbt_enable_state
-  output->rbt_enable_state = input->rbt_enable_state;
-  // end_lua_err_code
-  output->end_lua_err_code = input->end_lua_err_code;
-  // cl_analog_output_1
-  output->cl_analog_output_1 = input->cl_analog_output_1;
-  // cl_analog_output_2
-  output->cl_analog_output_2 = input->cl_analog_output_2;
-  // tl_analog_output
-  output->tl_analog_output = input->tl_analog_output;
-  // gripper_rot_num
-  output->gripper_rot_num = input->gripper_rot_num;
-  // gripper_rot_speed
-  output->gripper_rot_speed = input->gripper_rot_speed;
-  // gripper_rot_torque
-  output->gripper_rot_torque = input->gripper_rot_torque;
-  // weldbreakoffstate
-  output->weldbreakoffstate = input->weldbreakoffstate;
-  // weldarcstate
-  output->weldarcstate = input->weldarcstate;
-  // j1_tgt_tor
-  output->j1_tgt_tor = input->j1_tgt_tor;
-  // j2_tgt_tor
-  output->j2_tgt_tor = input->j2_tgt_tor;
-  // j3_tgt_tor
-  output->j3_tgt_tor = input->j3_tgt_tor;
-  // j4_tgt_tor
-  output->j4_tgt_tor = input->j4_tgt_tor;
-  // j5_tgt_tor
-  output->j5_tgt_tor = input->j5_tgt_tor;
-  // j6_tgt_tor
-  output->j6_tgt_tor = input->j6_tgt_tor;
-  // jwide_voltage_ctrl_box_temp
-  output->jwide_voltage_ctrl_box_temp = input->jwide_voltage_ctrl_box_temp;
-  // wide_voltage_ctrl_box_fan_current
-  output->wide_voltage_ctrl_box_fan_current = input->wide_voltage_ctrl_box_fan_current;
-  // tool_coord_x
-  output->tool_coord_x = input->tool_coord_x;
-  // tool_coord_y
-  output->tool_coord_y = input->tool_coord_y;
-  // tool_coord_z
-  output->tool_coord_z = input->tool_coord_z;
-  // tool_coord_a
-  output->tool_coord_a = input->tool_coord_a;
-  // tool_coord_b
-  output->tool_coord_b = input->tool_coord_b;
-  // tool_coord_c
-  output->tool_coord_c = input->tool_coord_c;
-  // wobj_coord_x
-  output->wobj_coord_x = input->wobj_coord_x;
-  // wobj_coord_y
-  output->wobj_coord_y = input->wobj_coord_y;
-  // wobj_coord_z
-  output->wobj_coord_z = input->wobj_coord_z;
-  // wobj_coord_a
-  output->wobj_coord_a = input->wobj_coord_a;
-  // wobj_coord_b
-  output->wobj_coord_b = input->wobj_coord_b;
-  // wobj_coord_c
-  output->wobj_coord_c = input->wobj_coord_c;
-  // ex_tool_coord_x
-  output->ex_tool_coord_x = input->ex_tool_coord_x;
-  // ex_tool_coord_y
-  output->ex_tool_coord_y = input->ex_tool_coord_y;
-  // ex_tool_coord_z
-  output->ex_tool_coord_z = input->ex_tool_coord_z;
-  // ex_tool_coord_a
-  output->ex_tool_coord_a = input->ex_tool_coord_a;
-  // ex_tool_coord_b
-  output->ex_tool_coord_b = input->ex_tool_coord_b;
-  // ex_tool_coord_c
-  output->ex_tool_coord_c = input->ex_tool_coord_c;
-  // ex_axis_coord_x
-  output->ex_axis_coord_x = input->ex_axis_coord_x;
-  // ex_axis_coord_y
-  output->ex_axis_coord_y = input->ex_axis_coord_y;
-  // ex_axis_coord_z
-  output->ex_axis_coord_z = input->ex_axis_coord_z;
-  // ex_axis_coord_a
-  output->ex_axis_coord_a = input->ex_axis_coord_a;
-  // ex_axis_coord_b
-  output->ex_axis_coord_b = input->ex_axis_coord_b;
-  // ex_axis_coord_c
-  output->ex_axis_coord_c = input->ex_axis_coord_c;
-  // load
-  output->load = input->load;
-  // load_cog_x
-  output->load_cog_x = input->load_cog_x;
-  // load_cog_y
-  output->load_cog_y = input->load_cog_y;
-  // load_cog_z
-  output->load_cog_z = input->load_cog_z;
-  // j1_last_servoj_target
-  output->j1_last_servoj_target = input->j1_last_servoj_target;
-  // j2_last_servoj_target
-  output->j2_last_servoj_target = input->j2_last_servoj_target;
-  // j3_last_servoj_target
-  output->j3_last_servoj_target = input->j3_last_servoj_target;
-  // j4_last_servoj_target
-  output->j4_last_servoj_target = input->j4_last_servoj_target;
-  // j5_last_servoj_target
-  output->j5_last_servoj_target = input->j5_last_servoj_target;
-  // j6_last_servoj_target
-  output->j6_last_servoj_target = input->j6_last_servoj_target;
-  // servoj_cmd_num
-  output->servoj_cmd_num = input->servoj_cmd_num;
+  // error_code
+  output->error_code = input->error_code;
+  // check_sum
+  output->check_sum = input->check_sum;
+  // timestamp
+  output->timestamp = input->timestamp;
   return true;
 }
 

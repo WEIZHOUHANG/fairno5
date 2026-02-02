@@ -1,0 +1,862 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (-) JobUnselected: {'identifier': 'fairino5_v6_moveit2_config'}
+[0.000526] (-) JobUnselected: {'identifier': 'fairino_description'}
+[0.000556] (-) JobUnselected: {'identifier': 'fairino_msgs'}
+[0.000582] (-) JobUnselected: {'identifier': 'robotiq_2f_85_gripper_visualization'}
+[0.000636] (fairino_hardware) JobQueued: {'identifier': 'fairino_hardware', 'dependencies': OrderedDict([('fairino_msgs', '/home/ljw2/fairno5/install/fairino_msgs')])}
+[0.000672] (fairino_hardware) JobStarted: {'identifier': 'fairino_hardware'}
+[0.098809] (-) TimerEvent: {}
+[0.199286] (-) TimerEvent: {}
+[0.299792] (-) TimerEvent: {}
+[0.400279] (-) TimerEvent: {}
+[0.453906] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'cmake'}
+[0.455989] (fairino_hardware) Command: {'cmd': ['/usr/bin/cmake', '/home/ljw2/fairno5/src/fairino_hardware', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ljw2/fairno5/install/fairino_hardware'], 'cwd': '/home/ljw2/fairno5/build/fairino_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_hardware'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.500425] (-) TimerEvent: {}
+[0.600907] (-) TimerEvent: {}
+[0.701282] (-) TimerEvent: {}
+[0.801705] (-) TimerEvent: {}
+[0.869148] (fairino_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.901831] (-) TimerEvent: {}
+[1.002184] (-) TimerEvent: {}
+[1.102670] (-) TimerEvent: {}
+[1.203093] (-) TimerEvent: {}
+[1.303684] (-) TimerEvent: {}
+[1.404245] (-) TimerEvent: {}
+[1.504695] (-) TimerEvent: {}
+[1.605070] (-) TimerEvent: {}
+[1.705529] (-) TimerEvent: {}
+[1.806068] (-) TimerEvent: {}
+[1.906348] (-) TimerEvent: {}
+[2.006800] (-) TimerEvent: {}
+[2.107230] (-) TimerEvent: {}
+[2.207795] (-) TimerEvent: {}
+[2.308409] (-) TimerEvent: {}
+[2.409102] (-) TimerEvent: {}
+[2.509713] (-) TimerEvent: {}
+[2.610334] (-) TimerEvent: {}
+[2.710707] (-) TimerEvent: {}
+[2.811347] (-) TimerEvent: {}
+[2.911875] (-) TimerEvent: {}
+[3.012215] (-) TimerEvent: {}
+[3.087358] (fairino_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.112358] (-) TimerEvent: {}
+[3.212703] (-) TimerEvent: {}
+[3.313212] (-) TimerEvent: {}
+[3.413699] (-) TimerEvent: {}
+[3.514048] (-) TimerEvent: {}
+[3.614525] (-) TimerEvent: {}
+[3.715351] (-) TimerEvent: {}
+[3.815949] (-) TimerEvent: {}
+[3.916373] (-) TimerEvent: {}
+[4.016746] (-) TimerEvent: {}
+[4.117392] (-) TimerEvent: {}
+[4.217737] (-) TimerEvent: {}
+[4.318174] (-) TimerEvent: {}
+[4.418756] (-) TimerEvent: {}
+[4.466756] (fairino_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.518925] (-) TimerEvent: {}
+[4.619330] (-) TimerEvent: {}
+[4.719808] (-) TimerEvent: {}
+[4.789163] (fairino_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.794556] (fairino_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.795258] (fairino_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.796002] (fairino_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.800499] (fairino_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.819982] (-) TimerEvent: {}
+[4.920347] (-) TimerEvent: {}
+[5.020793] (-) TimerEvent: {}
+[5.121326] (-) TimerEvent: {}
+[5.221827] (-) TimerEvent: {}
+[5.322364] (-) TimerEvent: {}
+[5.418912] (fairino_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.422477] (-) TimerEvent: {}
+[5.427480] (fairino_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.427797] (fairino_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.428350] (fairino_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.449057] (fairino_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.522614] (-) TimerEvent: {}
+[5.567783] (fairino_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.621459] (fairino_hardware) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.622710] (-) TimerEvent: {}
+[5.664140] (fairino_hardware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.722822] (-) TimerEvent: {}
+[5.823196] (-) TimerEvent: {}
+[5.923562] (-) TimerEvent: {}
+[6.023935] (-) TimerEvent: {}
+[6.124335] (-) TimerEvent: {}
+[6.224935] (-) TimerEvent: {}
+[6.271214] (fairino_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.286491] (fairino_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.314355] (fairino_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.325016] (-) TimerEvent: {}
+[6.350729] (fairino_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.398500] (fairino_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.425123] (-) TimerEvent: {}
+[6.481849] (fairino_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.488249] (fairino_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.525305] (-) TimerEvent: {}
+[6.625708] (-) TimerEvent: {}
+[6.726152] (-) TimerEvent: {}
+[6.826555] (-) TimerEvent: {}
+[6.927052] (-) TimerEvent: {}
+[7.027579] (-) TimerEvent: {}
+[7.128104] (-) TimerEvent: {}
+[7.228534] (-) TimerEvent: {}
+[7.329111] (-) TimerEvent: {}
+[7.429725] (-) TimerEvent: {}
+[7.530295] (-) TimerEvent: {}
+[7.630908] (-) TimerEvent: {}
+[7.731402] (-) TimerEvent: {}
+[7.832032] (-) TimerEvent: {}
+[7.932535] (-) TimerEvent: {}
+[8.033039] (-) TimerEvent: {}
+[8.133392] (-) TimerEvent: {}
+[8.233751] (-) TimerEvent: {}
+[8.334086] (-) TimerEvent: {}
+[8.434585] (-) TimerEvent: {}
+[8.535174] (-) TimerEvent: {}
+[8.635662] (-) TimerEvent: {}
+[8.736034] (-) TimerEvent: {}
+[8.836408] (-) TimerEvent: {}
+[8.936832] (-) TimerEvent: {}
+[9.037458] (-) TimerEvent: {}
+[9.138023] (-) TimerEvent: {}
+[9.238523] (-) TimerEvent: {}
+[9.339082] (-) TimerEvent: {}
+[9.439476] (-) TimerEvent: {}
+[9.539861] (-) TimerEvent: {}
+[9.640370] (-) TimerEvent: {}
+[9.740911] (-) TimerEvent: {}
+[9.841401] (-) TimerEvent: {}
+[9.941808] (-) TimerEvent: {}
+[10.042106] (-) TimerEvent: {}
+[10.142637] (-) TimerEvent: {}
+[10.242973] (-) TimerEvent: {}
+[10.343432] (-) TimerEvent: {}
+[10.443815] (-) TimerEvent: {}
+[10.544322] (-) TimerEvent: {}
+[10.645007] (-) TimerEvent: {}
+[10.745300] (-) TimerEvent: {}
+[10.845673] (-) TimerEvent: {}
+[10.946119] (-) TimerEvent: {}
+[11.046553] (-) TimerEvent: {}
+[11.147071] (-) TimerEvent: {}
+[11.247551] (-) TimerEvent: {}
+[11.348180] (-) TimerEvent: {}
+[11.362383] (fairino_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.448318] (-) TimerEvent: {}
+[11.548782] (-) TimerEvent: {}
+[11.649298] (-) TimerEvent: {}
+[11.749784] (-) TimerEvent: {}
+[11.850244] (-) TimerEvent: {}
+[11.950867] (-) TimerEvent: {}
+[12.051308] (-) TimerEvent: {}
+[12.151668] (-) TimerEvent: {}
+[12.252009] (-) TimerEvent: {}
+[12.352431] (-) TimerEvent: {}
+[12.453039] (-) TimerEvent: {}
+[12.553538] (-) TimerEvent: {}
+[12.654403] (-) TimerEvent: {}
+[12.755018] (-) TimerEvent: {}
+[12.855501] (-) TimerEvent: {}
+[12.956016] (-) TimerEvent: {}
+[13.056373] (-) TimerEvent: {}
+[13.156702] (-) TimerEvent: {}
+[13.257130] (-) TimerEvent: {}
+[13.357433] (-) TimerEvent: {}
+[13.457874] (-) TimerEvent: {}
+[13.558300] (-) TimerEvent: {}
+[13.658875] (-) TimerEvent: {}
+[13.759459] (-) TimerEvent: {}
+[13.859902] (-) TimerEvent: {}
+[13.960295] (-) TimerEvent: {}
+[14.060701] (-) TimerEvent: {}
+[14.161258] (-) TimerEvent: {}
+[14.261649] (-) TimerEvent: {}
+[14.361924] (-) TimerEvent: {}
+[14.462231] (-) TimerEvent: {}
+[14.562677] (-) TimerEvent: {}
+[14.663128] (-) TimerEvent: {}
+[14.763673] (-) TimerEvent: {}
+[14.864209] (-) TimerEvent: {}
+[14.964679] (-) TimerEvent: {}
+[15.065303] (-) TimerEvent: {}
+[15.165758] (-) TimerEvent: {}
+[15.266118] (-) TimerEvent: {}
+[15.366422] (-) TimerEvent: {}
+[15.466754] (-) TimerEvent: {}
+[15.567363] (-) TimerEvent: {}
+[15.667832] (-) TimerEvent: {}
+[15.768470] (-) TimerEvent: {}
+[15.871758] (-) TimerEvent: {}
+[15.975024] (-) TimerEvent: {}
+[16.078326] (-) TimerEvent: {}
+[16.179033] (-) TimerEvent: {}
+[16.282323] (-) TimerEvent: {}
+[16.365369] (fairino_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[16.383023] (-) TimerEvent: {}
+[16.486178] (-) TimerEvent: {}
+[16.589461] (-) TimerEvent: {}
+[16.690426] (-) TimerEvent: {}
+[16.793452] (-) TimerEvent: {}
+[16.896459] (-) TimerEvent: {}
+[17.011877] (-) TimerEvent: {}
+[17.114688] (-) TimerEvent: {}
+[17.215496] (-) TimerEvent: {}
+[17.318480] (-) TimerEvent: {}
+[17.421263] (-) TimerEvent: {}
+[17.523843] (-) TimerEvent: {}
+[17.624457] (-) TimerEvent: {}
+[17.725300] (-) TimerEvent: {}
+[17.827829] (-) TimerEvent: {}
+[17.930485] (-) TimerEvent: {}
+[18.033357] (-) TimerEvent: {}
+[18.136112] (-) TimerEvent: {}
+[18.236971] (-) TimerEvent: {}
+[18.339607] (-) TimerEvent: {}
+[18.441955] (-) TimerEvent: {}
+[18.544231] (-) TimerEvent: {}
+[18.646164] (-) TimerEvent: {}
+[18.746957] (-) TimerEvent: {}
+[18.849243] (-) TimerEvent: {}
+[18.951473] (-) TimerEvent: {}
+[19.053848] (-) TimerEvent: {}
+[19.156312] (-) TimerEvent: {}
+[19.256954] (-) TimerEvent: {}
+[19.359332] (-) TimerEvent: {}
+[19.461572] (-) TimerEvent: {}
+[19.563793] (-) TimerEvent: {}
+[19.665923] (-) TimerEvent: {}
+[19.766659] (-) TimerEvent: {}
+[19.868694] (-) TimerEvent: {}
+[19.970736] (-) TimerEvent: {}
+[20.072890] (-) TimerEvent: {}
+[20.175034] (-) TimerEvent: {}
+[20.275588] (-) TimerEvent: {}
+[20.377753] (-) TimerEvent: {}
+[20.479699] (-) TimerEvent: {}
+[20.580969] (-) TimerEvent: {}
+[20.682795] (-) TimerEvent: {}
+[20.783393] (-) TimerEvent: {}
+[20.884239] (-) TimerEvent: {}
+[20.984954] (-) TimerEvent: {}
+[21.085697] (-) TimerEvent: {}
+[21.186442] (-) TimerEvent: {}
+[21.287310] (-) TimerEvent: {}
+[21.388209] (-) TimerEvent: {}
+[21.488738] (-) TimerEvent: {}
+[21.589610] (-) TimerEvent: {}
+[21.690372] (-) TimerEvent: {}
+[21.790937] (-) TimerEvent: {}
+[21.891663] (-) TimerEvent: {}
+[22.013795] (-) TimerEvent: {}
+[22.114466] (-) TimerEvent: {}
+[22.215136] (-) TimerEvent: {}
+[22.315580] (-) TimerEvent: {}
+[22.416171] (-) TimerEvent: {}
+[22.516660] (-) TimerEvent: {}
+[22.617052] (-) TimerEvent: {}
+[22.717505] (-) TimerEvent: {}
+[22.817904] (-) TimerEvent: {}
+[22.918307] (-) TimerEvent: {}
+[23.018664] (-) TimerEvent: {}
+[23.119173] (-) TimerEvent: {}
+[23.219661] (-) TimerEvent: {}
+[23.319922] (-) TimerEvent: {}
+[23.420349] (-) TimerEvent: {}
+[23.520912] (-) TimerEvent: {}
+[23.621417] (-) TimerEvent: {}
+[23.721823] (-) TimerEvent: {}
+[23.822242] (-) TimerEvent: {}
+[23.922782] (-) TimerEvent: {}
+[24.023274] (-) TimerEvent: {}
+[24.123776] (-) TimerEvent: {}
+[24.224255] (-) TimerEvent: {}
+[24.324658] (-) TimerEvent: {}
+[24.425032] (-) TimerEvent: {}
+[24.525458] (-) TimerEvent: {}
+[24.625906] (-) TimerEvent: {}
+[24.726451] (-) TimerEvent: {}
+[24.826998] (-) TimerEvent: {}
+[24.927499] (-) TimerEvent: {}
+[25.027980] (-) TimerEvent: {}
+[25.128517] (-) TimerEvent: {}
+[25.229059] (-) TimerEvent: {}
+[25.329588] (-) TimerEvent: {}
+[25.430079] (-) TimerEvent: {}
+[25.530475] (-) TimerEvent: {}
+[25.630900] (-) TimerEvent: {}
+[25.731439] (-) TimerEvent: {}
+[25.760850] (fairino_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[25.796014] (fairino_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[25.831582] (-) TimerEvent: {}
+[25.932059] (-) TimerEvent: {}
+[26.032584] (-) TimerEvent: {}
+[26.133764] (-) TimerEvent: {}
+[26.187259] (fairino_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[26.187416] (fairino_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[26.233915] (-) TimerEvent: {}
+[26.334614] (-) TimerEvent: {}
+[26.435300] (-) TimerEvent: {}
+[26.463620] (fairino_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[26.464810] (fairino_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[26.535614] (-) TimerEvent: {}
+[26.551540] (fairino_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[26.636288] (-) TimerEvent: {}
+[26.736779] (-) TimerEvent: {}
+[26.837810] (-) TimerEvent: {}
+[26.938417] (-) TimerEvent: {}
+[27.039559] (-) TimerEvent: {}
+[27.140733] (-) TimerEvent: {}
+[27.241869] (-) TimerEvent: {}
+[27.342940] (-) TimerEvent: {}
+[27.443343] (-) TimerEvent: {}
+[27.544325] (-) TimerEvent: {}
+[27.645350] (-) TimerEvent: {}
+[27.746288] (-) TimerEvent: {}
+[27.847320] (-) TimerEvent: {}
+[27.947884] (-) TimerEvent: {}
+[28.048983] (-) TimerEvent: {}
+[28.150177] (-) TimerEvent: {}
+[28.251132] (-) TimerEvent: {}
+[28.352251] (-) TimerEvent: {}
+[28.453204] (-) TimerEvent: {}
+[28.554214] (-) TimerEvent: {}
+[28.655127] (-) TimerEvent: {}
+[28.755710] (-) TimerEvent: {}
+[28.856145] (-) TimerEvent: {}
+[28.956655] (-) TimerEvent: {}
+[29.057322] (-) TimerEvent: {}
+[29.157809] (-) TimerEvent: {}
+[29.258244] (-) TimerEvent: {}
+[29.358542] (-) TimerEvent: {}
+[29.458926] (-) TimerEvent: {}
+[29.559502] (-) TimerEvent: {}
+[29.659895] (-) TimerEvent: {}
+[29.760214] (-) TimerEvent: {}
+[29.860551] (-) TimerEvent: {}
+[29.960944] (-) TimerEvent: {}
+[30.061278] (-) TimerEvent: {}
+[30.161674] (-) TimerEvent: {}
+[30.262054] (-) TimerEvent: {}
+[30.362464] (-) TimerEvent: {}
+[30.462819] (-) TimerEvent: {}
+[30.563181] (-) TimerEvent: {}
+[30.663543] (-) TimerEvent: {}
+[30.763866] (-) TimerEvent: {}
+[30.864207] (-) TimerEvent: {}
+[30.964585] (-) TimerEvent: {}
+[31.064908] (-) TimerEvent: {}
+[31.165313] (-) TimerEvent: {}
+[31.265637] (-) TimerEvent: {}
+[31.366044] (-) TimerEvent: {}
+[31.466368] (-) TimerEvent: {}
+[31.566696] (-) TimerEvent: {}
+[31.667054] (-) TimerEvent: {}
+[31.767450] (-) TimerEvent: {}
+[31.867909] (-) TimerEvent: {}
+[31.968362] (-) TimerEvent: {}
+[32.068857] (-) TimerEvent: {}
+[32.169256] (-) TimerEvent: {}
+[32.269641] (-) TimerEvent: {}
+[32.370017] (-) TimerEvent: {}
+[32.470376] (-) TimerEvent: {}
+[32.570724] (-) TimerEvent: {}
+[32.671017] (-) TimerEvent: {}
+[32.682499] (fairino_hardware) StdoutLine: {'line': b'-- Found fairino_msgs: 0.0.0 (/home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake)\n'}
+[32.711956] (fairino_hardware) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[32.771195] (-) TimerEvent: {}
+[32.871578] (-) TimerEvent: {}
+[32.972049] (-) TimerEvent: {}
+[33.072425] (-) TimerEvent: {}
+[33.173058] (-) TimerEvent: {}
+[33.273597] (-) TimerEvent: {}
+[33.374072] (-) TimerEvent: {}
+[33.474420] (-) TimerEvent: {}
+[33.574766] (-) TimerEvent: {}
+[33.675211] (-) TimerEvent: {}
+[33.775837] (-) TimerEvent: {}
+[33.876299] (-) TimerEvent: {}
+[33.976653] (-) TimerEvent: {}
+[34.077124] (-) TimerEvent: {}
+[34.177792] (-) TimerEvent: {}
+[34.278676] (-) TimerEvent: {}
+[34.379459] (-) TimerEvent: {}
+[34.480190] (-) TimerEvent: {}
+[34.580934] (-) TimerEvent: {}
+[34.681690] (-) TimerEvent: {}
+[34.782603] (-) TimerEvent: {}
+[34.883371] (-) TimerEvent: {}
+[34.984188] (-) TimerEvent: {}
+[35.084907] (-) TimerEvent: {}
+[35.185417] (-) TimerEvent: {}
+[35.286060] (-) TimerEvent: {}
+[35.386865] (-) TimerEvent: {}
+[35.487506] (-) TimerEvent: {}
+[35.588258] (-) TimerEvent: {}
+[35.689030] (-) TimerEvent: {}
+[35.789824] (-) TimerEvent: {}
+[35.890634] (-) TimerEvent: {}
+[35.991266] (-) TimerEvent: {}
+[36.091870] (-) TimerEvent: {}
+[36.192531] (-) TimerEvent: {}
+[36.293364] (-) TimerEvent: {}
+[36.394225] (-) TimerEvent: {}
+[36.494794] (-) TimerEvent: {}
+[36.595335] (-) TimerEvent: {}
+[36.695862] (-) TimerEvent: {}
+[36.796417] (-) TimerEvent: {}
+[36.897048] (-) TimerEvent: {}
+[37.014990] (-) TimerEvent: {}
+[37.115480] (-) TimerEvent: {}
+[37.216005] (-) TimerEvent: {}
+[37.316566] (-) TimerEvent: {}
+[37.417256] (-) TimerEvent: {}
+[37.517895] (-) TimerEvent: {}
+[37.618562] (-) TimerEvent: {}
+[37.719090] (-) TimerEvent: {}
+[37.785663] (fairino_hardware) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[37.785972] (fairino_hardware) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ljw2/fairno5/src/fairino_hardware/include/;/home/ljw2/fairno5/src/fairino_hardware/;/home/ljw2/fairno5/src/fairino_hardware/examples/include;$<BUILD_INTERFACE:/home/ljw2/fairno5/src/fairino_hardware/include>;$<BUILD_INTERFACE:/home/ljw2/fairno5/src/fairino_hardware/>\n'}
+[37.786048] (fairino_hardware) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[37.788960] (fairino_hardware) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[37.792284] (fairino_hardware) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[37.792467] (fairino_hardware) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[37.794075] (fairino_hardware) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[37.802799] (fairino_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[37.819279] (-) TimerEvent: {}
+[37.832041] (fairino_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[37.838849] (fairino_hardware) StdoutLine: {'line': b'-- Build files have been written to: /home/ljw2/fairno5/build/fairino_hardware\n'}
+[37.846072] (fairino_hardware) CommandEnded: {'returncode': 0}
+[37.848033] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'build'}
+[37.848259] (fairino_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ljw2/fairno5/build/fairino_hardware', '--', '-j24', '-l24'], 'cwd': '/home/ljw2/fairno5/build/fairino_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_hardware'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[37.886462] (fairino_hardware) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/main.cpp.o\x1b[0m\n'}
+[37.890410] (fairino_hardware) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/command_server_node.cpp.o\x1b[0m\n'}
+[37.891122] (fairino_hardware) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/command_server.cpp.o\x1b[0m\n'}
+[37.893745] (fairino_hardware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface.cpp.o\x1b[0m\n'}
+[37.894760] (fairino_hardware) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/srv_test_client.cpp.o\x1b[0m\n'}
+[37.919495] (-) TimerEvent: {}
+[38.019824] (-) TimerEvent: {}
+[38.120595] (-) TimerEvent: {}
+[38.221030] (-) TimerEvent: {}
+[38.321388] (-) TimerEvent: {}
+[38.387500] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:175:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmulti-line comment [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment\x07-Wcomment\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[38.387741] (fairino_hardware) StderrLine: {'line': b'  175 |     \x1b[01;35m\x1b[K/\x1b[m\x1b[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "System successfully read: %f,%f,%f,%f,%f,%f",_jnt_position_state[0],\\\n'}
+[38.387799] (fairino_hardware) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[38.387841] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:194:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmulti-line comment [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment\x07-Wcomment\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[38.387883] (fairino_hardware) StderrLine: {'line': b'  194 |         \x1b[01;35m\x1b[K/\x1b[m\x1b[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "ServoJ\xe4\xb8\x8b\xe5\x8f\x91\xe4\xbd\x8d\xe7\xbd\xae:%f,%f,%f,%f,%f,%f",\\\n'}
+[38.387929] (fairino_hardware) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[38.407541] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:108:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kbackslash and newline separated by space\n'}
+[38.407760] (fairino_hardware) StderrLine: {'line': b'  108 |        const std::shared_ptr<remote_cmd_server_srv_msg::Request> req,\\\n'}
+[38.407811] (fairino_hardware) StderrLine: {'line': b'      |                                                                       \n'}
+[38.407853] (fairino_hardware) StderrLine: {'line': b'\n'}
+[38.408615] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:429:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmulti-line comment [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment\x07-Wcomment\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[38.408828] (fairino_hardware) StderrLine: {'line': b'  429 |     \x1b[01;35m\x1b[K/\x1b[m\x1b[K/RCLCPP_INFO(rclcpp::get_logger(LOGGER_NAME),"settoolcoord:%d,%f,%f,%f,%f,%f,%f,%d,%d",\\\n'}
+[38.408894] (fairino_hardware) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[38.421534] (-) TimerEvent: {}
+[38.521949] (-) TimerEvent: {}
+[38.622471] (-) TimerEvent: {}
+[38.722905] (-) TimerEvent: {}
+[38.823462] (-) TimerEvent: {}
+[38.923835] (-) TimerEvent: {}
+[39.024289] (-) TimerEvent: {}
+[39.124740] (-) TimerEvent: {}
+[39.225173] (-) TimerEvent: {}
+[39.325641] (-) TimerEvent: {}
+[39.426046] (-) TimerEvent: {}
+[39.526575] (-) TimerEvent: {}
+[39.627103] (-) TimerEvent: {}
+[39.727514] (-) TimerEvent: {}
+[39.828061] (-) TimerEvent: {}
+[39.928645] (-) TimerEvent: {}
+[40.029072] (-) TimerEvent: {}
+[40.129507] (-) TimerEvent: {}
+[40.229973] (-) TimerEvent: {}
+[40.330457] (-) TimerEvent: {}
+[40.430908] (-) TimerEvent: {}
+[40.531441] (-) TimerEvent: {}
+[40.631869] (-) TimerEvent: {}
+[40.732326] (-) TimerEvent: {}
+[40.832775] (-) TimerEvent: {}
+[40.933186] (-) TimerEvent: {}
+[40.973446] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/examples/src/srv_test_client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Ksrv_test_node::srv_test_node(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.973781] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/examples/src/srv_test_client.cpp:5:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.973860] (fairino_hardware) StderrLine: {'line': b'    5 |     static int \x1b[01;35m\x1b[Kcount\x1b[m\x1b[K = 0;\n'}
+[40.973909] (fairino_hardware) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[40.977834] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.978048] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:105:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.978106] (fairino_hardware) StderrLine: {'line': b'  105 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State& previous_state\x1b[m\x1b[K)\n'}
+[40.978156] (fairino_hardware) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[40.979037] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.979215] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:151:107:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.979270] (fairino_hardware) StderrLine: {'line': b'  151 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State& previous_state\x1b[m\x1b[K)\n'}
+[40.979317] (fairino_hardware) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[40.979518] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.979586] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:173:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.979632] (fairino_hardware) StderrLine: {'line': b'  173 |         \x1b[01;35m\x1b[Khardware_interface::return_type::ERROR\x1b[m\x1b[K;\n'}
+[40.979678] (fairino_hardware) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[40.979720] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:163:84:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.979765] (fairino_hardware) StderrLine: {'line': b'  163 | hardware_interface::return_type FairinoHardwareInterface::read(\x1b[01;35m\x1b[Kconst rclcpp::Time& time\x1b[m\x1b[K,const rclcpp::Duration& period)\n'}
+[40.979810] (fairino_hardware) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[40.979851] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:163:113:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.979894] (fairino_hardware) StderrLine: {'line': b'  163 | hardware_interface::return_type FairinoHardwareInterface::read(const rclcpp::Time& time,\x1b[01;35m\x1b[Kconst rclcpp::Duration& period\x1b[m\x1b[K)\n'}
+[40.979934] (fairino_hardware) StderrLine: {'line': b'      |                                                                                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[40.981085] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.981221] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:182:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.981271] (fairino_hardware) StderrLine: {'line': b'  182 | hardware_interface::return_type FairinoHardwareInterface::write(\x1b[01;35m\x1b[Kconst rclcpp::Time& time\x1b[m\x1b[K,const rclcpp::Duration& period)\n'}
+[40.981338] (fairino_hardware) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[40.981398] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:182:114:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.981450] (fairino_hardware) StderrLine: {'line': b'  182 | hardware_interface::return_type FairinoHardwareInterface::write(const rclcpp::Time& time,\x1b[01;35m\x1b[Kconst rclcpp::Duration& period\x1b[m\x1b[K)\n'}
+[40.981495] (fairino_hardware) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[41.033297] (-) TimerEvent: {}
+[41.133706] (-) TimerEvent: {}
+[41.234158] (-) TimerEvent: {}
+[41.334737] (-) TimerEvent: {}
+[41.435264] (-) TimerEvent: {}
+[41.535827] (-) TimerEvent: {}
+[41.636522] (-) TimerEvent: {}
+[41.663503] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::defJntPosition(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.664200] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:239:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.664345] (fairino_hardware) StderrLine: {'line': b'  239 |         if(\x1b[01;35m\x1b[Kidx > _cmd_jnt_pos_list.size()+1\x1b[m\x1b[K || idx <= 0){//\xe5\xa6\x82\xe6\x9e\x9c\xe5\xa4\xa7\xe4\xba\x8e\xe5\xbd\x93\xe5\x89\x8d\xe5\xae\xb9\xe5\x99\xa8\xe6\x9c\x80\xe5\xa4\xa7\xe5\x80\xbc+1,\xe9\x82\xa3\xe4\xb9\x88\xe8\xa6\x81\xe6\x8a\xa5\xe9\x94\x99,\xe5\x9b\xa0\xe4\xb8\xba\xe5\xba\x8f\xe5\x88\x97\xe5\xae\xb9\xe5\x99\xa8\xe4\xb8\xad\xe9\x97\xb4\xe6\x97\xa0\xe6\xb3\x95\xe7\x95\x99\xe7\xa9\xba\n'}
+[41.664462] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.664621] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:242:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.664883] (fairino_hardware) StderrLine: {'line': b'  242 |         }else if(\x1b[01;35m\x1b[Kidx <= _cmd_jnt_pos_list.size()\x1b[m\x1b[K){//\xe5\xa6\x82\xe6\x9e\x9c\xe6\x98\xaf\xe5\xb0\x8f\xe4\xba\x8e\xe7\xad\x89\xe4\xba\x8e\xe5\xbd\x93\xe5\x89\x8d\xe7\x9a\x84\xe5\xae\xb9\xe9\x87\x8f,\xe9\x82\xa3\xe4\xb9\x88\xe5\xb0\xb1\xe6\x98\xaf\xe7\x82\xb9\xe4\xbd\x8d\xe4\xbf\xa1\xe6\x81\xaf\xe8\xa6\x86\xe7\x9b\x96\n'}
+[41.665021] (fairino_hardware) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.665201] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:247:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.665345] (fairino_hardware) StderrLine: {'line': b'  247 |         }else if(\x1b[01;35m\x1b[Kidx == _cmd_jnt_pos_list.size()+1\x1b[m\x1b[K){//\xe6\xb7\xbb\xe5\x8a\xa0\xe5\x85\x83\xe7\xb4\xa0\n'}
+[41.665454] (fairino_hardware) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.666663] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::defCartPosition(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.667179] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:290:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.667423] (fairino_hardware) StderrLine: {'line': b'  290 |         if(\x1b[01;35m\x1b[Kidx > _cmd_cart_pos_list.size()+1\x1b[m\x1b[K || idx <= 0){//\xe5\xa6\x82\xe6\x9e\x9c\xe5\xa4\xa7\xe4\xba\x8e\xe5\xbd\x93\xe5\x89\x8d\xe5\xae\xb9\xe5\x99\xa8\xe6\x9c\x80\xe5\xa4\xa7\xe5\x80\xbc+1,\xe9\x82\xa3\xe4\xb9\x88\xe8\xa6\x81\xe6\x8a\xa5\xe9\x94\x99,\xe5\x9b\xa0\xe4\xb8\xba\xe5\xba\x8f\xe5\x88\x97\xe5\xae\xb9\xe5\x99\xa8\xe4\xb8\xad\xe9\x97\xb4\xe6\x97\xa0\xe6\xb3\x95\xe7\x95\x99\xe7\xa9\xba\n'}
+[41.667674] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.667744] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:293:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.667914] (fairino_hardware) StderrLine: {'line': b'  293 |         }else if(\x1b[01;35m\x1b[Kidx <= _cmd_cart_pos_list.size()\x1b[m\x1b[K){//\xe5\xa6\x82\xe6\x9e\x9c\xe6\x98\xaf\xe5\xb0\x8f\xe4\xba\x8e\xe7\xad\x89\xe4\xba\x8e\xe5\xbd\x93\xe5\x89\x8d\xe7\x9a\x84\xe5\xae\xb9\xe9\x87\x8f,\xe9\x82\xa3\xe4\xb9\x88\xe5\xb0\xb1\xe6\x98\xaf\xe7\x82\xb9\xe4\xbd\x8d\xe4\xbf\xa1\xe6\x81\xaf\xe8\xa6\x86\xe7\x9b\x96\n'}
+[41.668076] (fairino_hardware) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.668305] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:301:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.668374] (fairino_hardware) StderrLine: {'line': b'  301 |         }else if(\x1b[01;35m\x1b[Kidx == _cmd_cart_pos_list.size()+1\x1b[m\x1b[K){//\xe6\xb7\xbb\xe5\x8a\xa0\xe5\x85\x83\xe7\xb4\xa0\n'}
+[41.668431] (fairino_hardware) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.670275] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::getVariable(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.670500] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:332:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.670582] (fairino_hardware) StderrLine: {'line': b'  332 |             if(\x1b[01;35m\x1b[Kidx <= _cmd_jnt_pos_list.size()\x1b[m\x1b[K && idx > 0){\n'}
+[41.670637] (fairino_hardware) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.671835] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:346:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.672032] (fairino_hardware) StderrLine: {'line': b'  346 |                 if(\x1b[01;35m\x1b[Kidx <= _cmd_cart_pos_list.size()\x1b[m\x1b[K && idx > 0){\n'}
+[41.672094] (fairino_hardware) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.693829] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::MoveJ(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.694098] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1089:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.694180] (fairino_hardware) StderrLine: {'line': b' 1089 |         if(\x1b[01;35m\x1b[Kindex > _cmd_jnt_pos_list.size()\x1b[m\x1b[K){\n'}
+[41.694233] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.694796] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1100:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.695073] (fairino_hardware) StderrLine: {'line': b' 1100 |         if(\x1b[01;35m\x1b[Kindex > _cmd_cart_pos_list.size()\x1b[m\x1b[K){\n'}
+[41.695151] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.699085] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::MoveL(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.699300] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1174:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.699380] (fairino_hardware) StderrLine: {'line': b' 1174 |         if(\x1b[01;35m\x1b[Kindex > _cmd_jnt_pos_list.size()\x1b[m\x1b[K){\n'}
+[41.699433] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.700492] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1185:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.700967] (fairino_hardware) StderrLine: {'line': b' 1185 |         if(\x1b[01;35m\x1b[Kindex > _cmd_cart_pos_list.size()\x1b[m\x1b[K){\n'}
+[41.701097] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.704452] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::MoveC(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.704824] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1263:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.704991] (fairino_hardware) StderrLine: {'line': b' 1263 |         if(\x1b[01;35m\x1b[Kindex > _cmd_jnt_pos_list.size()\x1b[m\x1b[K || index2 > _cmd_jnt_pos_list.size()){\n'}
+[41.705110] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.705556] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1263:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.705659] (fairino_hardware) StderrLine: {'line': b' 1263 |         if(index > _cmd_jnt_pos_list.size() || \x1b[01;35m\x1b[Kindex2 > _cmd_jnt_pos_list.size()\x1b[m\x1b[K){\n'}
+[41.705733] (fairino_hardware) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.705791] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1279:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.705846] (fairino_hardware) StderrLine: {'line': b' 1279 |         if(\x1b[01;35m\x1b[Kindex > _cmd_cart_pos_list.size()\x1b[m\x1b[K || index2 > _cmd_cart_pos_list.size()){\n'}
+[41.705896] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.705944] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1279:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.706002] (fairino_hardware) StderrLine: {'line': b' 1279 |         if(index > _cmd_cart_pos_list.size() || \x1b[01;35m\x1b[Kindex2 > _cmd_cart_pos_list.size()\x1b[m\x1b[K){\n'}
+[41.706056] (fairino_hardware) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.709082] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1238:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksearch\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.709822] (fairino_hardware) StderrLine: {'line': b' 1238 |     uint8_t \x1b[01;35m\x1b[Ksearch\x1b[m\x1b[K = this->get_parameter("MoveL_search").as_int();\n'}
+[41.710035] (fairino_hardware) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[41.710466] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::Circle(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.710768] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1317:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.710908] (fairino_hardware) StderrLine: {'line': b' 1317 | std::string robot_command_thread::Circle(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.711021] (fairino_hardware) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.711742] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::SplinePTP(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.711982] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1359:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<JointPos>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.712122] (fairino_hardware) StderrLine: {'line': b' 1359 |         if(\x1b[01;35m\x1b[Kindex > _cmd_jnt_pos_list.size()\x1b[m\x1b[K){\n'}
+[41.712229] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.714876] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::NewSplinePoint(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.715163] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1447:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<DescPose>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.715246] (fairino_hardware) StderrLine: {'line': b' 1447 |         if(\x1b[01;35m\x1b[Kindex > _cmd_cart_pos_list.size()\x1b[m\x1b[K){\n'}
+[41.715307] (fairino_hardware) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.718605] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::PointsOffsetDisable(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.718828] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1528:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.718908] (fairino_hardware) StderrLine: {'line': b' 1528 | d::string robot_command_thread::PointsOffsetDisable(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.718962] (fairino_hardware) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.719012] (fairino_hardware) StderrLine: {'line': b'\n'}
+[41.720452] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::ScriptStart(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.720880] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1694:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.721028] (fairino_hardware) StderrLine: {'line': b' 1694 | std::string robot_command_thread::ScriptStart(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.721214] (fairino_hardware) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.721622] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::ScriptStop(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.722012] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1703:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.722148] (fairino_hardware) StderrLine: {'line': b' 1703 | std::string robot_command_thread::ScriptStop(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.722262] (fairino_hardware) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.722370] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::ScriptPause(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.722477] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1713:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.722586] (fairino_hardware) StderrLine: {'line': b' 1713 | std::string robot_command_thread::ScriptPause(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.722691] (fairino_hardware) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.722796] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::ScriptResume(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.722909] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1723:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.723024] (fairino_hardware) StderrLine: {'line': b' 1723 | std::string robot_command_thread::ScriptResume(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.723136] (fairino_hardware) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.724757] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::GetDHCompensation(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.725110] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1754:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.725205] (fairino_hardware) StderrLine: {'line': b' 1754 | std::string robot_command_thread::GetDHCompensation(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.725270] (fairino_hardware) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.725335] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::TractorHoming(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.725391] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1786:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.725447] (fairino_hardware) StderrLine: {'line': b' 1786 | std::string robot_command_thread::TractorHoming(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.725507] (fairino_hardware) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.726406] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::TractorStop(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.726490] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1827:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpara\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.726546] (fairino_hardware) StderrLine: {'line': b' 1827 | std::string robot_command_thread::TractorStop(\x1b[01;35m\x1b[Kstd::string para\x1b[m\x1b[K){\n'}
+[41.726596] (fairino_hardware) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[41.736656] (-) TimerEvent: {}
+[41.758895] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot_recv_thread::_state_recv_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[41.759150] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:2029:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Krecv_buff\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.759222] (fairino_hardware) StderrLine: {'line': b' 2029 |         char \x1b[01;35m\x1b[Krecv_buff\x1b[m\x1b[K[ctrl_state_future_recv] = {0};\n'}
+[41.759272] (fairino_hardware) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[41.763177] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:2019:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kstate_data_store\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.763418] (fairino_hardware) StderrLine: {'line': b' 2019 |     _CTRL_STATE \x1b[01;35m\x1b[Kstate_data_store\x1b[m\x1b[K;\n'}
+[41.763473] (fairino_hardware) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.763520] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:2025:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kchecksum_ptr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.763582] (fairino_hardware) StderrLine: {'line': b' 2025 |     uint8_t* \x1b[01;35m\x1b[Kchecksum_ptr\x1b[m\x1b[K;\n'}
+[41.763635] (fairino_hardware) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[41.763685] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:2026:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kchecksum\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[41.763737] (fairino_hardware) StderrLine: {'line': b' 2026 |     uint16_t \x1b[01;35m\x1b[Kchecksum\x1b[m\x1b[K = 0;\n'}
+[41.763787] (fairino_hardware) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[41.836845] (-) TimerEvent: {}
+[41.937655] (-) TimerEvent: {}
+[42.038081] (-) TimerEvent: {}
+[42.138535] (-) TimerEvent: {}
+[42.166288] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/examples/src/srv_test_client.cpp:\x1b[m\x1b[K At global scope:\n'}
+[42.166620] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/examples/src/srv_test_client.cpp:5:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[42.238737] (-) TimerEvent: {}
+[42.339229] (-) TimerEvent: {}
+[42.439671] (-) TimerEvent: {}
+[42.540038] (-) TimerEvent: {}
+[42.640519] (-) TimerEvent: {}
+[42.741009] (-) TimerEvent: {}
+[42.841569] (-) TimerEvent: {}
+[42.942277] (-) TimerEvent: {}
+[43.042740] (-) TimerEvent: {}
+[43.143251] (-) TimerEvent: {}
+[43.243745] (-) TimerEvent: {}
+[43.344253] (-) TimerEvent: {}
+[43.385326] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::getVariable(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[43.385788] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:364:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[43.385891] (fairino_hardware) StderrLine: {'line': b'  364 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[43.385932] (fairino_hardware) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[43.444426] (-) TimerEvent: {}
+[43.544934] (-) TimerEvent: {}
+[43.645647] (-) TimerEvent: {}
+[43.746286] (-) TimerEvent: {}
+[43.846763] (-) TimerEvent: {}
+[43.947509] (-) TimerEvent: {}
+[44.048110] (-) TimerEvent: {}
+[44.143657] (fairino_hardware) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable srv_test_client\x1b[0m\n'}
+[44.148204] (-) TimerEvent: {}
+[44.248560] (-) TimerEvent: {}
+[44.348959] (-) TimerEvent: {}
+[44.449405] (-) TimerEvent: {}
+[44.514958] (fairino_hardware) StdoutLine: {'line': b'[ 75%] Built target srv_test_client\n'}
+[44.549755] (-) TimerEvent: {}
+[44.650433] (-) TimerEvent: {}
+[44.750868] (-) TimerEvent: {}
+[44.851219] (-) TimerEvent: {}
+[44.858862] (fairino_hardware) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libfairino_hardware.so\x1b[0m\n'}
+[44.951347] (-) TimerEvent: {}
+[45.051672] (-) TimerEvent: {}
+[45.152011] (-) TimerEvent: {}
+[45.252558] (-) TimerEvent: {}
+[45.353133] (-) TimerEvent: {}
+[45.453509] (-) TimerEvent: {}
+[45.553910] (-) TimerEvent: {}
+[45.582150] (fairino_hardware) StdoutLine: {'line': b'[ 87%] Built target fairino_hardware\n'}
+[45.654085] (-) TimerEvent: {}
+[45.754672] (-) TimerEvent: {}
+[45.855035] (-) TimerEvent: {}
+[45.955506] (-) TimerEvent: {}
+[46.055864] (-) TimerEvent: {}
+[46.156303] (-) TimerEvent: {}
+[46.256678] (-) TimerEvent: {}
+[46.357016] (-) TimerEvent: {}
+[46.457464] (-) TimerEvent: {}
+[46.557863] (-) TimerEvent: {}
+[46.658198] (-) TimerEvent: {}
+[46.758736] (-) TimerEvent: {}
+[46.859142] (-) TimerEvent: {}
+[46.959542] (-) TimerEvent: {}
+[47.059940] (-) TimerEvent: {}
+[47.160316] (-) TimerEvent: {}
+[47.260794] (-) TimerEvent: {}
+[47.361203] (-) TimerEvent: {}
+[47.461586] (-) TimerEvent: {}
+[47.562031] (-) TimerEvent: {}
+[47.662411] (-) TimerEvent: {}
+[47.762747] (-) TimerEvent: {}
+[47.863204] (-) TimerEvent: {}
+[47.963566] (-) TimerEvent: {}
+[48.063900] (-) TimerEvent: {}
+[48.164324] (-) TimerEvent: {}
+[48.264793] (-) TimerEvent: {}
+[48.365220] (-) TimerEvent: {}
+[48.465606] (-) TimerEvent: {}
+[48.565960] (-) TimerEvent: {}
+[48.666321] (-) TimerEvent: {}
+[48.766643] (-) TimerEvent: {}
+[48.866990] (-) TimerEvent: {}
+[48.967324] (-) TimerEvent: {}
+[49.067673] (-) TimerEvent: {}
+[49.168091] (-) TimerEvent: {}
+[49.268472] (-) TimerEvent: {}
+[49.369004] (-) TimerEvent: {}
+[49.469405] (-) TimerEvent: {}
+[49.569738] (-) TimerEvent: {}
+[49.670031] (-) TimerEvent: {}
+[49.770423] (-) TimerEvent: {}
+[49.870788] (-) TimerEvent: {}
+[49.971187] (-) TimerEvent: {}
+[50.071705] (-) TimerEvent: {}
+[50.172885] (-) TimerEvent: {}
+[50.273266] (-) TimerEvent: {}
+[50.373827] (-) TimerEvent: {}
+[50.474186] (-) TimerEvent: {}
+[50.574541] (-) TimerEvent: {}
+[50.674984] (-) TimerEvent: {}
+[50.775422] (-) TimerEvent: {}
+[50.875861] (-) TimerEvent: {}
+[50.976222] (-) TimerEvent: {}
+[51.076548] (-) TimerEvent: {}
+[51.176931] (-) TimerEvent: {}
+[51.277347] (-) TimerEvent: {}
+[51.377751] (-) TimerEvent: {}
+[51.478080] (-) TimerEvent: {}
+[51.578407] (-) TimerEvent: {}
+[51.678696] (-) TimerEvent: {}
+[51.779095] (-) TimerEvent: {}
+[51.879655] (-) TimerEvent: {}
+[51.928068] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::MoveJ(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[51.928290] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1133:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuser\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.928336] (fairino_hardware) StderrLine: {'line': b' 1133 |         ovl,&extpos,blendT,offset_flag,&offsetpos)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[51.928376] (fairino_hardware) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[51.928426] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1133:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktool\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.928467] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1133:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[51.979797] (-) TimerEvent: {}
+[52.080397] (-) TimerEvent: {}
+[52.094029] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::MoveL(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[52.094245] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1216:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuser\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.094294] (fairino_hardware) StderrLine: {'line': b' 1216 |         &extpos,search,offset_flag,&offsetpos)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[52.094328] (fairino_hardware) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[52.094369] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1216:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktool\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.094408] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1216:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.180537] (-) TimerEvent: {}
+[52.250337] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::MoveC(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[52.250541] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1314:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuser\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.250592] (fairino_hardware) StderrLine: {'line': b' 1314 |         offset_flag,&offsetpos,ovl,blendR)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[52.250630] (fairino_hardware) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[52.250668] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1314:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktool\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.250713] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1314:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.280734] (-) TimerEvent: {}
+[52.381148] (-) TimerEvent: {}
+[52.421551] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::NewSplinePoint(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[52.421802] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1476:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klastflag\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.421887] (fairino_hardware) StderrLine: {'line': b' 1476 |             acc,ovl,blendR,lastflag)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[52.421940] (fairino_hardware) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[52.421987] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1476:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuser\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.422041] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1476:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktool\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.422098] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1476:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.481333] (-) TimerEvent: {}
+[52.507652] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::string robot_command_thread::SplinePTP(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[52.507916] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1388:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuser\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.507978] (fairino_hardware) StderrLine: {'line': b' 1388 |                                 tool,user,speed,acc,ovl)\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[52.508019] (fairino_hardware) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[52.508077] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1388:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktool\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.508132] (fairino_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1388:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[52.581468] (-) TimerEvent: {}
+[52.682001] (-) TimerEvent: {}
+[52.782636] (-) TimerEvent: {}
+[52.883722] (-) TimerEvent: {}
+[52.984509] (-) TimerEvent: {}
+[53.084958] (-) TimerEvent: {}
+[53.185381] (-) TimerEvent: {}
+[53.285833] (-) TimerEvent: {}
+[53.386542] (-) TimerEvent: {}
+[53.486936] (-) TimerEvent: {}
+[53.587383] (-) TimerEvent: {}
+[53.687769] (-) TimerEvent: {}
+[53.788143] (-) TimerEvent: {}
+[53.888557] (-) TimerEvent: {}
+[53.988875] (-) TimerEvent: {}
+[54.089184] (-) TimerEvent: {}
+[54.189531] (-) TimerEvent: {}
+[54.289967] (-) TimerEvent: {}
+[54.390332] (-) TimerEvent: {}
+[54.490689] (-) TimerEvent: {}
+[54.591104] (-) TimerEvent: {}
+[54.691502] (-) TimerEvent: {}
+[54.791973] (-) TimerEvent: {}
+[54.892319] (-) TimerEvent: {}
+[54.992794] (-) TimerEvent: {}
+[55.093201] (-) TimerEvent: {}
+[55.193766] (-) TimerEvent: {}
+[55.294130] (-) TimerEvent: {}
+[55.394589] (-) TimerEvent: {}
+[55.494936] (-) TimerEvent: {}
+[55.595280] (-) TimerEvent: {}
+[55.695719] (-) TimerEvent: {}
+[55.796069] (-) TimerEvent: {}
+[55.896368] (-) TimerEvent: {}
+[55.996861] (-) TimerEvent: {}
+[56.097175] (-) TimerEvent: {}
+[56.197574] (-) TimerEvent: {}
+[56.297935] (-) TimerEvent: {}
+[56.398352] (-) TimerEvent: {}
+[56.490638] (fairino_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros2_cmd_server\x1b[0m\n'}
+[56.498495] (-) TimerEvent: {}
+[56.598780] (-) TimerEvent: {}
+[56.699175] (-) TimerEvent: {}
+[56.798798] (fairino_hardware) StdoutLine: {'line': b'[100%] Built target ros2_cmd_server\n'}
+[56.799234] (-) TimerEvent: {}
+[56.827132] (fairino_hardware) CommandEnded: {'returncode': 0}
+[56.828638] (fairino_hardware) JobProgress: {'identifier': 'fairino_hardware', 'progress': 'install'}
+[56.836154] (fairino_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ljw2/fairno5/build/fairino_hardware'], 'cwd': '/home/ljw2/fairno5/build/fairino_hardware', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ljw2'), ('SSH_CLIENT', '127.0.0.1 40484 22006'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ljw2'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ljw2'), ('SSH_TTY', '/dev/pts/16'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ljw2/fairno5/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ljw2'), ('NAME', 'DESKTOP-OG671DC'), ('WSL_INTEROP', '/run/WSL/18952_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/Users/USER~1.DES/AppData/Local/Temp/Mxt254/mx86_64b/bin:/mnt/c/WINDOWS/:/mnt/c/WINDOWS/system32/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Zero Install:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/f/ffmpeg-7.0.2-essentials_build/bin:/mnt/e/Program Files/Polyspace/R2020a/runtime/win64:/mnt/e/Program Files/Polyspace/R2020a/bin:/mnt/e/Program Files/Polyspace/R2020a/polyspace/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/e/latex/texlive/2025/bin/windows:/mnt/d/mingw64/bin:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/User.DESKTOP-OG671DC/AppData/Local/Microsoft/WindowsApps:/mnt/e/Program Files/Microsoft VS Code/bin:/mnt/d/mingw64/:/mnt/c/WINDOWS/sysnative/:/snap/bin:/home/ljw2/.mujoco/mujoco-3.4.0/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', 'localhost:11.0'), ('MUJOCO_GL', 'egl'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ljw2/fairno5/build/fairino_hardware'), ('SSH_CONNECTION', '127.0.0.1 40484 127.0.0.1 22006'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ljw2/fairno5/install/fairino_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[56.842443] (fairino_hardware) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[56.842698] (fairino_hardware) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[56.843221] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware//fairino_hardware.xml\n'}
+[56.849656] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server\n'}
+[56.855285] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/lib/fairino_hardware/srv_test_client\n'}
+[56.861470] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/library_path.sh\n'}
+[56.866962] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/library_path.dsv\n'}
+[56.872679] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/package_run_dependencies/fairino_hardware\n'}
+[56.878440] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/parent_prefix_path/fairino_hardware\n'}
+[56.883619] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.sh\n'}
+[56.889548] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.dsv\n'}
+[56.895172] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/path.sh\n'}
+[56.899283] (-) TimerEvent: {}
+[56.901112] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/path.dsv\n'}
+[56.907641] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.bash\n'}
+[56.913980] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.sh\n'}
+[56.921287] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.zsh\n'}
+[56.926816] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.dsv\n'}
+[56.932881] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/package.dsv\n'}
+[56.939770] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/packages/fairino_hardware\n'}
+[56.945798] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/fairino_hardware\n'}
+[56.951737] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[56.957087] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[56.962551] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig.cmake\n'}
+[56.967968] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig-version.cmake\n'}
+[56.973007] (fairino_hardware) StdoutLine: {'line': b'-- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/package.xml\n'}
+[56.978647] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/lib/libfairino_hardware.so\n'}
+[56.982303] (fairino_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/ljw2/fairno5/install/fairino_hardware/lib/libfairino_hardware.so" to ""\n'}
+[56.982426] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport.cmake\n'}
+[56.982567] (fairino_hardware) StdoutLine: {'line': b'-- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport-release.cmake\n'}
+[56.984109] (fairino_hardware) CommandEnded: {'returncode': 0}
+[56.999559] (-) TimerEvent: {}
+[57.012888] (fairino_hardware) JobEnded: {'identifier': 'fairino_hardware', 'rc': 0}
+[57.014241] (-) EventReactorShutdown: {}

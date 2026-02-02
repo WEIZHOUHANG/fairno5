@@ -1,9 +1,0 @@
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/uninstall.dir
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/moveit_calibration_demos_uninstall.dir
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/test.dir
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/edit_cache.dir
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/rebuild_cache.dir
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/list_install_components.dir
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/install.dir
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/install/local.dir
-/home/ljw/ws_fr5/build/moveit_calibration_demos/CMakeFiles/install/strip.dir

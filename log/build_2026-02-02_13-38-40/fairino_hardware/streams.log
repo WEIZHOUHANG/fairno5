@@ -1,0 +1,284 @@
+[0.456s] Invoking command in '/home/ljw2/fairno5/build/fairino_hardware': CMAKE_PREFIX_PATH=/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ljw2/fairno5/src/fairino_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ljw2/fairno5/install/fairino_hardware
+[0.869s] -- The C compiler identification is GNU 11.4.0
+[3.087s] -- The CXX compiler identification is GNU 11.4.0
+[4.466s] -- Detecting C compiler ABI info
+[4.789s] -- Detecting C compiler ABI info - done
+[4.794s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.795s] -- Detecting C compile features
+[4.795s] -- Detecting C compile features - done
+[4.800s] -- Detecting CXX compiler ABI info
+[5.418s] -- Detecting CXX compiler ABI info - done
+[5.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.427s] -- Detecting CXX compile features
+[5.428s] -- Detecting CXX compile features - done
+[5.449s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.567s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.621s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.664s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[6.271s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.286s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.314s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.481s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.488s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.362s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.365s] -- Found FastRTPS: /opt/ros/humble/include  
+[25.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.795s] -- Looking for pthread.h
+[26.187s] -- Looking for pthread.h - found
+[26.187s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[26.464s] -- Found Threads: TRUE  
+[26.551s] -- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)
+[32.682s] -- Found fairino_msgs: 0.0.0 (/home/ljw2/fairno5/install/fairino_msgs/share/fairino_msgs/cmake)
+[32.711s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[37.785s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.785s] -- Configured cppcheck include dirs: /home/ljw2/fairno5/src/fairino_hardware/include/;/home/ljw2/fairno5/src/fairino_hardware/;/home/ljw2/fairno5/src/fairino_hardware/examples/include;$<BUILD_INTERFACE:/home/ljw2/fairno5/src/fairino_hardware/include>;$<BUILD_INTERFACE:/home/ljw2/fairno5/src/fairino_hardware/>
+[37.785s] -- Configured cppcheck exclude dirs and/or files: 
+[37.788s] -- Added test 'lint_cmake' to check CMake code style
+[37.792s] -- Added test 'uncrustify' to check C / C++ code style
+[37.792s] -- Configured uncrustify additional arguments: 
+[37.793s] -- Added test 'xmllint' to check XML markup files
+[37.802s] -- Configuring done
+[37.831s] -- Generating done
+[37.838s] -- Build files have been written to: /home/ljw2/fairno5/build/fairino_hardware
+[37.846s] Invoked command in '/home/ljw2/fairno5/build/fairino_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ljw2/fairno5/src/fairino_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ljw2/fairno5/install/fairino_hardware
+[37.848s] Invoking command in '/home/ljw2/fairno5/build/fairino_hardware': CMAKE_PREFIX_PATH=/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ljw2/fairno5/build/fairino_hardware -- -j24 -l24
+[37.886s] [ 12%] [32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/main.cpp.o[0m
+[37.890s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/command_server_node.cpp.o[0m
+[37.891s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2_cmd_server.dir/src/command_server.cpp.o[0m
+[37.893s] [ 50%] [32mBuilding CXX object CMakeFiles/fairino_hardware.dir/src/fairino_hardware_interface.cpp.o[0m
+[37.894s] [ 62%] [32mBuilding CXX object CMakeFiles/srv_test_client.dir/examples/src/srv_test_client.cpp.o[0m
+[38.387s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:175:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[38.387s]   175 |     [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "System successfully read: %f,%f,%f,%f,%f,%f",_jnt_position_state[0],\
+[38.387s]       |     [01;35m[K^[m[K
+[38.387s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:194:9:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[38.387s]   194 |         [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger("FairinoHardwareInterface"), "ServoJ下发位置:%f,%f,%f,%f,%f,%f",\
+[38.387s]       |         [01;35m[K^[m[K
+[38.407s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:108:71:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+[38.407s]   108 |        const std::shared_ptr<remote_cmd_server_srv_msg::Request> req,\
+[38.407s]       |                                                                       
+[38.407s] 
+[38.408s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:429:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[38.408s]   429 |     [01;35m[K/[m[K/RCLCPP_INFO(rclcpp::get_logger(LOGGER_NAME),"settoolcoord:%d,%f,%f,%f,%f,%f,%f,%d,%d",\
+[38.408s]       |     [01;35m[K^[m[K
+[40.973s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/examples/src/srv_test_client.cpp:[m[K In constructor ‘[01m[Ksrv_test_node::srv_test_node(std::string)[m[K’:
+[40.973s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/examples/src/srv_test_client.cpp:5:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[40.973s]     5 |     static int [01;35m[Kcount[m[K = 0;
+[40.973s]       |                [01;35m[K^~~~~[m[K
+[40.977s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[40.977s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:105:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.977s]   105 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+[40.977s]       |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[40.978s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn fairino_hardware::FairinoHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[40.979s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:151:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.979s]   151 | hardware_interface::CallbackReturn FairinoHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+[40.979s]       |                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[40.979s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[40.979s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:173:42:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[40.979s]   173 |         [01;35m[Khardware_interface::return_type::ERROR[m[K;
+[40.979s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[40.979s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:163:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.979s]   163 | hardware_interface::return_type FairinoHardwareInterface::read([01;35m[Kconst rclcpp::Time& time[m[K,const rclcpp::Duration& period)
+[40.979s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[40.979s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:163:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.979s]   163 | hardware_interface::return_type FairinoHardwareInterface::read(const rclcpp::Time& time,[01;35m[Kconst rclcpp::Duration& period[m[K)
+[40.979s]       |                                                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[40.980s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type fairino_hardware::FairinoHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[40.981s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:182:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.981s]   182 | hardware_interface::return_type FairinoHardwareInterface::write([01;35m[Kconst rclcpp::Time& time[m[K,const rclcpp::Duration& period)
+[40.981s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[40.981s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/fairino_hardware_interface.cpp:182:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.981s]   182 | hardware_interface::return_type FairinoHardwareInterface::write(const rclcpp::Time& time,[01;35m[Kconst rclcpp::Duration& period[m[K)
+[40.981s]       |                                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[41.663s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::defJntPosition(std::string)[m[K’:
+[41.664s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:239:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.664s]   239 |         if([01;35m[Kidx > _cmd_jnt_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错,因为序列容器中间无法留空
+[41.664s]       |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.664s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:242:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.664s]   242 |         }else if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K){//如果是小于等于当前的容量,那么就是点位信息覆盖
+[41.664s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.665s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:247:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.665s]   247 |         }else if([01;35m[Kidx == _cmd_jnt_pos_list.size()+1[m[K){//添加元素
+[41.665s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.666s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::defCartPosition(std::string)[m[K’:
+[41.667s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:290:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.667s]   290 |         if([01;35m[Kidx > _cmd_cart_pos_list.size()+1[m[K || idx <= 0){//如果大于当前容器最大值+1,那么要报错,因为序列容器中间无法留空
+[41.667s]       |            [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.667s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:293:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.667s]   293 |         }else if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K){//如果是小于等于当前的容量,那么就是点位信息覆盖
+[41.668s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.668s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:301:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.668s]   301 |         }else if([01;35m[Kidx == _cmd_cart_pos_list.size()+1[m[K){//添加元素
+[41.668s]       |                  [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.670s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::getVariable(std::string)[m[K’:
+[41.670s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:332:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.670s]   332 |             if([01;35m[Kidx <= _cmd_jnt_pos_list.size()[m[K && idx > 0){
+[41.670s]       |                [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.671s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:346:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.671s]   346 |                 if([01;35m[Kidx <= _cmd_cart_pos_list.size()[m[K && idx > 0){
+[41.671s]       |                    [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.693s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveJ(std::string)[m[K’:
+[41.693s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1089:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.694s]  1089 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[41.694s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.694s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1100:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.694s]  1100 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[41.694s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.699s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveL(std::string)[m[K’:
+[41.699s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1174:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.699s]  1174 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[41.699s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.700s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1185:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.700s]  1185 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[41.700s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.704s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveC(std::string)[m[K’:
+[41.704s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1263:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.704s]  1263 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K || index2 > _cmd_jnt_pos_list.size()){
+[41.705s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.705s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1263:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.705s]  1263 |         if(index > _cmd_jnt_pos_list.size() || [01;35m[Kindex2 > _cmd_jnt_pos_list.size()[m[K){
+[41.705s]       |                                                [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.705s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1279:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.705s]  1279 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K || index2 > _cmd_cart_pos_list.size()){
+[41.705s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.705s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1279:56:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.705s]  1279 |         if(index > _cmd_cart_pos_list.size() || [01;35m[Kindex2 > _cmd_cart_pos_list.size()[m[K){
+[41.705s]       |                                                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.709s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1238:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksearch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[41.709s]  1238 |     uint8_t [01;35m[Ksearch[m[K = this->get_parameter("MoveL_search").as_int();
+[41.709s]       |             [01;35m[K^~~~~~[m[K
+[41.710s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::Circle(std::string)[m[K’:
+[41.710s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1317:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.710s]  1317 | std::string robot_command_thread::Circle([01;35m[Kstd::string para[m[K){
+[41.710s]       |                                          [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.711s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SplinePTP(std::string)[m[K’:
+[41.711s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1359:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<JointPos>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.711s]  1359 |         if([01;35m[Kindex > _cmd_jnt_pos_list.size()[m[K){
+[41.712s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.714s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::NewSplinePoint(std::string)[m[K’:
+[41.715s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1447:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<DescPose>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[41.715s]  1447 |         if([01;35m[Kindex > _cmd_cart_pos_list.size()[m[K){
+[41.715s]       |            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.718s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::PointsOffsetDisable(std::string)[m[K’:
+[41.718s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1528:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.718s]  1528 | d::string robot_command_thread::PointsOffsetDisable([01;35m[Kstd::string para[m[K){
+[41.718s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.718s] 
+[41.720s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptStart(std::string)[m[K’:
+[41.720s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1694:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.720s]  1694 | std::string robot_command_thread::ScriptStart([01;35m[Kstd::string para[m[K){
+[41.721s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.721s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptStop(std::string)[m[K’:
+[41.721s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1703:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.722s]  1703 | std::string robot_command_thread::ScriptStop([01;35m[Kstd::string para[m[K){
+[41.722s]       |                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.722s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptPause(std::string)[m[K’:
+[41.722s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1713:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.722s]  1713 | std::string robot_command_thread::ScriptPause([01;35m[Kstd::string para[m[K){
+[41.722s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.722s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::ScriptResume(std::string)[m[K’:
+[41.722s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1723:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.722s]  1723 | std::string robot_command_thread::ScriptResume([01;35m[Kstd::string para[m[K){
+[41.723s]       |                                                [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.724s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::GetDHCompensation(std::string)[m[K’:
+[41.724s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1754:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.725s]  1754 | std::string robot_command_thread::GetDHCompensation([01;35m[Kstd::string para[m[K){
+[41.725s]       |                                                     [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.725s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::TractorHoming(std::string)[m[K’:
+[41.725s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1786:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.725s]  1786 | std::string robot_command_thread::TractorHoming([01;35m[Kstd::string para[m[K){
+[41.725s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.726s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::TractorStop(std::string)[m[K’:
+[41.726s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1827:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpara[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.726s]  1827 | std::string robot_command_thread::TractorStop([01;35m[Kstd::string para[m[K){
+[41.726s]       |                                               [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[41.758s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kvoid robot_recv_thread::_state_recv_callback()[m[K’:
+[41.759s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:2029:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Krecv_buff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[41.759s]  2029 |         char [01;35m[Krecv_buff[m[K[ctrl_state_future_recv] = {0};
+[41.759s]       |              [01;35m[K^~~~~~~~~[m[K
+[41.763s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:2019:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstate_data_store[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[41.763s]  2019 |     _CTRL_STATE [01;35m[Kstate_data_store[m[K;
+[41.763s]       |                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[41.763s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:2025:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kchecksum_ptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[41.763s]  2025 |     uint8_t* [01;35m[Kchecksum_ptr[m[K;
+[41.763s]       |              [01;35m[K^~~~~~~~~~~~[m[K
+[41.763s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:2026:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kchecksum[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[41.763s]  2026 |     uint16_t [01;35m[Kchecksum[m[K = 0;
+[41.763s]       |              [01;35m[K^~~~~~~~[m[K
+[42.166s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/examples/src/srv_test_client.cpp:[m[K At global scope:
+[42.166s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/examples/src/srv_test_client.cpp:5:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[43.385s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::getVariable(std::string)[m[K’:
+[43.385s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:364:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[43.385s]   364 | [01;35m[K}[m[K
+[43.385s]       | [01;35m[K^[m[K
+[44.143s] [ 75%] [32m[1mLinking CXX executable srv_test_client[0m
+[44.514s] [ 75%] Built target srv_test_client
+[44.858s] [ 87%] [32m[1mLinking CXX shared library libfairino_hardware.so[0m
+[45.582s] [ 87%] Built target fairino_hardware
+[51.928s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveJ(std::string)[m[K’:
+[51.928s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1133:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[51.928s]  1133 |         ovl,&extpos,blendT,offset_flag,&offsetpos)[01;35m[K)[m[K;
+[51.928s]       |                                                   [01;35m[K^[m[K
+[51.928s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1133:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[51.928s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1133:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.093s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveL(std::string)[m[K’:
+[52.094s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1216:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.094s]  1216 |         &extpos,search,offset_flag,&offsetpos)[01;35m[K)[m[K;
+[52.094s]       |                                               [01;35m[K^[m[K
+[52.094s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1216:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.094s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1216:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.250s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::MoveC(std::string)[m[K’:
+[52.250s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1314:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.250s]  1314 |         offset_flag,&offsetpos,ovl,blendR)[01;35m[K)[m[K;
+[52.250s]       |                                           [01;35m[K^[m[K
+[52.250s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1314:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.250s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1314:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.421s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::NewSplinePoint(std::string)[m[K’:
+[52.421s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1476:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Klastflag[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.421s]  1476 |             acc,ovl,blendR,lastflag)[01;35m[K)[m[K;
+[52.421s]       |                                     [01;35m[K^[m[K
+[52.421s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1476:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.421s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1476:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.421s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1476:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.507s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:[m[K In member function ‘[01m[Kstd::string robot_command_thread::SplinePTP(std::string)[m[K’:
+[52.507s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1388:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuser[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.507s]  1388 |                                 tool,user,speed,acc,ovl)[01;35m[K)[m[K;
+[52.507s]       |                                                         [01;35m[K^[m[K
+[52.507s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1388:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktool[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[52.507s] [01m[K/home/ljw2/fairno5/src/fairino_hardware/src/command_server.cpp:1388:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kspeed[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[56.490s] [100%] [32m[1mLinking CXX executable ros2_cmd_server[0m
+[56.798s] [100%] Built target ros2_cmd_server
+[56.827s] Invoked command in '/home/ljw2/fairno5/build/fairino_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ljw2/fairno5/build/fairino_hardware -- -j24 -l24
+[56.837s] Invoking command in '/home/ljw2/fairno5/build/fairino_hardware': CMAKE_PREFIX_PATH=/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ljw2/fairno5/build/fairino_hardware
+[56.842s] -- Install configuration: "Release"
+[56.842s] -- Execute custom install script
+[56.843s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware//fairino_hardware.xml
+[56.849s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/lib/fairino_hardware/ros2_cmd_server
+[56.855s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/lib/fairino_hardware/srv_test_client
+[56.861s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/library_path.sh
+[56.866s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/library_path.dsv
+[56.872s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/package_run_dependencies/fairino_hardware
+[56.878s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/parent_prefix_path/fairino_hardware
+[56.883s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.sh
+[56.889s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/ament_prefix_path.dsv
+[56.895s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/path.sh
+[56.901s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/environment/path.dsv
+[56.907s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.bash
+[56.913s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.sh
+[56.921s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.zsh
+[56.926s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/local_setup.dsv
+[56.932s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/package.dsv
+[56.939s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/packages/fairino_hardware
+[56.945s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/fairino_hardware
+[56.951s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_targets-extras.cmake
+[56.957s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[56.962s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig.cmake
+[56.967s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareConfig-version.cmake
+[56.972s] -- Symlinking: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/package.xml
+[56.978s] -- Installing: /home/ljw2/fairno5/install/fairino_hardware/lib/libfairino_hardware.so
+[56.982s] -- Set runtime path of "/home/ljw2/fairno5/install/fairino_hardware/lib/libfairino_hardware.so" to ""
+[56.982s] -- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport.cmake
+[56.982s] -- Installing: /home/ljw2/fairno5/install/fairino_hardware/share/fairino_hardware/cmake/fairino_hardwareExport-release.cmake
+[56.984s] Invoked command in '/home/ljw2/fairno5/build/fairino_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ljw2/fairno5/install/fairino_msgs:/home/ljw2/fairno5/install/robotiq_2f_85_gripper_visualization:/home/ljw2/fairno5/install/fairino_hardware:/home/ljw2/fairno5/install/fairino5_v6_moveit2_config:/home/ljw2/fairno5/install/fairino_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ljw2/fairno5/install/fairino_msgs/lib:/home/ljw2/fairno5/install/fairino_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ljw2/fairno5/build/fairino_hardware

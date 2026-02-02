@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ljw2/fairno5/build/fairino_hardware/ros2_cmd_server" "/home/ljw2/fairno5/build/fairino_hardware/srv_test_client" "TARGETS" "ros2_cmd_server" "srv_test_client" "DESTINATION" "lib/fairino_hardware")

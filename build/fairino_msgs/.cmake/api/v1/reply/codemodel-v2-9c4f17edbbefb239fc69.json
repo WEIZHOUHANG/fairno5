@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0c943892251ea2db960e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "fairino_msgs__py",
+					"jsonFile" : "directory-fairino_msgs__py-4ec062c6a3b4fd667a74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ljw2/fairno5/build/fairino_msgs/fairino_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "fairino_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_fairino_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_fairino_msgs_egg-bfa2c62ae4de480100df.json",
+					"name" : "ament_cmake_python_build_fairino_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_fairino_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_fairino_msgs-6951a5fe3d8b0cdfa609.json",
+					"name" : "ament_cmake_python_copy_fairino_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs-2f93d5963b312d62b001.json",
+					"name" : "fairino_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__cpp-12bb742b516e352f3aa2.json",
+					"name" : "fairino_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fairino_msgs__py::@25453163a3a67f3cdab9",
+					"jsonFile" : "target-fairino_msgs__py-d2cc11d179dd7258b654.json",
+					"name" : "fairino_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_generator_c-c630e95e9a475d215d32.json",
+					"name" : "fairino_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_generator_py-40c9374344865ade741f.json",
+					"name" : "fairino_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_c-29391673d73f5d6c4e13.json",
+					"name" : "fairino_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_c__pyext-6496912669331f9d1d54.json",
+					"name" : "fairino_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_cpp-e7ff9d5f8a450bc59152.json",
+					"name" : "fairino_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_fastrtps_c-d2d54dbae2f50c42ff97.json",
+					"name" : "fairino_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_fastrtps_c__pyext-495ccdabd8729b4612af.json",
+					"name" : "fairino_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_fastrtps_cpp-343e8502cd6f040d78ab.json",
+					"name" : "fairino_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_introspection_c-5b5e93e8e1b5f991bd58.json",
+					"name" : "fairino_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_introspection_c__pyext-4eff92315c5f03eeeee1.json",
+					"name" : "fairino_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs__rosidl_typesupport_introspection_cpp-0e0783e5e1de512087ef.json",
+					"name" : "fairino_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_msgs_uninstall-b13c2d1bf963d0230e03.json",
+					"name" : "fairino_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d9f422f54372507132dc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ljw2/fairno5/build/fairino_msgs",
+		"source" : "/home/ljw2/fairno5/src/fairino_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

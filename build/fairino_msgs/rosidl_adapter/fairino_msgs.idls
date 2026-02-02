@@ -1,3 +1,3 @@
-/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs:srv/RemoteCmdInterface.idl
-/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs:srv/RemoteScriptContent.idl
-/home/ljw/ws_fr5/build/fairino_msgs/rosidl_adapter/fairino_msgs:msg/RobotNonrtState.idl
+/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs:srv/RemoteCmdInterface.idl
+/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs:srv/RemoteScriptContent.idl
+/home/ljw2/fairno5/build/fairino_msgs/rosidl_adapter/fairino_msgs:msg/RobotNonrtState.idl
