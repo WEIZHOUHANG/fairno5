@@ -1,0 +1,3 @@
+
+[move_group-2] [ERROR] [1769996975.626166453] [moveit.ros_planning.planning_pipeline]: Exception while loading planner 'pilz_industrial_motion_planner/CommandPlanner': According to the loaded plugin descriptions the class pilz_industrial_motion_planner/CommandPlanner with base class type planning_interface::PlannerManager does not exist. Declared types are  chomp_interface/CHOMPPlanner ompl_interface/OMPLPlannerAvailable plugins: chomp_interface/CHOMPPlanner, ompl_interface/OMPLPlanner
+[move_group-2] [ERROR] [1769996975.626740661] [moveit.ros_planning_interface.moveit_cpp]: Failed to initialize planning pipeline 'pilz_industrial_motion_planner'.
